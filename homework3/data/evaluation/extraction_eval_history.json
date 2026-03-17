@@ -1,0 +1,110 @@
+[
+  {
+    "type": "auto_batch",
+    "timestamp": "2026-03-08 21:11:19",
+    "overall": {
+      "total_docs": 150,
+      "macro_precision": 0.9055,
+      "macro_recall": 0.9684,
+      "macro_f1": 0.9353
+    },
+    "per_point": {
+      "disaster_type": {
+        "avg_precision": 0.9067,
+        "avg_recall": 0.9067,
+        "avg_f1": 0.9067,
+        "count": 150
+      },
+      "event_time": {
+        "avg_precision": 1.0,
+        "avg_recall": 1.0,
+        "avg_f1": 1.0,
+        "count": 150
+      },
+      "event_location": {
+        "avg_precision": 0.8267,
+        "avg_recall": 0.8267,
+        "avg_f1": 0.8267,
+        "count": 150
+      },
+      "casualties": {
+        "avg_precision": 0.8484,
+        "avg_recall": 0.8484,
+        "avg_f1": 0.8484,
+        "count": 150
+      },
+      "economic_loss": {
+        "avg_precision": 1.0,
+        "avg_recall": 1.0,
+        "avg_f1": 1.0,
+        "count": 150
+      },
+      "response_level": {
+        "avg_precision": 1.0,
+        "avg_recall": 1.0,
+        "avg_f1": 1.0,
+        "count": 150
+      },
+      "rescue_org": {
+        "avg_precision": 0.7568,
+        "avg_recall": 1.1967,
+        "avg_f1": 0.9044,
+        "count": 150
+      }
+    }
+  },
+  {
+    "type": "auto_batch",
+    "timestamp": "2026-03-08 21:13:08",
+    "overall": {
+      "total_docs": 150,
+      "macro_precision": 0.9055,
+      "macro_recall": 0.9403,
+      "macro_f1": 0.9224
+    },
+    "per_point": {
+      "disaster_type": {
+        "avg_precision": 0.9067,
+        "avg_recall": 0.9067,
+        "avg_f1": 0.9067,
+        "count": 150
+      },
+      "event_time": {
+        "avg_precision": 1.0,
+        "avg_recall": 1.0,
+        "avg_f1": 1.0,
+        "count": 150
+      },
+      "event_location": {
+        "avg_precision": 0.8267,
+        "avg_recall": 0.8267,
+        "avg_f1": 0.8267,
+        "count": 150
+      },
+      "casualties": {
+        "avg_precision": 0.8484,
+        "avg_recall": 0.8484,
+        "avg_f1": 0.8484,
+        "count": 150
+      },
+      "economic_loss": {
+        "avg_precision": 1.0,
+        "avg_recall": 1.0,
+        "avg_f1": 1.0,
+        "count": 150
+      },
+      "response_level": {
+        "avg_precision": 1.0,
+        "avg_recall": 1.0,
+        "avg_f1": 1.0,
+        "count": 150
+      },
+      "rescue_org": {
+        "avg_precision": 0.7568,
+        "avg_recall": 1.0,
+        "avg_f1": 0.8494,
+        "count": 150
+      }
+    }
+  }
+]

@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block title %}信息检索系统 - 首页{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-lg-8 text-center">
+        <h1 class="display-4 mb-3"><i class="bi bi-search text-primary"></i></h1>
+        <h2 class="mb-4">智能信息检索系统</h2>
+        <p class="text-muted mb-4">
+            基于向量空间模型（VSM）与 BM25 算法的中文信息检索引擎
+        </p>
+
+        <form action="/search" method="GET" class="mb-4">
+            <div class="input-group input-group-lg shadow-sm">
+                <input type="text" name="q" class="form-control" 
+                       placeholder="请输入搜索关键词，如：人工智能、深度学习、量子计算..."
+                       autofocus required>
+                <button class="btn btn-primary px-4" type="submit">
+                    <i class="bi bi-search"></i> 搜索
+                </button>
+            </div>
+
+            <div class="mt-3 d-flex justify-content-center gap-4">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="algo" 
+                           id="algo_bm25" value="bm25" checked>
+                    <label class="form-check-label" for="algo_bm25">
+                        BM25 算法 <span class="badge bg-success">推荐</span>
+                    </label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="algo" 
+                           id="algo_vsm" value="vsm">
+                    <label class="form-check-label" for="algo_vsm">VSM 向量空间模型</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="expand" 
+                           id="expand" value="on">
+                    <label class="form-check-label" for="expand">查询扩展</label>
+                </div>
+            </div>
+        </form>
+
+        {% if index_ready and stats %}
+        <div class="row mt-5 g-3">
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="text-primary">{{ stats.total_docs }}</h3>
+                        <small class="text-muted">文档总数</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="text-success">{{ stats.vocabulary_size }}</h3>
+                        <small class="text-muted">词汇量</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="text-info">{{ stats.avg_doc_length }}</h3>
+                        <small class="text-muted">平均文档长度</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 class="text-warning">2</h3>
+                        <small class="text-muted">检索算法</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% elif not index_ready %}
+        <div class="alert alert-warning mt-4">
+            <i class="bi bi-exclamation-triangle"></i>
+            索引尚未构建。请先在命令行运行：
+            <code>python main.py generate</code> 然后 <code>python main.py build</code>
+        </div>
+        {% endif %}
+
+        <div class="mt-5">
+            <h5>系统特性</h5>
+            <div class="row g-3 mt-2">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-robot fs-3 text-primary"></i>
+                            <h6 class="mt-2">双算法引擎</h6>
+                            <small class="text-muted">VSM余弦相似度 + BM25概率模型</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-bar-chart fs-3 text-success"></i>
+                            <h6 class="mt-2">精度评价</h6>
+                            <small class="text-muted">P@K / R@K / F1 / MAP / NDCG</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <i class="bi bi-images fs-3 text-info"></i>
+                            <h6 class="mt-2">多媒体支持</h6>
+                            <small class="text-muted">图片索引与检索展示</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

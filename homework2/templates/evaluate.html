@@ -1,0 +1,189 @@
+{% extends "base.html" %}
+
+{% block title %}检索结果评价{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-10 mx-auto">
+        <h3 class="mb-4"><i class="bi bi-clipboard-check text-success"></i> 检索结果人工评价</h3>
+
+        {% if query and results %}
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white">
+                <strong>查询：</strong>{{ query }}
+                <span class="badge bg-light text-dark ms-2">{{ algorithm|upper }}</span>
+                <span class="badge bg-light text-dark ms-1">{{ results|length }} 条结果</span>
+            </div>
+            <div class="card-body">
+                <p class="text-muted mb-3">
+                    请对以下每条检索结果进行相关性判断：
+                    <span class="badge bg-danger">不相关</span>
+                    <span class="badge bg-warning text-dark">部分相关</span>
+                    <span class="badge bg-success">非常相关</span>
+                </p>
+
+                <div id="evaluation-form">
+                    {% for result in results %}
+                    <div class="card mb-2 eval-item" data-docid="{{ result.doc_id }}">
+                        <div class="card-body py-2">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="flex-grow-1">
+                                    <strong>#{{ loop.index }}</strong>
+                                    <span class="ms-2">{{ result.title }}</span>
+                                    <small class="text-muted ms-2">({{ result.score }})</small>
+                                </div>
+                                <div class="btn-group btn-group-sm" role="group">
+                                    <input type="radio" class="btn-check" 
+                                           name="judge_{{ result.doc_id }}" 
+                                           id="nr_{{ result.doc_id }}" value="0" checked>
+                                    <label class="btn btn-outline-danger" for="nr_{{ result.doc_id }}">
+                                        不相关
+                                    </label>
+
+                                    <input type="radio" class="btn-check" 
+                                           name="judge_{{ result.doc_id }}" 
+                                           id="pr_{{ result.doc_id }}" value="1">
+                                    <label class="btn btn-outline-warning" for="pr_{{ result.doc_id }}">
+                                        部分相关
+                                    </label>
+
+                                    <input type="radio" class="btn-check" 
+                                           name="judge_{{ result.doc_id }}" 
+                                           id="hr_{{ result.doc_id }}" value="2">
+                                    <label class="btn btn-outline-success" for="hr_{{ result.doc_id }}">
+                                        非常相关
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <button id="submit-eval" class="btn btn-success mt-3" onclick="submitEvaluation()">
+                    <i class="bi bi-check-circle"></i> 提交评价
+                </button>
+            </div>
+        </div>
+
+        <!-- 评价结果显示区域 -->
+        <div id="eval-results" class="card shadow-sm mb-4" style="display:none;">
+            <div class="card-header bg-success text-white">
+                <strong>评价指标</strong>
+            </div>
+            <div class="card-body" id="metrics-content"></div>
+        </div>
+
+        {% else %}
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle"></i>
+            请先执行一次搜索，然后再来评价结果。
+            <a href="/" class="btn btn-primary btn-sm ms-2">去搜索</a>
+        </div>
+        {% endif %}
+
+        <!-- 历史评价记录 -->
+        {% if history and history.evaluations is defined and history.evaluations %}
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <strong><i class="bi bi-clock-history"></i> 历史评价记录</strong>
+                <span class="badge bg-secondary ms-2">{{ history.total_evaluations }} 次评价</span>
+            </div>
+            <div class="card-body">
+                {% if history.average_metrics is defined %}
+                <h6>平均指标：</h6>
+                <div class="row g-2 mb-3">
+                    {% for key, val in history.average_metrics.items() %}
+                    <div class="col-auto">
+                        <span class="badge bg-primary fs-6">{{ key }}: {{ val }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <div class="table-responsive">
+                    <table class="table table-sm table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>查询</th>
+                                <th>时间</th>
+                                <th>结果数</th>
+                                <th>相关数</th>
+                                <th>P@5</th>
+                                <th>AP</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for ev in history.evaluations %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td>{{ ev.query }}</td>
+                                <td><small>{{ ev.timestamp }}</small></td>
+                                <td>{{ ev.num_results }}</td>
+                                <td>{{ ev.num_relevant }}</td>
+                                <td>{{ ev.metrics.get('P@5', '-') }}</td>
+                                <td>{{ ev.metrics.get('AP', '-') }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function submitEvaluation() {
+    const items = document.querySelectorAll('.eval-item');
+    const judgments = {};
+
+    items.forEach(item => {
+        const docId = item.dataset.docid;
+        const checked = item.querySelector('input[type="radio"]:checked');
+        if (checked) {
+            judgments[docId] = parseInt(checked.value);
+        }
+    });
+
+    fetch('/evaluate', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            query: '{{ query }}',
+            judgments: judgments
+        })
+    })
+    .then(resp => resp.json())
+    .then(data => {
+        if (data.success) {
+            const container = document.getElementById('metrics-content');
+            let html = '<div class="row g-3">';
+            for (const [key, val] of Object.entries(data.metrics)) {
+                html += `
+                    <div class="col-auto">
+                        <div class="card border-success">
+                            <div class="card-body py-2 px-3 text-center">
+                                <div class="fw-bold text-success">${val}</div>
+                                <small class="text-muted">${key}</small>
+                            </div>
+                        </div>
+                    </div>`;
+            }
+            html += '</div>';
+            container.innerHTML = html;
+            document.getElementById('eval-results').style.display = 'block';
+            document.getElementById('submit-eval').disabled = true;
+            document.getElementById('submit-eval').textContent = '已提交';
+        } else {
+            alert('评价提交失败: ' + (data.error || '未知错误'));
+        }
+    })
+    .catch(err => alert('请求失败: ' + err));
+}
+</script>
+{% endblock %}

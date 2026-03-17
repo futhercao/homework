@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}信息抽取{% endblock %}
+
+{% block content %}
+<h3 class="mb-4"><i class="bi bi-cpu text-danger"></i> 信息抽取</h3>
+
+{% if error %}
+<div class="alert alert-danger">{{ error }}</div>
+{% endif %}
+
+{% if documents %}
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">选择文档进行抽取</h5>
+                <form method="POST" class="d-inline">
+                    <input type="hidden" name="action" value="batch">
+                    <button type="submit" class="btn btn-danger btn-sm">
+                        <i class="bi bi-lightning"></i> 批量抽取全部
+                    </button>
+                </form>
+            </div>
+            <div class="card-body" style="max-height:600px;overflow-y:auto">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>标题</th>
+                            <th>类型</th>
+                            <th>图片</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for doc in documents[:50] %}
+                        <tr>
+                            <td><small class="text-muted">{{ doc.id }}</small></td>
+                            <td>
+                                <span class="text-truncate d-inline-block" style="max-width:300px"
+                                      title="{{ doc.title }}">{{ doc.title }}</span>
+                            </td>
+                            <td>
+                                <span class="badge bg-danger">{{ doc.disaster_type | default('—') }}</span>
+                            </td>
+                            <td>
+                                {% if doc.images %}
+                                <i class="bi bi-image text-success"></i>
+                                {% else %}
+                                <i class="bi bi-dash text-muted"></i>
+                                {% endif %}
+                            </td>
+                            <td>
+                                <form method="POST" class="d-inline">
+                                    <input type="hidden" name="doc_id" value="{{ doc.id }}">
+                                    <input type="hidden" name="action" value="single">
+                                    <button type="submit" class="btn btn-sm btn-outline-primary">
+                                        <i class="bi bi-play"></i> 抽取
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% if documents|length > 50 %}
+                <p class="text-muted text-center">
+                    显示前 50 篇，共 {{ documents|length }} 篇。使用批量抽取处理全部文档。
+                </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="card shadow-sm mb-3">
+            <div class="card-body">
+                <h6><i class="bi bi-info-circle text-primary"></i> 抽取流程</h6>
+                <ol class="small mb-0">
+                    <li class="mb-1"><strong>文本抽取</strong>：正则匹配 + NER + 依存分析</li>
+                    <li class="mb-1"><strong>图像抽取</strong>：OCR识别 + 色彩场景分析</li>
+                    <li class="mb-1"><strong>多模态融合</strong>：跨模态投票与置信度加权</li>
+                    <li class="mb-1"><strong>事件构建</strong>：7维结构化事件输出</li>
+                </ol>
+            </div>
+        </div>
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h6><i class="bi bi-bullseye text-danger"></i> 抽取目标（7个信息点）</h6>
+                <ul class="small mb-0 list-unstyled">
+                    <li><span class="badge bg-secondary me-1">1</span> 灾害类型</li>
+                    <li><span class="badge bg-secondary me-1">2</span> 发生时间</li>
+                    <li><span class="badge bg-secondary me-1">3</span> 发生地点</li>
+                    <li><span class="badge bg-secondary me-1">4</span> 伤亡情况</li>
+                    <li><span class="badge bg-secondary me-1">5</span> 经济损失</li>
+                    <li><span class="badge bg-secondary me-1">6</span> 响应级别</li>
+                    <li><span class="badge bg-secondary me-1">7</span> 救援组织</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

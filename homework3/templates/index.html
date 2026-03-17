@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+{% block title %}多模态灾害事件信息抽取系统 - 首页{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center mt-4">
+    <div class="col-lg-10 text-center">
+        <div class="hero-section mb-5">
+            <h1 class="display-4 fw-bold text-danger mb-3">
+                <i class="bi bi-hurricane"></i>
+            </h1>
+            <h2 class="mb-3">多模态自然灾害事件信息抽取系统</h2>
+            <p class="lead text-muted">
+                Multi-Modal Natural Disaster Event Information Extraction System
+            </p>
+            <p class="text-muted">
+                融合文本分析、图像OCR、场景识别的多模态信息抽取 &middot; 知识图谱构建与可视化
+            </p>
+        </div>
+
+        {% if data_ready and stats %}
+        <div class="row g-3 mb-5">
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm stat-card">
+                    <div class="card-body text-center">
+                        <i class="bi bi-file-earmark-text fs-2 text-primary"></i>
+                        <h3 class="mt-2 text-primary">{{ stats.total_docs }}</h3>
+                        <small class="text-muted">语料文档数</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm stat-card">
+                    <div class="card-body text-center">
+                        <i class="bi bi-exclamation-triangle fs-2 text-danger"></i>
+                        <h3 class="mt-2 text-danger">{{ stats.disaster_types }}</h3>
+                        <small class="text-muted">灾害类型数</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm stat-card">
+                    <div class="card-body text-center">
+                        <i class="bi bi-image fs-2 text-success"></i>
+                        <h3 class="mt-2 text-success">{{ stats.docs_with_images }}</h3>
+                        <small class="text-muted">含图片文档</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm stat-card">
+                    <div class="card-body text-center">
+                        <i class="bi bi-cpu fs-2 text-warning"></i>
+                        <h3 class="mt-2 text-warning">{{ stats.total_extracted }}</h3>
+                        <small class="text-muted">已抽取文档</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% if stats.type_distribution %}
+        <div class="card border-0 shadow-sm mb-5">
+            <div class="card-header bg-white"><h5 class="mb-0">灾害类型分布</h5></div>
+            <div class="card-body">
+                <div class="row">
+                    {% for dtype, count in stats.type_distribution.items() %}
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="d-flex align-items-center">
+                            <span class="badge bg-danger me-2">{{ count }}</span>
+                            <span>{{ dtype }}</span>
+                            <div class="progress flex-grow-1 ms-2" style="height:8px">
+                                <div class="progress-bar bg-danger" style="width:{{ (count/stats.total_docs*100)|round }}%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="row g-3 mb-4">
+            <div class="col-md-6">
+                <a href="/extract" class="btn btn-danger btn-lg w-100 py-3">
+                    <i class="bi bi-cpu"></i> 开始信息抽取
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a href="/knowledge_graph" class="btn btn-outline-primary btn-lg w-100 py-3">
+                    <i class="bi bi-diagram-3"></i> 查看知识图谱
+                </a>
+            </div>
+        </div>
+
+        {% elif not data_ready %}
+        <div class="alert alert-warning mt-4">
+            <i class="bi bi-exclamation-triangle"></i>
+            数据尚未生成。请在命令行运行：<code>python main.py generate</code>
+        </div>
+        {% endif %}
+
+        <h5 class="mt-5 mb-3">系统特色</h5>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-layers fs-2 text-danger"></i>
+                        <h6 class="mt-2">三层抽取架构</h6>
+                        <small class="text-muted">正则表达式 + 命名实体识别 + 依存句法分析，集成投票融合</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-camera-video fs-2 text-primary"></i>
+                        <h6 class="mt-2">多媒体信息抽取</h6>
+                        <small class="text-muted">图像OCR文字识别 + 色彩场景分析 + 跨模态融合验证</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-diagram-3 fs-2 text-success"></i>
+                        <h6 class="mt-2">知识图谱构建</h6>
+                        <small class="text-muted">事件-地点-组织-时间关系图谱，交互式可视化探索</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-clipboard-data fs-2 text-warning"></i>
+                        <h6 class="mt-2">7维事件结构</h6>
+                        <small class="text-muted">灾害类型/时间/地点/伤亡/经济损失/响应级别/救援组织</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-graph-up fs-2 text-info"></i>
+                        <h6 class="mt-2">双模式评价</h6>
+                        <small class="text-muted">自动评价 (P/R/F1) + 人工评价，逐信息点精细分析</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <i class="bi bi-recycle fs-2 text-success"></i>
+                        <h6 class="mt-2">可持续发展</h6>
+                        <small class="text-muted">灾害预警辅助决策，助力防灾减灾与社会韧性建设</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

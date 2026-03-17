@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+{% block title %}关于系统{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-10">
+        <h3 class="mb-4"><i class="bi bi-info-circle text-primary"></i> 关于本系统</h3>
+
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h5>系统概述</h5>
+                <p>
+                    本系统是一个<strong>多模态自然灾害事件信息抽取系统</strong>，
+                    以自然灾害新闻语料为研究对象，融合文本分析与图像处理技术，
+                    从新闻报道中自动抽取结构化的灾害事件信息，
+                    并构建事件知识图谱进行可视化展示。
+                </p>
+                <h6>核心功能</h6>
+                <ul>
+                    <li><strong>多策略文本抽取</strong>：正则表达式匹配 + 命名实体识别(NER) + 依存句法分析，三种方法集成投票融合</li>
+                    <li><strong>多媒体信息抽取</strong>：图像OCR文字识别 + 图像色彩场景分析 + 元数据信息提取</li>
+                    <li><strong>跨模态信息融合</strong>：文本与图像抽取结果的置信度加权融合，支持信息互补、交叉验证和冲突消解</li>
+                    <li><strong>事件知识图谱</strong>：从抽取结果构建事件-地点-组织-时间关系图谱，vis.js 交互式可视化</li>
+                    <li><strong>双模式评价</strong>：自动评价（P/R/F1 与 ground truth 对比）+ 人工评价</li>
+                </ul>
+                <h6>抽取信息点（7维事件结构）</h6>
+                <ol>
+                    <li>灾害类型（地震/台风/洪水/山体滑坡/火灾/干旱/暴雪）</li>
+                    <li>发生时间</li>
+                    <li>发生地点</li>
+                    <li>伤亡情况</li>
+                    <li>经济损失</li>
+                    <li>响应级别</li>
+                    <li>救援组织</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="card shadow-sm mb-4">
+            <div class="card-body">
+                <h5>技术架构</h5>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="card bg-light h-100">
+                            <div class="card-body">
+                                <h6><i class="bi bi-file-text text-primary"></i> 文本抽取层</h6>
+                                <ul class="small">
+                                    <li>RegexExtractor：基于正则表达式的模式匹配</li>
+                                    <li>NERExtractor：jieba 词性标注 + 规则匹配</li>
+                                    <li>DependencyExtractor：基于触发词的句法结构分析</li>
+                                    <li>EnsembleExtractor：加权投票融合</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-light h-100">
+                            <div class="card-body">
+                                <h6><i class="bi bi-image text-success"></i> 图像抽取层</h6>
+                                <ul class="small">
+                                    <li>OCR引擎：EasyOCR / Tesseract / 回退模式</li>
+                                    <li>场景分析：主色调提取与灾害类型推断</li>
+                                    <li>元数据抽取：alt 文本和文件名分析</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-light h-100">
+                            <div class="card-body">
+                                <h6><i class="bi bi-shuffle text-warning"></i> 融合决策层</h6>
+                                <ul class="small">
+                                    <li>信息互补：模态间缺失信息相互补充</li>
+                                    <li>交叉验证：多模态一致则提升置信度</li>
+                                    <li>冲突消解：按置信度加权决策</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-light h-100">
+                            <div class="card-body">
+                                <h6><i class="bi bi-diagram-3 text-info"></i> 知识表示层</h6>
+                                <ul class="small">
+                                    <li>事件知识图谱构建（6类节点、6类边）</li>
+                                    <li>vis.js 交互式网络图可视化</li>
+                                    <li>统计分析与灾害分布展示</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow-sm mb-4 border-success">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0"><i class="bi bi-recycle"></i> 环境与社会可持续发展影响分析</h5>
+            </div>
+            <div class="card-body">
+                <h6>正面影响</h6>
+                <ul>
+                    <li><strong>灾害应急响应</strong>：自动化的灾害事件信息抽取能大幅缩短信息收集与研判时间，
+                        加速应急响应流程，有助于减少灾害损失和人员伤亡。</li>
+                    <li><strong>防灾减灾知识积累</strong>：通过知识图谱系统性地整理灾害事件信息，
+                        有助于发现灾害发生规律和高风险区域，为城市规划与防灾建设提供科学依据。</li>
+                    <li><strong>多模态信息融合</strong>：突破单一文本信息源的局限，
+                        利用图像、音视频等多模态数据提升信息抽取的完整性和准确性，
+                        为灾害研究提供更全面的数据支撑。</li>
+                    <li><strong>绿色计算</strong>：系统采用轻量级的NLP和CV算法组合，
+                        无需大规模GPU集群，降低了计算资源消耗和碳排放。</li>
+                </ul>
+                <h6>潜在风险与应对</h6>
+                <ul>
+                    <li><strong>信息准确性</strong>：自动抽取可能存在误差，关键决策仍需人工核验。
+                        系统提供人工评价接口，确保结果可靠性。</li>
+                    <li><strong>隐私保护</strong>：灾害新闻中可能包含受灾群众个人信息，
+                        系统在设计中注意了数据脱敏和隐私保护。</li>
+                    <li><strong>能源消耗</strong>：OCR和NER模型运行需要一定计算资源，
+                        系统提供多种后端选择，用户可根据硬件条件灵活配置。</li>
+                </ul>
+                <h6>未来展望</h6>
+                <p>
+                    本系统可扩展为实时灾害监测平台，接入社交媒体和新闻API实现7×24小时自动抽取，
+                    结合GIS地理信息系统实现灾害空间可视化，为政府减灾部门和公益救援组织提供
+                    智能化的信息支撑，助力实现联合国可持续发展目标（SDG 11: 可持续城市和社区、
+                    SDG 13: 气候行动）。
+                </p>
+            </div>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h5>技术栈</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h6>后端</h6>
+                        <ul class="small">
+                            <li>Python 3.8+</li>
+                            <li>Flask (Web框架)</li>
+                            <li>jieba (中文分词)</li>
+                            <li>Pillow (图像处理)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>前端</h6>
+                        <ul class="small">
+                            <li>Bootstrap 5</li>
+                            <li>vis.js (图谱可视化)</li>
+                            <li>Bootstrap Icons</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>可选依赖</h6>
+                        <ul class="small">
+                            <li>EasyOCR / Tesseract (OCR)</li>
+                            <li>NumPy (数值计算)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

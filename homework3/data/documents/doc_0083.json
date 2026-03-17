@@ -1,0 +1,29 @@
+{
+  "id": "doc_0083",
+  "title": "湖北省遭遇严重干旱 410.5万人饮水困难",
+  "content": "2024年02月13日以来，湖北省十堰市等地持续高温少雨，遭遇近43年来最严重干旱。据中国国际救援队统计，全省共有42个县（市、区）受灾，受灾人口达410.5万人，其中56.0万人出现饮水困难。农作物受旱面积达478.8万亩，其中绝收11.4万亩，直接经济损失约9.5亿元。湖北省已启动III级抗旱应急响应，民政部紧急调拨8179万元抗旱救灾资金，组织送水车67辆保障群众饮水。气象部门预计，旱情仍将持续，建议各地加强水资源调度和节水措施。",
+  "url": "https://disaster-news.example.com/article/doc_0083",
+  "date": "2024-02-13",
+  "disaster_type": "干旱",
+  "images": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\homework3\\data\\images\\doc_0083.png",
+      "filename": "doc_0083.png",
+      "alt": "干旱灾害信息图",
+      "ocr_text": "灾害类型：干旱\n发生时间：2024年02月13日\n发生地点：湖北省十堰市\n伤亡情况：受灾410.5万人\n经济损失：9.5亿元\n响应级别：III级"
+    }
+  ],
+  "ground_truth": {
+    "disaster_type": "干旱",
+    "event_time": "2024年02月13日",
+    "event_location": "湖北省十堰市",
+    "response_level": "III级",
+    "rescue_org": [
+      "中国国际救援队",
+      "民政部"
+    ],
+    "casualties": "受灾410.5万人",
+    "economic_loss": "9.5亿元"
+  },
+  "crawl_time": "2026-03-08 21:10:08"
+}
