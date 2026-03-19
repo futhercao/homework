@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}引言}{3}{section.1}%
+\contentsline {section}{\numberline {2}系统总体设计}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}设计思路}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}技术选型}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}数据流}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}数据采集模块}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}网络爬虫设计}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}文档存储}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}样本数据生成}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}文本预处理模块}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}中文分词}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}停用词过滤}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}文本归一化}{6}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}摘要生成与关键词高亮}{7}{subsection.4.4}%
+\contentsline {section}{\numberline {5}倒排索引构建}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}倒排索引原理}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}TF-IDF 权重}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}索引构建流程}{8}{subsection.5.3}%
+\contentsline {section}{\numberline {6}检索算法}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}向量空间模型（VSM）}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}BM25 概率检索模型}{9}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}两种算法的对比}{9}{subsection.6.3}%
+\contentsline {section}{\numberline {7}创新性探索}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}基于共现词的查询扩展}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}多媒体信息检索}{11}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}双算法对比机制}{11}{subsection.7.3}%
+\contentsline {section}{\numberline {8}检索结果人工评价}{11}{section.8}%
+\contentsline {subsection}{\numberline {8.1}评价方法}{11}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}评价实验与分析}{12}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Web 界面设计}{13}{section.9}%
+\contentsline {section}{\numberline {10}对环境和社会可持续发展的影响分析}{14}{section.10}%
+\contentsline {section}{\numberline {11}总结与展望}{14}{section.11}%

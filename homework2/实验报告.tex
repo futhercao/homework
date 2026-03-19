@@ -18,6 +18,10 @@
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage{titlesec}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
 
 % ==================== 格式设置 ====================
 \hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue}
@@ -138,7 +142,30 @@ Bootstrap 5 & 5.3 & 前端 UI 组件库（CDN 引入） \\
 
 \subsection{数据流}
 
-系统的完整数据流可以概括为以下过程：用户通过命令行或 Web 界面输入自然语言查询字符串，系统首先对查询进行分词和停用词过滤，得到查询词项集合；随后在倒排索引中检索包含这些词项的候选文档集；接着采用用户选定的算法（VSM 或 BM25）计算每个候选文档与查询的相关性得分；最后将结果按得分降序排列，并生成包含相关度、文档标题、匹配摘要、URL 和日期等信息的结果列表返回给用户。用户还可以对返回结果进行相关性标注，系统据此计算各项评价指标。
+系统的完整数据流可以概括为以下过程：用户通过命令行或 Web 界面输入自然语言查询字符串，系统首先对查询进行分词和停用词过滤，得到查询词项集合；随后在倒排索引中检索包含这些词项的候选文档集；接着采用用户选定的算法（VSM 或 BM25）计算每个候选文档与查询的相关性得分；最后将结果按得分降序排列，并生成包含相关度、文档标题、匹配摘要、URL 和日期等信息的结果列表返回给用户。用户还可以对返回结果进行相关性标注，系统据此计算各项评价指标。系统的总体架构如图~\ref{fig:architecture} 所示。
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    block/.style={rectangle, draw, fill=blue!12, text width=6.5em, text centered, rounded corners, minimum height=3em, font=\small},
+    arrow/.style={-{Stealth[length=5pt]}, thick, color=gray!60}
+]
+\node[block, fill=orange!20] at (0,0) (crawler) {数据采集层\\{\footnotesize 网络爬虫}};
+\node[block] at (3.5,0) (prep) {预处理层\\{\footnotesize 分词·停用词}};
+\node[block] at (7,0) (index) {索引层\\{\footnotesize 倒排索引·TF-IDF}};
+\node[block, fill=red!12] at (10.5,0) (retrieval) {检索层\\{\footnotesize VSM·BM25}};
+\node[block, fill=green!12] at (7,-2) (eval) {评价层\\{\footnotesize P@K·R@K·NDCG}};
+\node[block, fill=yellow!15] at (10.5,-2) (web) {交互层\\{\footnotesize Flask·Bootstrap}};
+\draw[arrow] (crawler) -- (prep);
+\draw[arrow] (prep) -- (index);
+\draw[arrow] (index) -- (retrieval);
+\draw[arrow] (retrieval) -- (web);
+\draw[arrow] (retrieval) -- (eval);
+\draw[arrow, dashed] (eval) -- (web);
+\end{tikzpicture}
+\caption{系统总体架构流程图}
+\label{fig:architecture}
+\end{figure}
 
 
 \section{数据采集模块}
@@ -390,7 +417,35 @@ BM25 中的 IDF 计算采用了带平滑的变体：
 
 从实验结果可以看出，BM25 在所有查询上的综合表现均优于 VSM。在 P@5 指标上，BM25 的平均值达到 0.84，比 VSM 的 0.72 高出约 17\%。在 NDCG@10 指标上，BM25 的平均值为 0.80，同样显著优于 VSM 的 0.71。这一差距在多词查询（如"自动驾驶 传感器""量子计算 量子比特"）上尤为明显，说明 BM25 的词频饱和机制在处理多词项查询时能更合理地平衡各词项的贡献。
 
-值得注意的是，对于"可持续发展"这类语义较为宽泛的查询，两种算法的表现都有所下降，原因在于"可持续发展"涉及的主题范围广泛，系统中多个领域的文档都部分涉及这一话题，导致检索结果中混杂了不同主题的文档。这也提示我们，对于此类宽泛查询，查询扩展和语义理解的引入将有助于提升检索精度。
+值得注意的是，对于"可持续发展"这类语义较为宽泛的查询，两种算法的表现都有所下降，原因在于"可持续发展"涉及的主题范围广泛，系统中多个领域的文档都部分涉及这一话题，导致检索结果中混杂了不同主题的文档。这也提示我们，对于此类宽泛查询，查询扩展和语义理解的引入将有助于提升检索精度。图~\ref{fig:vsm_bm25} 将两种算法的平均性能指标进行了直观对比。
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=14pt,
+    ylabel={平均得分},
+    symbolic x coords={P@5, P@10, AP, NDCG@10},
+    xtick=data,
+    ymin=0,
+    ymax=1.05,
+    width=0.7\textwidth,
+    height=7cm,
+    enlarge x limits=0.25,
+    legend style={at={(0.5,-0.18)}, anchor=north, legend columns=-1},
+    nodes near coords,
+    every node near coord/.append style={font=\footnotesize},
+    nodes near coords align={vertical},
+]
+\addplot[fill=blue!35] coordinates {(P@5, 0.72) (P@10, 0.58) (AP, 0.66) (NDCG@10, 0.71)};
+\addplot[fill=red!35] coordinates {(P@5, 0.84) (P@10, 0.68) (AP, 0.76) (NDCG@10, 0.80)};
+\legend{VSM, BM25}
+\end{axis}
+\end{tikzpicture}
+\caption{VSM与BM25平均检索性能对比}
+\label{fig:vsm_bm25}
+\end{figure}
 
 
 \section{Web 界面设计}
