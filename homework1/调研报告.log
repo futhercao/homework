@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.9)  19 MAR 2026 18:06
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.9)  12 APR 2026 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1388,7 +1388,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-] (调研报告.toc
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1397,7 +1397,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[1])
+[1] (调研报告.toc
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2])
 \tf@toc=\write5
 \openout5 = `调研报告.toc'.
 
@@ -1410,19 +1419,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2]
-Package pgfplots info on input line 89: Using 'lua backend=false' for axis: x c
+[3]
+Package pgfplots info on input line 98: Using 'lua backend=false' for axis: x c
 oord trafo unsupported.
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1486,13 +1486,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-Overfull \hbox (9.09573pt too wide) in paragraph at lines 368--369
-[]\TU/SimSun(0)/m/n/12 值 得 关 注 的 新 趋 势 是 \TU/SimSun(0)/b/n/12 传 感 器 硬 件 与 算 法 的
- 协 同 设 计  |\TU/SimSun(0)/m/n/12 （\TU/lmr/m/n/12 Sensor-Algorithm Co-design\TU/S
-imSun(0)/m/n/12 ） 。|
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1502,6 +1495,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
+Overfull \hbox (9.09573pt too wide) in paragraph at lines 377--378
+[]\TU/SimSun(0)/m/n/12 值 得 关 注 的 新 趋 势 是 \TU/SimSun(0)/b/n/12 传 感 器 硬 件 与 算 法 的
+ 协 同 设 计  |\TU/SimSun(0)/m/n/12 （\TU/lmr/m/n/12 Sensor-Algorithm Co-design\TU/S
+imSun(0)/m/n/12 ） 。|
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1539,6 +1539,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15]
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
+
 Package fontspec Info: 
 (fontspec)             Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1565,18 +1574,18 @@ Package fontspec Info:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--462
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 []\TU/lmr/m/n/12 Master Smartphone Sensor Data Collection: A 2026
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--462
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 \TU/lmr/m/n/12 Guide. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][]
 [] [] [][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
+Underfull \hbox (badness 10000) in paragraph at lines 473--475
 []\TU/SimSun(0)/m/n/12 最 新 预 测：| \TU/lmr/m/n/12 2026 \TU/SimSun(0)/m/n/12 年 传 感
  器 的 十 大 趋 势\TU/lmr/m/n/12 . [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][
 ][] [] [][][] []
@@ -1591,7 +1600,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[16]
+[17]
 Missing character: There is no 图 in font [lmmono12-regular]:!
 Missing character: There is no 像 in font [lmmono12-regular]:!
 Missing character: There is no 传 in font [lmmono12-regular]:!
@@ -1606,7 +1615,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17] (调研报告.aux)
+[18] (调研报告.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -1615,12 +1624,12 @@ Package rerunfilecheck Info: File `调研报告.out' has not changed.
 (rerunfilecheck)             Checksum: A0AA8194086B92CA2D915538B807D61D;4250.
  ) 
 Here is how much of TeX's memory you used:
- 39877 strings out of 403250
- 976494 string characters out of 5465235
+ 39903 strings out of 403250
+ 978082 string characters out of 5465235
  1526405 words of memory out of 5000000
- 67750 multiletter control sequences out of 15000+600000
+ 67776 multiletter control sequences out of 15000+600000
  638576 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,111p,1192b,2328s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 调研报告.pdf (18 pages).
+Output written on 调研报告.pdf (19 pages).
