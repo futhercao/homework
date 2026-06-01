@@ -1,0 +1,302 @@
+{
+  "timestamp": "2026-06-02 01:43:37",
+  "method": "主题推断法 (topic-inference based relevance judgment)",
+  "num_queries": 5,
+  "index_stats": {
+    "total_docs": 167,
+    "vocabulary_size": 21001,
+    "avg_doc_length": 672.86,
+    "index_size_terms": 21001
+  },
+  "queries": [
+    "人工智能 深度学习 神经网络",
+    "网络安全 入侵检测 防火墙",
+    "自动驾驶 激光雷达 传感器融合",
+    "碳中和 可持续发展 清洁能源",
+    "量子计算 量子比特 量子纠错"
+  ],
+  "results": {
+    "人工智能 深度学习 神经网络|VSM": {
+      "query": "人工智能 深度学习 神经网络",
+      "algorithm": "VSM",
+      "metrics": {
+        "P@5": 1.0,
+        "R@5": 0.5556,
+        "F1@5": 0.7143,
+        "P@10": 0.9,
+        "R@10": 1.0,
+        "F1@10": 0.9474,
+        "AP": 0.9765,
+        "NDCG@10": 0.99
+      },
+      "num_relevant": 9,
+      "num_very_relevant": 7,
+      "result_doc_ids": [
+        "real_e702246433",
+        "real_11f5e44325",
+        "real_786f09a2f6",
+        "real_65aa1498d4",
+        "real_83a91985b0",
+        "real_8bc2a7c19f",
+        "real_6f0a3e7b9a",
+        "real_6d0510bc25",
+        "real_154b4899b0",
+        "real_da277ec765"
+      ]
+    },
+    "人工智能 深度学习 神经网络|BM25": {
+      "query": "人工智能 深度学习 神经网络",
+      "algorithm": "BM25",
+      "metrics": {
+        "P@5": 1.0,
+        "R@5": 0.7143,
+        "F1@5": 0.8333,
+        "P@10": 0.7,
+        "R@10": 1.0,
+        "F1@10": 0.8235,
+        "AP": 0.9325,
+        "NDCG@10": 0.9799
+      },
+      "num_relevant": 7,
+      "num_very_relevant": 7,
+      "result_doc_ids": [
+        "real_8bc2a7c19f",
+        "real_e702246433",
+        "real_65aa1498d4",
+        "real_83a91985b0",
+        "real_11f5e44325",
+        "real_6d0510bc25",
+        "real_69d6613113",
+        "real_83ed6fc036",
+        "real_b208e30f79",
+        "real_07ca19eac2"
+      ]
+    },
+    "网络安全 入侵检测 防火墙|VSM": {
+      "query": "网络安全 入侵检测 防火墙",
+      "algorithm": "VSM",
+      "metrics": {
+        "P@5": 0.0,
+        "R@5": 0.0,
+        "F1@5": 0.0,
+        "AP": 0.0,
+        "NDCG@10": 0.0
+      },
+      "num_relevant": 0,
+      "num_very_relevant": 0,
+      "result_doc_ids": [
+        "real_65aa1498d4",
+        "real_8d3c79494e",
+        "real_c78b4399a4",
+        "real_e702246433",
+        "real_786f09a2f6",
+        "real_1cf374d3eb",
+        "real_07ca19eac2"
+      ]
+    },
+    "网络安全 入侵检测 防火墙|BM25": {
+      "query": "网络安全 入侵检测 防火墙",
+      "algorithm": "BM25",
+      "metrics": {
+        "P@5": 0.0,
+        "R@5": 0.0,
+        "F1@5": 0.0,
+        "AP": 0.0,
+        "NDCG@10": 0.0
+      },
+      "num_relevant": 0,
+      "num_very_relevant": 0,
+      "result_doc_ids": [
+        "real_65aa1498d4",
+        "real_8d3c79494e",
+        "real_c78b4399a4",
+        "real_e702246433",
+        "real_786f09a2f6",
+        "real_1cf374d3eb",
+        "real_07ca19eac2"
+      ]
+    },
+    "自动驾驶 激光雷达 传感器融合|VSM": {
+      "query": "自动驾驶 激光雷达 传感器融合",
+      "algorithm": "VSM",
+      "metrics": {
+        "P@5": 0.6,
+        "R@5": 0.6,
+        "F1@5": 0.6,
+        "P@10": 0.5,
+        "R@10": 1.0,
+        "F1@10": 0.6667,
+        "AP": 0.8083,
+        "NDCG@10": 0.919
+      },
+      "num_relevant": 5,
+      "num_very_relevant": 3,
+      "result_doc_ids": [
+        "real_4faca12fa8",
+        "real_07ca19eac2",
+        "real_8d3c79494e",
+        "real_cebbb7f8b7",
+        "real_11f5e44325",
+        "real_df53eb40af",
+        "real_e702246433",
+        "real_65aa1498d4",
+        "real_8bc2a7c19f",
+        "real_efc05c58d5"
+      ]
+    },
+    "自动驾驶 激光雷达 传感器融合|BM25": {
+      "query": "自动驾驶 激光雷达 传感器融合",
+      "algorithm": "BM25",
+      "metrics": {
+        "P@5": 0.8,
+        "R@5": 0.8,
+        "F1@5": 0.8,
+        "P@10": 0.5,
+        "R@10": 1.0,
+        "F1@10": 0.6667,
+        "AP": 0.7433,
+        "NDCG@10": 0.8578
+      },
+      "num_relevant": 5,
+      "num_very_relevant": 3,
+      "result_doc_ids": [
+        "real_07ca19eac2",
+        "real_11f5e44325",
+        "real_4faca12fa8",
+        "real_cebbb7f8b7",
+        "real_df53eb40af",
+        "real_8bc2a7c19f",
+        "real_71a76f23a8",
+        "real_efc05c58d5",
+        "real_8d3c79494e",
+        "real_65aa1498d4"
+      ]
+    },
+    "碳中和 可持续发展 清洁能源|VSM": {
+      "query": "碳中和 可持续发展 清洁能源",
+      "algorithm": "VSM",
+      "metrics": {
+        "P@5": 0.6,
+        "R@5": 0.5,
+        "F1@5": 0.5455,
+        "P@10": 0.6,
+        "R@10": 1.0,
+        "F1@10": 0.75,
+        "AP": 0.7994,
+        "NDCG@10": 0.9447
+      },
+      "num_relevant": 6,
+      "num_very_relevant": 4,
+      "result_doc_ids": [
+        "real_3d7a3757fa",
+        "real_23f16b5013",
+        "real_d2469142a1",
+        "real_1cf374d3eb",
+        "real_efc05c58d5",
+        "real_71a76f23a8",
+        "real_e16bc9b24c",
+        "real_1341ad1de2",
+        "real_d0b07bad8c",
+        "real_ddc8cc277c"
+      ]
+    },
+    "碳中和 可持续发展 清洁能源|BM25": {
+      "query": "碳中和 可持续发展 清洁能源",
+      "algorithm": "BM25",
+      "metrics": {
+        "P@5": 0.6,
+        "R@5": 0.5,
+        "F1@5": 0.5455,
+        "P@10": 0.6,
+        "R@10": 1.0,
+        "F1@10": 0.75,
+        "AP": 0.7994,
+        "NDCG@10": 0.9688
+      },
+      "num_relevant": 6,
+      "num_very_relevant": 3,
+      "result_doc_ids": [
+        "real_3d7a3757fa",
+        "real_23f16b5013",
+        "real_d2469142a1",
+        "real_1cf374d3eb",
+        "real_71a76f23a8",
+        "real_efc05c58d5",
+        "real_5d5bbbddfd",
+        "real_ddc8cc277c",
+        "real_8a268e7372",
+        "real_96ffd0fa6e"
+      ]
+    },
+    "量子计算 量子比特 量子纠错|VSM": {
+      "query": "量子计算 量子比特 量子纠错",
+      "algorithm": "VSM",
+      "metrics": {
+        "P@5": 0.8,
+        "R@5": 0.6667,
+        "F1@5": 0.7273,
+        "P@10": 0.6,
+        "R@10": 1.0,
+        "F1@10": 0.75,
+        "AP": 0.7028,
+        "NDCG@10": 0.7885
+      },
+      "num_relevant": 6,
+      "num_very_relevant": 0,
+      "result_doc_ids": [
+        "real_f0a3edb2a3",
+        "real_834e723492",
+        "real_5c385e32cb",
+        "real_545df942ad",
+        "real_42edd201c4",
+        "real_8f7cec052a",
+        "real_11f5e44325",
+        "real_23f16b5013",
+        "real_867d3d0206",
+        "real_922a6e8d4d"
+      ]
+    },
+    "量子计算 量子比特 量子纠错|BM25": {
+      "query": "量子计算 量子比特 量子纠错",
+      "algorithm": "BM25",
+      "metrics": {
+        "P@5": 0.8,
+        "R@5": 0.6667,
+        "F1@5": 0.7273,
+        "P@10": 0.6,
+        "R@10": 1.0,
+        "F1@10": 0.75,
+        "AP": 0.7861,
+        "NDCG@10": 0.9002
+      },
+      "num_relevant": 6,
+      "num_very_relevant": 0,
+      "result_doc_ids": [
+        "real_42edd201c4",
+        "real_f0a3edb2a3",
+        "real_5c385e32cb",
+        "real_545df942ad",
+        "real_834e723492",
+        "real_8f7cec052a",
+        "real_11f5e44325",
+        "real_922a6e8d4d",
+        "real_867d3d0206",
+        "real_1cf374d3eb"
+      ]
+    }
+  },
+  "averages": {
+    "VSM": {
+      "P@5": 0.6,
+      "P@10": 0.52,
+      "AP": 0.6574,
+      "NDCG@10": 0.7284
+    },
+    "BM25": {
+      "P@5": 0.64,
+      "P@10": 0.48,
+      "AP": 0.6523,
+      "NDCG@10": 0.7413
+    }
+  }
+}

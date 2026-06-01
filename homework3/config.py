@@ -40,7 +40,7 @@ EXTRACTION_CONFIG = {
         'response_level': '响应级别',
         'rescue_org': '救援组织',
     },
-    'methods': ['regex', 'ner', 'dependency'],
+    'methods': ['regex', 'ner', 'trigger'],
     'default_method': 'ensemble',
 }
 

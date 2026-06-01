@@ -79,6 +79,24 @@ class DisasterDataGenerator:
         '公益救援联盟', '绿舟救援队', '国家减灾委员会',
     ]
 
+    # 灾害类型→不适用组织的排除规则（避免火灾由防汛指挥部处理等语义错误）
+    ORG_EXCLUDE = {
+        '地震': [],  # 地震时所有组织都可能参与
+        '台风': [],
+        '洪水': [],
+        '山体滑坡': [],
+        '火灾': ['国家防汛抗旱总指挥部', '国家防总', '水利专家'],
+        '干旱': ['国家防汛抗旱总指挥部', '国家防总'],
+        '暴雪': [],
+    }
+
+    DISASTER_SPECIFIC_ORGS = {
+        '地震': ['中国地震局'],
+        '台风': ['国家气象局', '中国气象局'],
+        '洪水': ['国家防汛抗旱总指挥部', '水利专家'],
+        '干旱': ['水利专家'],
+    }
+
     TEMPLATES = {
         '地震': [
             (
@@ -249,8 +267,16 @@ class DisasterDataGenerator:
                         date_obj = base_date + timedelta(days=random.randint(0, 700))
                         date_str = date_obj.strftime('%Y年%m月%d日')
                         level = random.choice(cls.RESPONSE_LEVELS)
-                        org1 = random.choice(cls.ORGS)
-                        org2 = random.choice([o for o in cls.ORGS if o != org1])
+                        # 根据灾害类型排除不适用的组织
+                        exclude = cls.ORG_EXCLUDE.get(dtype, [])
+                        allowed_orgs = [o for o in cls.ORGS if o not in exclude]
+                        # 优先选择灾害特定组织
+                        specific = cls.DISASTER_SPECIFIC_ORGS.get(dtype, [])
+                        if specific and random.random() < 0.5:
+                            org1 = random.choice(specific)
+                        else:
+                            org1 = random.choice(allowed_orgs)
+                        org2 = random.choice([o for o in allowed_orgs if o != org1])
 
                         ground_truth = {
                             'disaster_type': dtype,
@@ -261,7 +287,7 @@ class DisasterDataGenerator:
                         }
 
                         params = cls._make_params(
-                            dtype, province, city, date_str, level, org1, org2
+                            dtype, province, city, date_str, date_obj, level, org1, org2
                         )
                         ground_truth['casualties'] = params.get('_casualties', '')
                         ground_truth['economic_loss'] = params.get('_loss', '')
@@ -297,7 +323,7 @@ class DisasterDataGenerator:
         return documents
 
     @classmethod
-    def _make_params(cls, dtype, province, city, date_str, level, org1, org2):
+    def _make_params(cls, dtype, province, city, date_str, date_obj, level, org1, org2):
         """根据灾害类型生成参数"""
         dead = random.randint(0, 85)
         injured = random.randint(dead, dead + 200)
@@ -380,7 +406,7 @@ class DisasterDataGenerator:
                 'planes': random.randint(2, 10),
                 'people': random.randint(500, 5000),
                 'hours': random.randint(6, 72),
-                'ext_date': date_str.replace('日', '') + f'{random.randint(1,28)}日',
+                'ext_date': (date_obj + timedelta(days=1)).strftime('%Y年%m月%d日'),
                 'cause': random.choice(cls.FIRE_CAUSES),
             })
         elif dtype == '干旱':
