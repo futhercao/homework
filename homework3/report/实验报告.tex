@@ -1,0 +1,245 @@
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{caption}
+
+\title{信息抽取系统实验报告}
+\author{作业三：基于正则表达式与NER的自然灾害信息抽取}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{系统概述}
+
+本系统设计并实现了一个自然灾害事件信息抽取系统，
+从910篇真实新闻中自动识别灾害报道，
+提取\underline{7个关键信息点}，
+组装为\underline{结构化灾害事件}，
+并构建\underline{知识图谱}支持可视化分析。
+
+\subsection{技术路线}
+
+采用三层递进的信息抽取策略：
+\begin{enumerate}
+    \item \textbf{正则引擎（Regex）}：高精度规则匹配，50+正则模式覆盖全部7类信息点
+    \item \textbf{NER增强（LAC）}：命名实体识别补充地名、机构名等正则盲区
+    \item \textbf{事件组装}：信息点组合为结构化事件，自动计算严重程度和完整度
+\end{enumerate}
+
+\section{数据采集}
+
+\subsection{数据源}
+
+从多个真实新闻源采集灾害相关报道：
+\begin{itemize}
+    \item 百度新闻搜索（按灾害类型关键词检索）
+    \item 新浪社会新闻（society.people.com.cn）
+    \item 网易国内新闻（news.163.com/domestic）
+    \item 澎湃新闻（thepaper.cn）
+\end{itemize}
+
+\subsection{关键词覆盖}
+
+使用11组灾害关键词检索：
+\begin{itemize}
+    \item 地震+遇难+救援 / 地震+震级+应急响应
+    \item 台风+登陆+经济损失 / 台风+应急响应+转移
+    \item 洪水+暴雨+遇难 / 暴雨+山洪+经济损失
+    \item 山体滑坡+遇难+救援 / 泥石流+遇难+经济损失
+    \item 森林火灾+过火面积 / 自然灾害+遇难+应急管理部
+    \item 受灾+灾情+救灾
+\end{itemize}
+
+\subsection{数据概况}
+
+一共从910篇新闻中识别出37篇灾害相关报道，
+覆盖地震、台风、暴雨、山体滑坡、洪水、泥石流、火灾等灾害类型。
+
+\section{信息点定义与抽取设计}
+
+\subsection{7个信息点}
+
+\begin{enumerate}
+    \item \textbf{灾害类型（disaster\_type）}：识别12类灾害（地震/台风/洪水/山体滑坡/泥石流/火灾/干旱/暴雪/冰雹/海啸/龙卷风/暴雨）
+    \item \textbf{发生时间（event\_time）}：支持6种时间格式（完整时间/日期/部分时间/截至时间/月份/相对时间）
+    \item \textbf{发生地点（event\_location）}：4级地点层级（省+市+县/省+市/直辖市+区/市+县）
+    \item \textbf{伤亡情况（casualties）}：分离死亡/受伤/失踪三类，支持压缩格式
+    \item \textbf{经济损失（economic\_loss）}：匹配金额模式（元/万元/亿元）
+    \item \textbf{应急响应级别（response\_level）}：I/II/III/IV级（含中文和罗马数字），自动标准化
+    \item \textbf{救援信息（rescue\_info）}：救援组织名称、投入人员数量、物资信息
+\end{enumerate}
+
+\subsection{正则表达式设计}
+
+\subsubsection*{灾害类型识别}
+
+使用灾害关键词词典匹配，包含12种灾害类型、60+关联关键词，优先从标题前1000字匹配。
+
+\subsubsection*{时间提取}
+
+支持6种格式的正则匹配：
+\begin{itemize}
+    \item 完整：2026年5月18日14时30分 / 2026-05-18 14:30:00
+    \item 日期：2026年5月18日 / 2026-05-18
+    \item 部分：5月18日14时 / 5月18日
+    \item 截至：截至5月18日14时
+    \item 月份：2026年5月
+\end{itemize}
+
+\subsubsection*{地点提取}
+
+层级化正则策略，按优先级递减：
+\begin{enumerate}
+    \item 省+市+县：``XX省XX市XX县''（如``广西柳州市柳城县''）
+    \item 省+市：``XX省XX市''（如``四川省宜宾市''）
+    \item 直辖市+区：``北京市XX区''
+    \item 市+县：``XX市XX县''
+\end{enumerate}
+
+自动过滤``人民日报''、``新华社''、``中央电视台''等非地名实体。
+
+\subsubsection*{伤亡提取}
+
+三类独立正则：
+\begin{itemize}
+    \item 死亡：遇难/罹难/丧生/死亡
+    \item 受伤：不同程度受伤/重伤/轻伤
+    \item 失踪：失联/下落不明
+\end{itemize}
+
+支持``3死5伤''压缩格式和``已造成X人死亡，Y人受伤''完整格式。
+
+\subsubsection*{经济损失提取}
+
+匹配``直接经济损失约XX亿元''、``造成损失XX万元''等模式，
+自动处理中文数字和单位换算（亿/万/千元）。
+
+\subsubsection*{救援信息提取}
+
+精确匹配救援组织全名（如``国家消防救援局''``中国红十字会''）、
+``XX省消防救援总队''模式，以及投入人员数量和物资信息。
+
+\section{实验结果}
+
+\subsection{信息点抽取覆盖率}
+
+在37篇灾害新闻中，89\%（33篇）成功提取至少3个信息点，构成有效事件。
+
+\begin{table}[h]
+\centering
+\caption{各信息点抽取覆盖率（33个有效事件）}
+\begin{tabular}{lr}
+\toprule
+信息点 & 覆盖率 \\
+\midrule
+灾害类型（disaster\_type） & 100\% \\
+发生地点（event\_location） & 100\% \\
+发生时间（event\_time） & 97\% \\
+救援信息（rescue\_info） & 48\% \\
+伤亡情况（casualties） & 30\% \\
+经济损失（economic\_loss） & 12\% \\
+应急响应级别（response\_level） & 12\% \\
+\bottomrule
+\end{tabular}
+\caption*{伤亡、损失、响应级别覆盖率较低是因为并非所有灾害新闻都提及这些信息}
+\end{table}
+
+\subsection{灾害类型分布}
+
+\begin{table}[h]
+\centering
+\caption{识别出的灾害类型分布}
+\begin{tabular}{lr|lr}
+\toprule
+类型 & 数量 & 类型 & 数量 \\
+\midrule
+暴雨 & 10 & 台风 & 9 \\
+地震 & 8 & 山体滑坡 & 6 \\
+洪水 & 2 & 其他 & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{信息完整度}
+
+33个有效事件的平均信息完整度为\underline{4.0/7个信息点}。
+最佳事件（台风灾害）成功提取6/7个信息点，摘要如下：
+
+\begin{quote}
+2024年9月6日，海口市，发生台风，造成遇难1人，
+直接经济损失约263.24亿元。
+\end{quote}
+
+\subsection{严重程度分级}
+
+基于多因素自动分级算法的结果：
+
+\begin{table}[h]
+\centering
+\caption{事件严重程度分布}
+\begin{tabular}{lr}
+\toprule
+级别 & 数量 \\
+\midrule
+未定级 & 21 \\
+重大 & 5 \\
+较大 & 4 \\
+一般 & 4 \\
+特别重大 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{知识图谱构建}
+
+\subsection{实体与关系}
+
+基于抽取的事件构建知识图谱：
+\begin{itemize}
+    \item \textbf{155个实体}，9种类型：DOCUMENT / DISASTER\_TYPE / LOCATION / TIME / CASUALTIES / ECONOMIC\_LOSS / RESPONSE / ORGANIZATION / SEVERITY
+    \item \textbf{187条关系}，7种关系类型：HAS\_TYPE / OCCURRED\_AT / OCCURRED\_ON / CAUSED / LOST / ACTIVATED / RESCUED
+    \item 输出格式：JSON，支持ECharts/D3.js前端可视化
+\end{itemize}
+
+\section{对环境和社会可持续发展的影响}
+
+\subsection{环境影响}
+
+\begin{itemize}
+    \item \textbf{本地计算}：信息抽取完全在本地运行，无需云端GPU
+    \item \textbf{轻量规则引擎}：基于正则和规则的方法，CPU能耗极低，远低于大模型方案
+    \item \textbf{数据复用}：爬取的文档和图片可复用，避免重复采集和存储浪费
+\end{itemize}
+
+\subsection{社会影响}
+
+\begin{itemize}
+    \item \textbf{灾害预警辅助}：自动从新闻中提取灾害信息，可辅助应急管理部门快速掌握灾情
+    \item \textbf{信息透明}：结构化的灾害事件信息便于公众了解灾情，减少信息不对称
+    \item \textbf{知识积累}：构建的灾害知识图谱为长期灾害研究和趋势分析提供数据基础
+    \item \textbf{隐私保护}：所有数据本地处理，不涉及用户数据采集
+\end{itemize}
+
+\section{创新点}
+
+\begin{enumerate}
+    \item \textbf{三层递进抽取}：正则表达式 + NER增强 + 事件组装，兼顾精度和覆盖度
+    \item \textbf{多格式时间解析}：正则引擎支持6种时间格式，包括相对时间和截至时间
+    \item \textbf{层级化地点匹配}：4级地点递进（省市区县），自动过滤非地名实体
+    \item \textbf{知识图谱构建}：从非结构化新闻到结构化KG的端到端流程（155节点+187边）
+    \item \textbf{多因素严重度分级}：基于响应级别和伤亡数字的综合分级算法
+    \item \textbf{灾害类型细粒度分类}：12种灾害类型、60+关键词的细粒度识别
+\end{enumerate}
+
+\section{总结}
+
+本系统成功实现了一个从非结构化新闻文本中自动抽取结构化灾害信息的系统。
+在37篇灾害新闻上，89\%生成了有效事件，核心信息点（类型/地点/时间）覆盖率达97--100\%。
+系统构建了包含155节点和187条关系的灾害知识图谱，
+并实现了基于多因素的严重程度自动分级。
+系统在设计过程中充分考虑了环境和社会可持续发展的影响。
+
+\end{document}

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}检索评价{% endblock %}
+{% block content %}
+
+<h2 style="margin-bottom:16px;">📈 检索评价记录</h2>
+
+<div class="card">
+  <h3>评价概览</h3>
+  <div id="evalOverview"></div>
+</div>
+
+<div class="card" style="margin-top:16px;">
+  <h3>📜 历史评价记录</h3>
+  <div id="evalHistory" style="max-height:600px;overflow-y:auto;"></div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+async function loadEval() {
+  let resp = await fetch('/api/evaluate/summary?type=search');
+  let data = await resp.json();
+
+  if (data.average_metrics) {
+    let html = '<div class="stats-grid">';
+    for (let [k, v] of Object.entries(data.average_metrics)) {
+      html += `<div class="stat-item"><div class="stat-value">${v}</div><div class="stat-label">${k}</div></div>`;
+    }
+    html += '</div>';
+    document.getElementById('evalOverview').innerHTML = html;
+  } else {
+    document.getElementById('evalOverview').innerHTML = `<p style="color:var(--text-secondary);">${data.message || '暂无评价'}</p>`;
+  }
+
+  // 历史记录
+  if (data.records && data.records.length > 0) {
+    let histHtml = '';
+    data.records.reverse().forEach(r => {
+      histHtml += `<div class="card" style="margin-bottom:8px;">
+        <div style="display:flex;justify-content:space-between;">
+          <strong>查询: ${r.query}</strong>
+          <span style="font-size:12px;color:var(--text-secondary);">${r.timestamp} | 算法: ${r.algorithm}</span>
+        </div>
+        <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;">
+          标注 ${r.num_judgments} 项, 相关 ${r.num_relevant} 项
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:4px;">
+          ${Object.entries(r.metrics).map(([k,v]) => `<span style="font-size:12px;background:#eff6ff;padding:2px 8px;border-radius:4px;">${k}: ${v}</span>`).join('')}
+        </div>
+      </div>`;
+    });
+    document.getElementById('evalHistory').innerHTML = histHtml;
+  }
+}
+document.addEventListener('DOMContentLoaded', loadEval);
+</script>
+{% endblock %}

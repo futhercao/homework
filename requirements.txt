@@ -1,0 +1,44 @@
+# ============================================================
+# 信息与知识获取 - 作业二 & 作业三 依赖
+# ============================================================
+
+# --- 爬虫 ---
+aiohttp>=3.9
+aiofiles>=23.0
+beautifulsoup4>=4.12
+lxml>=5.0
+readability-lxml>=0.8
+httpx>=0.25
+
+# --- NLP ---
+jieba>=0.42
+LAC>=2.1
+hanlp>=2.1
+sentence-transformers>=2.2
+
+# --- 多模态 ---
+Pillow>=10.0
+opencv-python>=4.8
+paddleocr>=2.7
+paddlepaddle>=2.6
+open-clip-torch>=2.24
+onnxruntime>=1.16
+onnx>=1.15
+
+# --- 检索 & 向量 ---
+numpy>=1.24
+scipy>=1.10
+faiss-cpu>=1.7
+scikit-learn>=1.3
+
+# --- Web ---
+fastapi>=0.104
+uvicorn>=0.24
+jinja2>=3.1
+python-multipart>=0.0.6
+
+# --- 工具 ---
+pyyaml>=6.0
+tqdm>=4.65
+loguru>=0.7
+simhash>=2.1
