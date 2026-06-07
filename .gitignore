@@ -15,3 +15,11 @@ __pycache__/
 # 临时文件
 .tmp_*
 .tmp_*/
+
+# homework1(作业1)调研报告的中间/临时文件,仅保留 1.tex / 1.pdf 报告本体
+homework1/count_test.*
+homework1/调研报告.*
+homework1/*_chars.txt
+homework1/cleaned_body.txt
+homework1/pdf_text.txt
+homework1/作业*.pdf
