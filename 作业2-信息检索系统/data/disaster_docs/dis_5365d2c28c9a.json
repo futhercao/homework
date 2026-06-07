@@ -1,0 +1,99 @@
+{
+  "title": "厦门市组织开展山洪灾害防御应急演练",
+  "content": "本站讯 5月25日，为检验市、区、镇、村四级山洪灾害防御预案可行性，提升群测群防应急处置能力，厦门市水利局在同安区汀溪镇荏畲村组织开展了山洪灾害防御应急演练。\n本次演练紧贴实战设置科目，分为预警发布、险情升级、紧急转移三个阶段，完整模拟预警收发、人员转移安置、险情上报全流程。演练中，市、区两级逐级发布预警信息，镇、村两级第一时间响应处置。当模拟雨情水位达到临界值后，现场通过警报、铜锣、广播等多种方式及时发出转移指令，工作人员引导群众安全有序转移，巡查人员对危险区域开展警戒值守。\n演练有效检验了“区级统筹、镇级协调、村级落实”三级应急指挥体系以及“市级预报、区级监测、村级现地”三级预警联动机制的运行效能，达到了检验预案、锻炼队伍、提升能力、科普宣传的预期目标。\n演练结束后，召开全市山洪灾害防御工作研讨座谈会。会议强调，要强化山洪灾害预警叫应，确保高级别预警信息20分钟内直达基层责任人和受威胁群众；要强化河道管护，常态化推进河道“清四乱”行动；要强化防御责任落实，及时做好应急响应、干部下沉和群众转移安置工作；要提高群测群防能力，加快构建“群测群防、全民参与”的山洪灾害防御体系。\n市防汛办现场观摩。岛外四区水行政主管部门、市政水务原水公司，同安区汀溪镇、莲花镇，翔安区香山街道相关负责人、基层队员、村民群众等约150人参加演练。",
+  "url": "http://www.mwr.gov.cn/xw/dfss/202605/t20260527_2112380.html",
+  "date": "2026-05-27",
+  "images": [
+    {
+      "src": "http://www.mwr.gov.cn/images/mob_20170512.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images/pc_20170512.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "alt": "",
+      "width": "112",
+      "height": "36"
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "alt": "",
+      "width": "596",
+      "height": "107"
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images_index/guowuyuan.png",
+      "alt": "",
+      "width": "57",
+      "height": "28"
+    }
+  ],
+  "source": "水利部",
+  "category": "灾害",
+  "content_length": 569,
+  "image_count": 5,
+  "id": "dis_5365d2c28c9a",
+  "crawl_time": "2026-06-06 19:03:30",
+  "disaster_type": "洪水",
+  "local_images": [
+    {
+      "local_path": "data/images/12e04a500b38.jpg",
+      "original_src": "http://www.mwr.gov.cn/images/mob_20170512.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/6753e1f3daee.jpg",
+      "original_src": "http://www.mwr.gov.cn/images/pc_20170512.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/30d5437f578b.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/7f75a94d5b32.png",
+      "original_src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/406387c65340.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/guowuyuan.png",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "30d5437f578b.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "text": "水利易SCU",
+      "lines": [
+        {
+          "text": "水利易SCU",
+          "conf": 0.659
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "7f75a94d5b32.png",
+      "original_src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "text": "MinistryjofiateriResourcesfafithelReopleislRepubliclofichina",
+      "lines": [
+        {
+          "text": "MinistryjofiateriResourcesfafithelReopleislRepubliclofichina",
+          "conf": 0.339
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "水利易SCU MinistryjofiateriResourcesfafithelReopleislRepubliclofichina"
+}

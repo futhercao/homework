@@ -1,0 +1,74 @@
+{
+  "title": "人民日报：6月1日起南方地区进入主汛期",
+  "content": "《人民日报》（2026年05月30日 第 04 版）\n本报北京5月29日电  （记者李晓晴）记者从水利部获悉：6月1日起，我国将全面进入汛期，南方地区进入主汛期，前期强降雨地区江河湖库底水偏高，山洪地质灾害、中小河流洪水等风险进一步加大。\n今年入汛以来，大江大河汛情基本平稳，未发生编号洪水，但局地极端强降雨造成的中小河流洪水、山洪灾害偏早偏重，极端暴雨洪涝事件趋多趋强。\n水利部超前安排部署2026年水旱灾害防御重点工作，督促各地及时修复去年水毁水利工程设施，目前4242处水毁修复项目已完成3597处，修复率84.8%，预计6月底可完成剩余修复任务，及时恢复防洪功能。下一步，水利部将从严从细从实落实各项防御措施。",
+  "url": "http://www.mwr.gov.cn/xw/mtzs/rmrb/202606/t20260603_2113199.html",
+  "date": "2026-06-03",
+  "images": [
+    {
+      "src": "http://www.mwr.gov.cn/images/mob_20170512.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images/pc_20170512.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "alt": "",
+      "width": "112",
+      "height": "36"
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "alt": "",
+      "width": "596",
+      "height": "107"
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images_index/guowuyuan.png",
+      "alt": "",
+      "width": "57",
+      "height": "28"
+    }
+  ],
+  "source": "水利部",
+  "category": "灾害",
+  "content_length": 309,
+  "image_count": 5,
+  "id": "dis_adfe3254bc1d",
+  "crawl_time": "2026-06-06 19:03:31",
+  "disaster_type": "洪水",
+  "local_images": [
+    {
+      "local_path": "data/images/12e04a500b38.jpg",
+      "original_src": "http://www.mwr.gov.cn/images/mob_20170512.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/6753e1f3daee.jpg",
+      "original_src": "http://www.mwr.gov.cn/images/pc_20170512.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/30d5437f578b.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/7f75a94d5b32.png",
+      "original_src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/406387c65340.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/guowuyuan.png",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [],
+  "ocr_text": ""
+}

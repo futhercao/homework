@@ -1,0 +1,36 @@
+{
+  "title": "OLE分子能激活免疫细胞防御阿尔茨海默病--健康·生活--人民网",
+  "content": "科技日报讯 （记者刘霞）西班牙国家研究委员会与瑞士洛桑联邦理工学院的联合研究团队发现，一种名为OLE的实验性分子能激活大脑免疫细胞——小胶质细胞对阿尔茨海默病的防御本领。相关论文发表于最新一期《细胞死亡与疾病》杂志。\n阿尔茨海默病以β淀粉样斑块的异常堆积和小胶质细胞功能的日渐衰退为特征。小胶质细胞是大脑中负责清理毒性沉积物的“清道夫”。随着病情恶化，它们会逐渐丧失保护能力，导致神经元接连受损。\n研究发现，由PM20D1基因编码的分子OLE，能促使小胶质细胞重回更具保护性的状态：它们会主动向β淀粉样斑块迁移，并将其包围，筑起一道屏障，从而阻断斑块与神经元的接触，大幅减轻对脑组织的毒性损伤。动物实验还显示，这种疗法显著改善了记忆测试中的认知表现。\n团队采用了多种实验模型验证。他们首先对秀丽隐杆线虫进行基因编辑，使其产生β淀粉样蛋白。结果显示，OLE治疗不仅减少了蛋白的异常积聚，还让线虫重获活力，展现出对疾病相关损伤的明确保护作用。接着，团队给阿尔茨海默病模型小鼠施用OLE达3个月，以观察其对大脑和记忆的影响。治疗后，小鼠在记忆测试中的表现明显改善，脑内堆积的β淀粉样蛋白斑块也大幅减少。\n结果显示，小胶质细胞是受治疗影响最大的细胞类型。用药后，这些细胞激活了清除β淀粉样蛋白的分子机制，并重新获得了向斑块移动、包围斑块的能力。而且，当神经元置于类似阿尔茨海默病的应激环境时，OLE治疗同样能提升细胞存活率，表明它对神经元也具有直接的保护功效。",
+  "url": "http://health.people.com.cn/n1/2026/0605/c14739-40734426.html",
+  "date": "2026-06-05",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\61873714bb5a.jpg",
+      "alt": "",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\43f856de2d90.png",
+      "alt": "人民网",
+      "original_src": "http://health.people.com.cn/img/2020wbc/imgs/logo.png"
+    }
+  ],
+  "source": "人民网",
+  "category": "健康",
+  "content_length": 626,
+  "image_count": 10,
+  "id": "doc_d87749687727",
+  "crawl_time": "2026-06-05 18:03:55",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\61873714bb5a.jpg",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\43f856de2d90.png",
+      "original_src": "http://health.people.com.cn/img/2020wbc/imgs/logo.png",
+      "alt": "人民网"
+    }
+  ]
+}

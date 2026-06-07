@@ -1,0 +1,66 @@
+{
+  "title": "高性能飞秒激光器实现光子芯片集成，为超快激光器的小型化和低成本化开辟新路",
+  "content": "高性能飞秒激光器实现光子芯片集成，为超快激光器的小型化和低成本化开辟新路\n2026-06-05 01:01:00\n来源:\n点击数：\n科技日报记者 张佳欣\n瑞士洛桑联邦理工学院研究团队首次将高性能飞秒激光器集成到光子芯片上，它可产生能量达1.05纳焦，脉宽短至147飞秒的激光脉冲，性能可与传统台式飞秒激光器相媲美，为超快激光器的小型化和低成本化开辟了新路径。相关成果发表于最新一期《自然》杂志。\n光子芯片可以在微小的波导中引导和处理光信号，其作用有些类似电子芯片中的电路。近年来，许多原本需要大型光学设备才能实现的功能，已经逐渐被集成到这种芯片上。但飞秒激光器始终是最难攻克的一环，因为它既要产生极短脉冲，又要保持较高能量，对光场控制要求极高。\n此次突破的关键在于研究团队采用了一种此前较少受到关注的激光器架构，即马梅舍夫振荡器。在这种结构中，激光腔里的非线性波导被放置在两个光学滤波器之间，强光脉冲经过波导时会扩展出更宽的颜色范围，从而能够穿过滤波器并继续循环，较弱的光则无法做到这一点，会被自动滤除。\n光在芯片狭窄波导中传播时，会产生强烈的非线性相互作用。在许多传统设计中，这种效应容易导致激光脉冲失稳，而马梅舍夫振荡器对这一问题不那么敏感，因此更适合芯片环境。团队利用掺铒氮化硅平台制造了这种芯片激光器，虽然激光腔总长度达到42厘米，但通过在芯片上折叠布局，最终被压缩到仅有火柴头大小的区域。团队展示的样品可轻松放置在一枚1瑞士法郎硬币上，其体积远小于传统光纤激光器系统。\n光子芯片可采用与半导体芯片类似的晶圆级工艺批量制造，一次生产有望集成超过1000个激光腔。这意味着未来超快激光器的制造成本有望显著降低，并推动其从实验室走向更广泛应用。团队表示，这种芯片级激光器不仅可用于光谱分析、材料缺陷探测和医学诊断，还有望成为未来紧凑型光学原子钟的重要组成，为下一代通信和导航技术提供支撑。\n总编辑圈点\n这一突破的核心价值在于绕开了芯片非线性效应的传统瓶颈。马梅舍夫振荡器的成功验证表明，光子集成不必一味追求新材料，旧架构在新平台上同样能焕发新生。但需警惕的是，芯片级激光器在批量制造中的一致性、长期稳定性以及与现有光电子系统的封装兼容性问题尚未解决。科研人员应加快建立标准化测试体系与工艺规范，避免陷入“实验室惊艳、产线难产”的困境，真正推动技术落地。\n责任编辑：左常睿",
+  "url": "https://www.stdaily.com/web/gjxw/2026-06/04/content_527608.html",
+  "date": "2026-06-05",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\753a9c579e7b.jpeg",
+      "alt": "",
+      "original_src": "https://www.stdaily.com/resource/kjw/img/wx.jpeg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\530b1db36877.png",
+      "alt": "",
+      "original_src": "https://www.stdaily.com/resource/kjw/img/logo.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\665ef32e9cc8.jpg",
+      "alt": "",
+      "original_src": "https://www.stdaily.com/web/gjxw/pic/2026-06/04/527608_5051954a-8110-47c0-ba5e-232f9fd7a93ecopy.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\fe4aea768d68.jpg",
+      "alt": "",
+      "original_src": "https://www.stdaily.com/web/gdxw/pic/2026-06/05/528243_594b2e1e-299e-480c-a920-2f1c056094a4copy.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\29d8a93b4808.png",
+      "alt": "",
+      "original_src": "https://www.stdaily.com/web/gdxw/pic/2026-06/05/528100_t1_0X0X600X338_9074010d-259c-4a70-9387-b8bdac280c03copy.png"
+    }
+  ],
+  "source": "科技日报",
+  "category": "科技",
+  "content_length": 987,
+  "image_count": 10,
+  "id": "doc_71ecdaa92ac0",
+  "crawl_time": "2026-06-05 18:03:53",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\753a9c579e7b.jpeg",
+      "original_src": "https://www.stdaily.com/resource/kjw/img/wx.jpeg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\530b1db36877.png",
+      "original_src": "https://www.stdaily.com/resource/kjw/img/logo.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\665ef32e9cc8.jpg",
+      "original_src": "https://www.stdaily.com/web/gjxw/pic/2026-06/04/527608_5051954a-8110-47c0-ba5e-232f9fd7a93ecopy.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\fe4aea768d68.jpg",
+      "original_src": "https://www.stdaily.com/web/gdxw/pic/2026-06/05/528243_594b2e1e-299e-480c-a920-2f1c056094a4copy.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\29d8a93b4808.png",
+      "original_src": "https://www.stdaily.com/web/gdxw/pic/2026-06/05/528100_t1_0X0X600X338_9074010d-259c-4a70-9387-b8bdac280c03copy.png",
+      "alt": ""
+    }
+  ]
+}

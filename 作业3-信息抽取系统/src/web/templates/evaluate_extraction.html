@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}抽取人工评价{% endblock %}
+{% block content %}
+
+<div class="card">
+  <div class="card-header">
+    <h2>📈 信息抽取 — 人工评价汇总</h2>
+    <span class="badge" id="totalEval">—</span>
+  </div>
+  <p style="color:var(--text-secondary);">
+    人工对抽取的每个信息点判定 <strong>正确(1.0)/部分(0.5)/错误(0.0)</strong>,
+    据此计算 <strong>逐字段准确率</strong> 与 <strong>总体准确率</strong>。
+    去 <a href="/extract" style="color:var(--primary);">抽取页</a> 对结果逐字段打分即可累计到此处。
+  </p>
+</div>
+
+<div class="stats-grid" id="overallStats"></div>
+
+<div class="card">
+  <div class="card-header"><h3>📊 逐字段准确率</h3></div>
+  <div id="fieldAcc"></div>
+</div>
+
+<div class="card">
+  <div class="card-header"><h3>🕓 最近评价记录</h3></div>
+  <div id="records" style="max-height:420px;overflow-y:auto;"></div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script>
+const FIELD_CN = {disaster_type:'灾害类型',event_time:'发生时间',event_location:'发生地点',
+  casualties:'伤亡情况',economic_loss:'经济损失',response_level:'响应级别',rescue_info:'救援信息'};
+
+async function load(){
+  let s = await (await fetch('/api/evaluate/extraction/summary')).json();
+  if(s.message){
+    document.getElementById('totalEval').textContent='暂无记录';
+    document.getElementById('overallStats').innerHTML=`<div class="card" style="grid-column:1/-1;text-align:center;color:var(--text-secondary);padding:30px;">${s.message} — 去抽取页打分</div>`;
+    return;
+  }
+  document.getElementById('totalEval').textContent = `${s.total_evaluations} 次评价`;
+  let recs = s.records||[];
+
+  // 总体
+  document.getElementById('overallStats').innerHTML = `
+    <div class="stat-card"><div class="stat-icon">📈</div><div class="stat-value" style="color:var(--success);">${(s.average_accuracy*100).toFixed(1)}%</div><div class="stat-label">平均准确率</div></div>
+    <div class="stat-card"><div class="stat-icon">📝</div><div class="stat-value">${s.total_evaluations}</div><div class="stat-label">评价次数</div></div>
+    <div class="stat-card"><div class="stat-icon">🔢</div><div class="stat-value">${recs.reduce((a,r)=>a+(r.metrics.judged_count||0),0)}</div><div class="stat-label">累计判定字段</div></div>`;
+
+  // 逐字段聚合
+  let agg = {};
+  recs.forEach(r=>{
+    let pf = (r.metrics||{}).per_field||{};
+    Object.entries(pf).forEach(([f,info])=>{
+      if(!agg[f]) agg[f]={sum:0,n:0};
+      agg[f].sum += info.score; agg[f].n += 1;
+    });
+  });
+  let fa = Object.keys(FIELD_CN).filter(f=>agg[f]).map(f=>{
+    let acc = agg[f].n? agg[f].sum/agg[f].n : 0;
+    let col = acc>=0.8?'#059669':acc>=0.5?'#d97706':'#dc2626';
+    return `<div style="margin-bottom:10px;">
+      <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:3px;">
+        <span>${FIELD_CN[f]} <span style="color:var(--text-muted);">(n=${agg[f].n})</span></span>
+        <strong style="color:${col};">${(acc*100).toFixed(0)}%</strong></div>
+      <div style="height:8px;background:#f1f5f9;border-radius:4px;overflow:hidden;">
+        <div style="height:100%;width:${acc*100}%;background:${col};"></div></div>
+    </div>`;
+  }).join('');
+  document.getElementById('fieldAcc').innerHTML = fa || '<p style="color:var(--text-secondary);">暂无逐字段数据</p>';
+
+  // 记录
+  document.getElementById('records').innerHTML = recs.slice().reverse().map(r=>{
+    let m=r.metrics||{};
+    return `<div style="padding:8px 0;border-bottom:1px solid var(--border);font-size:13px;display:flex;gap:12px;align-items:center;">
+      <code style="font-size:11px;color:var(--primary);background:var(--primary-bg);padding:2px 6px;border-radius:4px;">${(r.doc_id||'').slice(0,14)}</code>
+      <span style="flex:1;">准确率 <strong style="color:var(--success);">${((m.accuracy||0)*100).toFixed(0)}%</strong>
+        <span style="color:var(--text-muted);">(✅${m.correct||0} ⚠️${m.partial||0} ❌${m.wrong||0})</span></span>
+      <span style="color:var(--text-muted);font-size:11px;">${r.timestamp||''}</span>
+    </div>`;
+  }).join('') || '<p style="color:var(--text-secondary);">暂无记录</p>';
+}
+document.addEventListener('DOMContentLoaded', load);
+</script>
+{% endblock %}

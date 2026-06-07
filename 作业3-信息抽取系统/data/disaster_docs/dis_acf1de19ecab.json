@@ -1,0 +1,69 @@
+{
+  "title": "中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+  "content": "据中国地震台网正式测定，2026年5月29日14时55分，在新疆吐鲁番市托克逊县（北纬42.20度，东经88.22度）发生5.0级地震，震源深度20公里。\n地震发生后，中国地震局迅速启动四级应急响应，调度中国地震台网中心、新疆维吾尔自治区地震局开展应急处置，要求有关单位开展联合会商，加强震情监测和震后趋势研判，及时报告有关情况。\n目前，新疆维吾尔自治区地震局已派出现场工作队赶赴震区，协助地方政府开展应急处置工作。据了解，震中附近震感强烈。暂未收到人员伤亡情况报告。\n（责任编辑：项楠）",
+  "url": "https://www.cea.gov.cn/cea/xwzx/fzjzyw/5844249/index.html",
+  "date": "2026-05-29",
+  "images": [
+    {
+      "src": "https://www.cea.gov.cn/cea/resource/cms/2017/04/guohui.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.cea.gov.cn/cea/resource/cms/2021/01/img_pc_site/2021012508482783649.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.cea.gov.cn/cea/resource/cms/2018/10/img_pc_site/dzj_logo_text.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.cea.gov.cn/cea/resource/cms/2018/12/img_pc_site/2018122610313236480.png",
+      "alt": "",
+      "width": "14",
+      "height": "14"
+    },
+    {
+      "src": "https://www.cea.gov.cn/cea/resource/cms/2021/02/img_pc_site/2021020211222879504.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "source": "中国地震局",
+  "category": "灾害",
+  "content_length": 244,
+  "image_count": 5,
+  "id": "dis_acf1de19ecab",
+  "crawl_time": "2026-06-06 09:18:55",
+  "disaster_type": "地震",
+  "local_images": [
+    {
+      "local_path": "data/images/a6589fe9b422.png",
+      "original_src": "https://www.cea.gov.cn/cea/resource/cms/2017/04/guohui.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/61ceac41ab73.png",
+      "original_src": "https://www.cea.gov.cn/cea/resource/cms/2021/01/img_pc_site/2021012508482783649.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/ab90332be0e1.png",
+      "original_src": "https://www.cea.gov.cn/cea/resource/cms/2018/10/img_pc_site/dzj_logo_text.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/a0b65beebebe.png",
+      "original_src": "https://www.cea.gov.cn/cea/resource/cms/2021/02/img_pc_site/2021020211222879504.png",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [],
+  "ocr_text": ""
+}

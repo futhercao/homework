@@ -1,0 +1,106 @@
+{
+  "title": "南方降雨带有所南压 东北有大范围降雨--社会·法治--人民网",
+  "content": "人民网北京6月4日电 （记者温璐、高清扬）据中央气象台网站消息，据监测显示，昨日，云南东部、贵州南部、广西西北部、湖南中部、江西北部、安徽南部及河北南部、山东北部等地部分地区出现暴雨或大暴雨（100～180毫米），上述地区最大小时降雨量40～98毫米。华北、黄淮等地出现大范围风雹天气，山西南部、河北南部、山东中北部、河南北部、江苏北部等地部分地区出现8～11级雷暴大风，局地12～14级，河北南部等局地出现冰雹。\n6月4日至5日，东北地区东部、云贵高原、江南、华南等地的部分地区仍将有大到暴雨，局地大暴雨，并伴有短时强降水等强对流天气。未来24小时，黑龙江东部、吉林东部、河北东部、浙江西部和东北部、江西中北部、湖南南部、广西、云南中部、四川南部、西藏东南部等地部分地区有大到暴雨，黑龙江东北部、湖南南部、云南南部、广西东北部和西南部等局地有大暴雨（100～150毫米）。\n明天，华北、东北及江南、华南等地仍有明显降雨，黑龙江东南部、吉林东北部、山西中部、河北南部以及福建南部、江西南部、广东东部、广西北部等局地有暴雨或大暴雨（100～220毫米）。\n需要注意的是，未来三天，京津冀等地部分地区有小到中雨或雷阵雨，其中，河北中部等局地将有10级以上雷暴大风或冰雹天气。\n气象专家提醒，近期，我国中东部地区降雨频繁且多伴有强对流天气，外出时遇到雷暴大风时，应远离大树、广告牌、临时搭建物等，并迅速进入室内躲避。雨天能见度差，出行要注意安全。受持续降雨影响，浙江、江西、广西、贵州等地的部分地区发生山洪灾害可能性大，公众应避免前往山区、河谷等地质灾害隐患点。",
+  "url": "http://society.people.com.cn/n1/2026/0604/c1008-40733802.html",
+  "date": "2026-06-04",
+  "images": [
+    {
+      "src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg",
+      "alt": "",
+      "width": "200",
+      "height": "200"
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020wbc/imgs/logo.png",
+      "alt": "人民网",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/arrow2.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/arrow2.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/arrow2.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/arrow2.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/arrow2.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/arrow2.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/arrow2.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://society.people.com.cn/img/2020peopleindex/img/dyz/01.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "source": "人民网",
+  "category": "灾害",
+  "content_length": 678,
+  "image_count": 10,
+  "id": "dis_1de7d8b748af",
+  "crawl_time": "2026-06-06 09:19:10",
+  "disaster_type": "暴雨",
+  "local_images": [
+    {
+      "local_path": "data/images/61873714bb5a.jpg",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/1d1a8b28c8c7.png",
+      "original_src": "http://society.people.com.cn/img/2020wbc/imgs/logo.png",
+      "alt": "人民网"
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "61873714bb5a.jpg",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg",
+      "text": "人网 peoplecn",
+      "lines": [
+        {
+          "text": "人网",
+          "conf": 0.391
+        },
+        {
+          "text": "peoplecn",
+          "conf": 0.999
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "人网 peoplecn"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "AI赋能脑科学 揭示“记忆-睡眠”调控神经机制--经济·科技--人民网",
+  "content": "人民网北京6月5日电 （记者赵竹青）睡眠与记忆的相互作用，是神经科学长期关注的重要问题。6月4日，北京智源人工智能研究院与清华大学联合团队在《科学》发表成果，证实记忆活动可反向调控睡眠动态，颠覆传统“睡眠单向促进记忆”的认知。\n研究团队首次证实：睡眠中负向记忆再激活会加剧睡眠碎片化、提升机体警觉性，正向记忆再激活则可显著增强睡眠连续性与抗干扰能力。该发现推动了对睡眠调控的认识：睡眠并非单一的被动恢复过程，也可能受到既往经验和记忆内容的动态影响。这不仅为睡眠-记忆双向调控机制建立了全新科学框架，也为抑郁、焦虑等精神疾病伴发的睡眠障碍提供了全新的机制视角与治疗思路。\n该发现得益于AI for Science（人工智能驱动的科学研究）范式的深度赋能。研究中，智源研究院自主研发的脑科学多模态基础模型智源悟界·Brainμ发挥了核心支撑作用。它将神经科学基础研究中EEG、双光子钙成像数据等不同类型的神经信号转化为对齐的神经活动表征词元，使多模态数据能够在统一框架下进行分析，在零样本场景下实现了跨个体、跨任务的精准分析。据悉，除本次研究外，Brainμ模型已在多个神经科学前沿实验室的真实科研场景中开展应用，辅助神经科学家进行跨物种、跨模态的数据分析与科学假设验证。",
+  "url": "http://finance.people.com.cn/n1/2026/0605/c1004-40734803.html",
+  "date": "2026-06-05",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\61873714bb5a.jpg",
+      "alt": "",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\436f3c92b8c1.png",
+      "alt": "人民网",
+      "original_src": "http://finance.people.com.cn/img/2020wbc/imgs/logo.png"
+    }
+  ],
+  "source": "人民网",
+  "category": "科技",
+  "content_length": 534,
+  "image_count": 10,
+  "id": "doc_e604e4aa7418",
+  "crawl_time": "2026-06-05 18:05:00",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\61873714bb5a.jpg",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\436f3c92b8c1.png",
+      "original_src": "http://finance.people.com.cn/img/2020wbc/imgs/logo.png",
+      "alt": "人民网"
+    }
+  ]
+}

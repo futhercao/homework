@@ -1,0 +1,298 @@
+% !TeX program = xelatex
+% 编译方式：使用 XeLaTeX 编译（ctex 宏包需要 XeLaTeX 或 LuaLaTeX）
+\documentclass[11pt,a4paper]{ctexart}
+
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+
+\captionsetup{font=small,labelfont=bf}
+\setlist{itemsep=2pt,topsep=3pt,parsep=0pt}
+
+\definecolor{codebg}{RGB}{246,248,250}
+\lstset{
+  basicstyle=\ttfamily\small,
+  backgroundcolor=\color{codebg},
+  frame=single,
+  rulecolor=\color{lightgray},
+  breaklines=true,
+  showstringspaces=false,
+  columns=fullflexible,
+  xleftmargin=6pt,xrightmargin=6pt,
+  aboveskip=8pt,belowskip=6pt,
+}
+
+\title{\bfseries 信息检索系统设计与实现\\[2pt]\large （信息与知识获取 · 作业二 实验报告）}
+\author{}
+\date{2026 年 6 月}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\small
+\begin{tabular}{>{\centering\arraybackslash}m{2.2cm}>{\centering\arraybackslash}m{2.8cm}>{\centering\arraybackslash}m{1.4cm}>{\raggedright\arraybackslash}m{5.6cm}}
+\toprule
+姓名 & 学号 & 角色 & 分工 \\
+\midrule
+曹忠昊 & 2023211964 & 组长 & 系统架构与异步爬虫、倒排索引构建、整体整合 \\
+侯钧译 & 2023211728 & 组员 & 检索算法（BM25 / VSM / 混合检索 / 伪相关反馈）与评价 \\
+徐舸山 & 2023211038 & 组员 & 多模态检索（Chinese-CLIP、VLM 精排）与实验报告 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{0.4em}
+
+\begin{abstract}
+\noindent
+本作业实现了一个面向真实中文新闻语料的信息检索系统。系统以自研异步爬虫采集了 802 篇权威媒体新闻并本地存储，
+在此之上构建倒排索引，实现了 BM25、向量空间模型（VSM）与三路融合的混合检索，并加入伪相关反馈做查询扩展。
+在基础的文本检索之外，我们把系统扩展到跨媒体方向：用中文原生的 Chinese-CLIP 把图像与中文文本映射到同一向量空间，
+支持以文搜图与以图搜文，并针对实测中发现的「模态间隙导致固定阈值失灵」问题，设计了一套召回—精排的两段式流程，
+由视觉大模型对候选图逐张裁定相关性。检索质量同时用与 BM25 解耦的自动基准和网页端的人工逐条打分两种方式评价。
+除多模态增强需要可选的在线大模型外，检索主体全程在 CPU 上运行。
+\end{abstract}
+
+\section{任务背景与总体设计}
+
+信息检索要解决的核心问题，是在一个规模可观的文档集合里，根据用户用自然语言表达的需求，把最可能相关的文档排在前面。
+本次作业的基本要求是：用开源爬虫采集不少于 100 篇文档并本地存储，建立倒排索引，实现向量空间检索模型的匹配算法，
+支持自然语言查询，结果按相关度从高到低给出相关度、标题、匹配片段、URL 与日期，并尽量对结果准确率做人工评价；
+扩展要求则鼓励尝试多媒体检索与算法优化。
+
+我们的系统在满足上述全部基本要求的同时，做了三处比较实在的加强。第一，检索模型不止停留在 VSM，而是把 BM25、
+VSM 与语义召回用倒数排名融合（RRF）整合成混合检索，并提供伪相关反馈的查询扩展。第二，评价没有只做一个主观打分页，
+而是另外写了一套与排序算法解耦的自动基准，避免「用 BM25 的打分来证明 BM25 好」这种循环论证。第三，也是投入最多的部分，
+是跨媒体检索：我们没有满足于「能跑通以文搜图」，而是直面了中文 CLIP 在实际数据上检索不准的原因，并用视觉大模型做了根治。
+系统整体的数据流如图~\ref{fig:arch} 所示。
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[
+  node distance=9mm and 12mm,
+  box/.style={draw,rounded corners=2pt,align=center,inner sep=4pt,minimum height=8mm,font=\small},
+  >={Stealth[length=2mm]}
+]
+\node[box] (crawl) {异步爬虫\\(去重/限流/配图)};
+\node[box,right=of crawl] (corpus) {语料 + 配图\\(本地存储)};
+\node[box,above right=of corpus,xshift=4mm] (text) {倒排索引\\BM25 / VSM / 混合};
+\node[box,below right=of corpus,xshift=4mm] (clip) {Chinese-CLIP\\图文向量索引};
+\node[box,right=22mm of corpus,yshift=0mm] (web) {Web 服务\\检索 / 多模态 / 评价};
+\draw[->] (crawl) -- (corpus);
+\draw[->] (corpus) -- (text);
+\draw[->] (corpus) -- (clip);
+\draw[->] (text) -- (web);
+\draw[->] (clip) -- (web);
+\end{tikzpicture}
+\caption{系统总体数据流：爬虫采集的语料与配图分别进入文本索引与图文向量索引，统一由 Web 服务对外提供检索、多模态与评价功能。}
+\label{fig:arch}
+\end{figure}
+
+% 如需插入系统界面截图，取消下面注释并放入图片文件：
+% \begin{figure}[ht]\centering
+% \includegraphics[width=0.9\textwidth]{screenshot_search.png}
+% \caption{检索结果页：每条结果给出相关度、标题、匹配片段、来源与日期，并附逐条相关性打分按钮。}
+% \end{figure}
+
+\section{语料采集与数据真实性}
+
+检索系统的质量首先取决于语料。课程明确要求数据必须是开源爬虫真实抓取的，因此我们没有使用任何模板生成或人工编造的数据，
+也在代码层面删除了早期版本里残留的数据生成器。最终入库 802 篇新闻，全部来自权威媒体，去重后覆盖 27 个子域名，
+来源分布为：人民网 217、中国新闻网 178、新华网 139、央视网 130、中国经济网 48、科技日报 43、光明网 42、澎湃新闻 3。
+每篇文档都完整保留了原始的 URL、来源与日期，可以逐条回溯到真实页面。
+
+爬虫本身按工程化的思路实现，几个关键点如下。抓取基于 \texttt{aiohttp} 协程并发，并发上限可配置，
+吞吐较高而 CPU 占用低；种子从多家媒体的财经、社会、健康、教育、科技等频道出发，用广度优先的方式发现正文链接，
+以保证来源与主题的多样性。正文用 \texttt{readability-lxml} 抽取，剥掉导航、广告与评论。
+去重做了两层：URL 级去重防止同一页面重复入库，正文级则计算 SimHash 指纹，在海明距离阈值内判为近似重复，
+这一步过滤掉了不少各站转载的同源稿件。为了对目标站点友好，我们轮换 User-Agent、在请求间加入随机间隔并对单域名限流。
+抓取是逐篇落盘的，同一 URL 覆盖同名文件，因此中途中断可以接着跑，重跑也不会产生冗余下载。
+正文里的 \texttt{<img>} 会被解析出来，按 PNG/JPG 文件头校验后下载，作为后续多模态检索的图像素材。
+
+需要说明的是，文档语料与后面以文搜图用到的图库是两件相互独立的事。新闻配图是从新闻页实际下载的；
+而为了让以文搜图在灾害、科技等题材上有足够的召回，我们另外从图片搜索引擎补充了 325 张主题图，这些都是真实照片，
+不是编造或 AI 生成的。图库的扩充只影响以文搜图，不会改变文档语料的真实性。
+
+\section{倒排索引与检索模型}
+
+\subsection{倒排索引}
+
+中文以 jieba 分词为基本单元，配合停用词过滤后建立倒排索引。索引记录每个词项到文档的倒排列表以及词频等统计量，
+并以 pickle 持久化，启动时直接载入。当前词表规模为 47\,904 个词项。倒排索引是 BM25 与 VSM 共同的底座。
+
+\subsection{BM25}
+
+对查询 $Q=\{q_1,\dots,q_m\}$ 与文档 $D$，BM25 的打分为
+\begin{equation}
+\text{score}(D,Q)=\sum_{i=1}^{m}\text{IDF}(q_i)\cdot\frac{f(q_i,D)\,(k_1+1)}{f(q_i,D)+k_1\!\left(1-b+b\cdot\frac{|D|}{\text{avgdl}}\right)},
+\end{equation}
+其中 $\text{IDF}(q_i)=\ln\dfrac{N-n(q_i)+0.5}{n(q_i)+0.5}+1$，$N$ 为文档总数，$n(q_i)$ 为含 $q_i$ 的文档数，
+参数取 $k_1=1.5$、$b=0.75$。相比朴素的 TF-IDF，BM25 一方面用 $k_1$ 控制词频饱和（一个词出现得再多，贡献也会趋于上限），
+另一方面用 $b$ 做文档长度归一化，避免长文档单纯因为词多而占便宜，这两点对新闻这类长度不均的语料尤其重要。
+
+\subsection{向量空间模型}
+
+VSM 把文档和查询都表示成 TF-IDF 加权向量，用余弦相似度衡量相关性：
+\begin{equation}
+\text{sim}(D,Q)=\frac{\vec{D}\cdot\vec{Q}}{\lVert\vec{D}\rVert\,\lVert\vec{Q}\rVert}.
+\end{equation}
+这是课程要求必须实现的匹配模型，也是与 BM25 做对照的基线。
+
+\subsection{混合检索与查询扩展}
+
+实际检索里，纯词项匹配会受「词汇鸿沟」困扰——用户说「汽车」，文档写「轿车」，字面对不上但语义相近。
+为此我们并行跑 BM25、VSM 与一路基于 \texttt{sentence-transformers} 多语言向量的语义召回，再用倒数排名融合把三者合并：
+\begin{equation}
+\text{RRF}(d)=\sum_{r\in\{\text{bm25, vsm, sem}\}}\frac{1}{k+\text{rank}_r(d)},\qquad k=60 .
+\end{equation}
+RRF 只看各路给出的排名而不直接混合分数，因此不需要在不同量纲的得分之间做归一化，鲁棒性较好。三路召回互补：
+BM25 抓精确词项，VSM 抓向量相似，语义召回补同义近义。
+
+在此之上还实现了伪相关反馈（PRF）的查询扩展：把初次检索的前若干篇当作伪相关集，统计其中候选词的 $tf\cdot idf$ 权重，
+剔除原查询词和过短词后，取权重最高的几个词加进查询里重检，以提升召回。前端有一个开关控制是否启用，并会回显扩展出来的词，
+方便观察效果。
+
+\section{检索效果评价}
+
+课程要求尽量对检索准确率做人工评价，我们在此基础上做了自动与人工两套，互为补充。
+
+\subsection{自动基准}
+
+我们准备了 10 个跨领域查询（人工智能、地震救援、新能源汽车、芯片制造、台风灾害、高等教育、医疗健康、自动驾驶、
+自然灾害损失、财经投资），对 BM25 与 VSM 计算 P@5、P@10、F1@10、MAP、nDCG@10 与 MRR。
+这里有一个容易被忽视的陷阱：如果相关性标签是用待评测的排序算法自己算出来的，评测就变成了循环论证。
+为避开这一点，相关性判定采用一套与 BM25 解耦的启发式——按正向关键词命中数划分相关等级（命中 $\ge 3$ 记部分相关，$\ge 5$ 记高相关），
+出现跨领域负向关键词则降级，标题命中给加成。10 个查询的平均结果见表~\ref{tab:bench}。
+
+\begin{table}[ht]
+\centering
+\caption{BM25 与 VSM 在 10 个跨领域查询上的平均指标（自动基准）}
+\label{tab:bench}
+\begin{tabular}{lccc}
+\toprule
+指标 & BM25 & VSM & 优胜 \\
+\midrule
+P@5      & \textbf{0.5000} & 0.2800 & BM25 \\
+P@10     & \textbf{0.3800} & 0.2100 & BM25 \\
+F1@10    & \textbf{0.4529} & 0.2891 & BM25 \\
+MAP      & \textbf{0.5518} & 0.4206 & BM25 \\
+nDCG@10  & \textbf{0.5436} & 0.4307 & BM25 \\
+MRR      & \textbf{0.7667} & 0.5202 & BM25 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+BM25 在全部指标上都优于纯 VSM，这与前面的分析一致：词频饱和与长度归一化让它在新闻语料上更稳。
+混合检索在 BM25 的基础上再融合语义召回，主要收益在缓解词汇鸿沟。该基准可由 \texttt{python scripts/run\_evaluation.py} 复现。
+
+\subsection{人工评价}
+
+检索结果页的每条结果旁都有「相关 / 部分相关 / 不相关」三个按钮。评分者点击后，系统实时计算本次查询的 P@5、P@10、MAP、
+nDCG@10 与 MRR 并写入评价库，可在汇总页查看。这是面向真实使用者的主观评价，弥补自动基准只覆盖固定查询集的不足。
+
+\section{跨媒体检索：中文 CLIP 与视觉大模型精排}
+
+多模态是本系统投入最多、也最能说明问题的部分。我们的目标是让用户用中文描述去搜图片（以文搜图），或上传图片去找相关文档（以图搜文）。
+
+\subsection{为什么换成中文原生 CLIP}
+
+最初我们用的是多语言通用 CLIP（\texttt{xlm-roberta-base-ViT-B-32}），但它的文本塔是多语言的、视觉侧是英文预训练，
+中文查询与图像的对齐其实是个折中方案。后来换成中文原生的 Chinese-CLIP（\texttt{OFA-Sys/chinese-clip-vit-base-patch16}，
+ViT-B/16 视觉塔加中文 RoBERTa 文本塔），它在约两亿中文图文对上训练，中文语义对齐明显更好，模型体积反而更小（约 600\,MB），
+更适合纯 CPU 部署。系统保留了多语言 CLIP 作为可切换的回退，方便对照。图文都被映射到同一个 512 维空间，
+以文搜图时用 FAISS 做余弦近邻召回，以图搜文时把上传图编码后与文档关联图比对。FAISS 索引用 \texttt{serialize\_index}
+做字节序列化持久化，绕开了 Windows 中文路径下 \texttt{write\_index} 会失败的问题。
+
+\subsection{先把图库洗干净：离线 VLM 质检}
+
+从新闻页抓来的图里混着大量「看着是图、其实是噪声」的东西：栏目快讯的纯文字图、广告横幅、网站 logo、二维码、
+网页或 App 的界面截图、纯装饰素材等等。光靠「URL 关键词加最小边像素」这种廉价规则根本认不出来，结果就是以文搜图被一堆无关图污染。
+于是我们加了一道语义级质检：把每张图降到 512px，送进视觉大模型（通义千问 \texttt{qwen3-vl-plus}，经 DashScope 的 OpenAI 兼容接口调用），
+让它判断这是不是一张「有意义的新闻内容图」，只输出 \texttt{\{keep, type, reason\}} 这样的结构化结果，通过的才进 CLIP 索引。
+
+工程上这一步做了缓存与降级。判定结果按文件名持久化到 \texttt{data/vectors/vlm\_verdicts.json}，重复构建零调用、随交付一起分发，
+所以即便批改环境没有密钥，也能复现出「已清洗」的索引；多次失败时采取 fail-open（默认保留）且不写缓存，单次网络抖动不会误删图；
+密钥只从环境变量 \texttt{DASHSCOPE\_API\_KEY} 读取，不写进任何文件。最终的漏斗是：846 张候选图先经廉价过滤剔掉 149 张，
+剩 697 张再送 VLM 质检剔掉 178 张，留下 519 张内容图入索引。同一份判定结果还复用到了文档详情页的配图展示和检索结果的图片角标计数上，
+保证全站对「什么算内容图」的口径一致。
+
+\subsection{模态间隙：为什么固定阈值不管用}
+
+把库洗干净之后，以文搜图仍然偶尔返回无关图。深究下去，发现根子在 CLIP 的模态间隙：图向量和文向量在联合空间里分布在不同区域，
+导致图文余弦被压在很窄的区间内（本库实测约 0.33--0.48）。更麻烦的是，一些明显无关的图（机械零件、金字塔示意、纯文字标识）
+的余弦能达到 0.377--0.385，反而比某些真正弱相关的图还高。这意味着无论把阈值卡在哪里，都会同时漏掉相关图、放进无关图——
+这是模型层面的固有现象，调阈值只是治标。
+
+\subsection{召回—精排两段式（根治）}
+
+既然单一阈值分不开，我们就把检索拆成两段：CLIP 只负责召回，把可能相关的图都先捞上来；真正判断相不相关交给视觉大模型逐张精排。
+召回阶段 CLIP 用一个宽松的下限（默认 0.28，只是滤掉明显噪声、省调用）取 Top-N；精排阶段把每张候选图连同查询词一起送给 Qwen-VL，
+让它站在「用这个词搜图的用户」的视角判断是否相关，输出 \texttt{\{match, conf, desc\}}，只保留 \texttt{match=true} 且置信度不低于 0.55 的，
+再按置信度重排。判定按「查询词 + 文件名」缓存到 \texttt{data/vectors/vlm\_judge\_cache.json}，同一个词再搜就是零调用、秒回；
+没有密钥时退化为纯余弦阈值，保留可对照的旧行为。前端会逐图显示 AI 的判定，例如「AI 判定相关 95\%（四川芦山地震震中示意图）」，
+并统计「候选 N $\to$ 相关 M、剔除 K」，让大模型对结果的评价可见、可解释。开启精排后的实测见表~\ref{tab:judge}。
+
+\begin{table}[ht]
+\centering
+\caption{开启 VLM 精排后的以文搜图结果（节选）}
+\label{tab:judge}
+\begin{tabular}{lccp{5.2cm}}
+\toprule
+查询 & CLIP 召回 & AI 判相关 & 典型保留结果 \\
+\midrule
+地震 & 12 & 12 & 芦山 7.0 级震中示意图、倒塌废墟搜救 \\
+洪水 & 12 & 12 & 街道被淹乘舟救援、车辆涉水 \\
+台风 & 12 & 12 & 巨浪拍岸、强风中树木弯折、卫星云图 \\
+火灾 & 12 & 12 & 消防员扑救、山林野火 \\
+新能源汽车 / 芯片 & 12 & 12 & 充电站车辆、晶圆芯片特写 \\
+篮球 / 咖啡（库中无此题材） & 12 & 0 & 全部判为无关，如实返回空 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+离线质检（5.2）和在线精排是互补的：前者按「是不是内容图」把整库洗干净，后者按「跟这次查询相不相关」对每次结果把关。
+两步合起来，把以文搜图的精度从「靠阈值碰运气」变成了「逐张把关」。
+
+\section{对环境与社会可持续发展的影响}
+
+可持续性是课程在评分中明确看重的一点，我们从两个角度考虑。环境方面，异步并发加礼貌抓取减少了无效请求，SimHash 去重避免了重复存储与重复索引，
+索引和向量都是一次构建、反复复用，加上检索主体用的是 CPU 友好的模型，使系统能以较低的算力、带宽和能耗达到同等的检索效果。
+社会方面，高效的检索提升了海量真实信息的可达性，多模态检索进一步降低了普通用户获取信息的门槛。系统内设有
+\texttt{/sustainability} 页面对此做了集中说明。
+
+\section{局限与展望}
+
+语料虽已全部换成权威媒体，但来源仍不够均衡，人民网约占 27\%、中国新闻网约占 22\%，后续可以做加权采样来平衡；
+灾害题材目前偏少，可针对应急管理、气象等频道定向补采。自动基准的相关性判定毕竟是启发式的，更严谨的做法是积累人工标注、
+构建标准测试集。多模态方面，查询级精排依赖在线视觉大模型，虽然已用缓存和无密钥降级缓解，但图库题材的覆盖还能继续扩，
+垂直领域（如灾害图像）也可以对 CLIP 做微调，减少送审候选、进一步降低时延和调用量。
+
+\section{运行与复现}
+
+系统已附带构建好的索引与数据，开箱即可启动：
+
+\begin{lstlisting}[language=bash]
+pip install -r requirements.txt
+python run.py web          # 启动 Web，默认 http://127.0.0.1:8090
+# 从零构建（可选）：
+python run.py crawl --max 800     # 异步爬取真实新闻
+python run.py build               # 建立倒排索引
+python run.py multimodal          # 构建 CLIP 图文向量索引
+# 多模态 VLM 质检/精排为可选增强：设置环境变量 DASHSCOPE_API_KEY 后启用，
+# 无密钥则自动降级为余弦阈值，并复用随附的已构建索引。
+\end{lstlisting}
+
+\noindent
+启动后可访问检索、多模态、检索评价、数据看板与可持续等页面。自动基准用 \texttt{python scripts/run\_evaluation.py} 复现。
+
+\end{document}

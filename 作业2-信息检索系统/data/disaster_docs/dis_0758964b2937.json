@@ -1,0 +1,127 @@
+{
+  "title": "国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+  "content": "9月5日12时52分，四川省甘孜州泸定县发生6.8级地震，造成重大人员伤亡。为贯彻落实习近平总书记关于抗震救灾工作的重要指示精神和李克强总理等中央领导同志批示要求，受中央领导同志委派，国务院抗震救灾指挥部副指挥长、应急管理部部长王祥喜连夜率由中央宣传部、工业和信息化部、公安部、自然资源部、住房和城乡建设部、交通运输部、国家卫生健康委员会、应急管理部等部门组成的国务院抗震救灾指挥部工作组，赴震区指导支持四川抗震救灾工作。鉴于灾情严重，国务院抗震救灾指挥部办公室、应急管理部将国家地震应急响应级别提升至二级。国家减灾委、应急管理部将国家救灾应急响应级别提升至Ⅲ级。",
+  "url": "https://www.sc.gov.cn/10462/13241/2022/9/6/af9105c924c44f8893ba10c0b19a3e3f.shtml",
+  "date": "2022-11-01",
+  "images": [
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/zgscyz.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "alt": "",
+      "width": "517",
+      "height": "157"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_li01.png",
+      "alt": "政务新媒体矩阵",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "alt": "",
+      "width": "67",
+      "height": "25"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_20.jpg",
+      "alt": "",
+      "width": "34",
+      "height": "38"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_23.jpg",
+      "alt": "",
+      "width": "38",
+      "height": "38"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_li01.png",
+      "alt": "政务新媒体矩阵",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top2_li02.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_ss.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/zzzqpub/zzzqpubtop01.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "source": "sc.gov.cn",
+  "category": "灾害",
+  "content_length": 282,
+  "image_count": 10,
+  "id": "dis_0758964b2937",
+  "crawl_time": "2026-06-06 19:05:18",
+  "disaster_type": "地震",
+  "local_images": [
+    {
+      "local_path": "data/images/5821165295f8.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/zgscyz.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/7cd04e3e74b7.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/9cda010794c6.jpg",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "7cd04e3e74b7.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "text": "四川省人民政府 The People's Government ot Sichuan Province 豳",
+      "lines": [
+        {
+          "text": "四川省人民政府",
+          "conf": 0.678
+        },
+        {
+          "text": "The People's Government ot Sichuan Province",
+          "conf": 0.642
+        },
+        {
+          "text": "豳",
+          "conf": 0.405
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "9cda010794c6.jpg",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "text": "0搜索",
+      "lines": [
+        {
+          "text": "0搜索",
+          "conf": 0.586
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "四川省人民政府 The People's Government ot Sichuan Province 豳 0搜索"
+}

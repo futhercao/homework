@@ -1,0 +1,127 @@
+{
+  "title": "雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+  "content": "根据雅安地震台网正式报，\n分在四川省甘孜州泸定县（北纬\n29.6\n度，东经\n102.1\n度）发生\n6.8\n级地震，震源深度\n公里。\n地震发生后，雅安市迅速启动地震灾害二级应急响应，市抗震救灾指挥部各成员单位和相关县、乡（镇）、村（社）正迅速组织开展灾情排查。下一步，将通过“雅安应急”官方微信微博、雅安市应急管理局官方网站、“掌上雅安”“无线雅安”客户端、雅安日报、雅安广播电视台微信微博及时向社会通报有关情况。",
+  "url": "https://www.sc.gov.cn/10462/10464/10465/10595/2022/9/5/b5c5d5cbc1cb4ac3a13993ea464b2c39.shtml",
+  "date": "2022-10-14",
+  "images": [
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/zgscyz.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "alt": "",
+      "width": "517",
+      "height": "157"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_li01.png",
+      "alt": "政务新媒体矩阵",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "alt": "",
+      "width": "67",
+      "height": "25"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_20.jpg",
+      "alt": "",
+      "width": "34",
+      "height": "38"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_23.jpg",
+      "alt": "",
+      "width": "38",
+      "height": "38"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_li01.png",
+      "alt": "政务新媒体矩阵",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top2_li02.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_ss.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/zzzqpub/zzzqpubtop01.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "source": "sc.gov.cn",
+  "category": "灾害",
+  "content_length": 206,
+  "image_count": 10,
+  "id": "dis_4e3532069ec3",
+  "crawl_time": "2026-06-06 19:05:18",
+  "disaster_type": "地震",
+  "local_images": [
+    {
+      "local_path": "data/images/5821165295f8.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/zgscyz.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/7cd04e3e74b7.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/9cda010794c6.jpg",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "7cd04e3e74b7.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "text": "四川省人民政府 The People's Government ot Sichuan Province 豳",
+      "lines": [
+        {
+          "text": "四川省人民政府",
+          "conf": 0.678
+        },
+        {
+          "text": "The People's Government ot Sichuan Province",
+          "conf": 0.642
+        },
+        {
+          "text": "豳",
+          "conf": 0.405
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "9cda010794c6.jpg",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "text": "0搜索",
+      "lines": [
+        {
+          "text": "0搜索",
+          "conf": 0.586
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "四川省人民政府 The People's Government ot Sichuan Province 豳 0搜索"
+}

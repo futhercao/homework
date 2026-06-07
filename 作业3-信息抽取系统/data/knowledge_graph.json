@@ -1,0 +1,5918 @@
+{
+  "nodes": [
+    {
+      "id": "DOCUMENT_国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "name": "国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DISASTER_TYPE_洪水",
+      "name": "洪水",
+      "type": "DISASTER_TYPE",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "id": "TIME_5月16日",
+      "name": "5月16日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "RESPONSE_Ⅳ级响应",
+      "name": "Ⅳ级响应",
+      "type": "RESPONSE",
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_启动防汛四级应急响应",
+      "name": "启动防汛四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_应急管理部",
+      "name": "应急管理部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "SEVERITY_一般",
+      "name": "一般",
+      "type": "SEVERITY",
+      "category": 8,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_国家地震烈度速报预警 - 西藏自治区地震局",
+      "name": "国家地震烈度速报预警 - 西藏自治区地震局",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DISASTER_TYPE_地震",
+      "name": "地震",
+      "type": "DISASTER_TYPE",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "id": "LOCATION_西藏自治区",
+      "name": "西藏自治区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2023-09-13",
+      "name": "2023-09-13",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "SEVERITY_未定级",
+      "name": "未定级",
+      "type": "SEVERITY",
+      "category": 8,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "name": "双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DISASTER_TYPE_暴雨",
+      "name": "暴雨",
+      "type": "DISASTER_TYPE",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "id": "LOCATION_福建福清市",
+      "name": "福建福清市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_8月1日17时",
+      "name": "8月1日17时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ECONOMIC_LOSS_8亿元",
+      "name": "8亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "name": "国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_四川省甘孜州泸定县",
+      "name": "四川省甘孜州泸定县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月5日12时52分",
+      "name": "9月5日12时52分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "RESPONSE_Ⅱ级响应",
+      "name": "Ⅱ级响应",
+      "type": "RESPONSE",
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_国务院抗震救灾指挥部",
+      "name": "国务院抗震救灾指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_公安部",
+      "name": "公安部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "SEVERITY_重大",
+      "name": "重大",
+      "type": "SEVERITY",
+      "category": 8,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "name": "应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_贵州",
+      "name": "贵州",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_6月3日",
+      "name": "6月3日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_启动国家地质灾害四级应急响应",
+      "name": "启动国家地质灾害四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "name": "超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_甘肃临夏州积石山县",
+      "name": "甘肃临夏州积石山县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_12月18日23时59分",
+      "name": "12月18日23时59分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难105人",
+      "name": "遇难105人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_甘肃省消防救援总队",
+      "name": "甘肃省消防救援总队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_青海省消防救援总队",
+      "name": "青海省消防救援总队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_地质灾害专业救援队",
+      "name": "地质灾害专业救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_国家紧急医学救援队",
+      "name": "国家紧急医学救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_国家防灾减灾救灾委",
+      "name": "国家防灾减灾救灾委",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_家综合性消防救援队",
+      "name": "家综合性消防救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_国家消防救援局",
+      "name": "国家消防救援局",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_福建三市启动防台风Ⅰ级应急响应！福州机场取消80余个航班！",
+      "name": "福建三市启动防台风Ⅰ级应急响应！福州机场取消80余个航班！",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DISASTER_TYPE_台风",
+      "name": "台风",
+      "type": "DISASTER_TYPE",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "id": "LOCATION_福建三市",
+      "name": "福建三市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2024年7月24日16时00分",
+      "name": "2024年7月24日16时00分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "RESPONSE_Ⅰ级响应",
+      "name": "Ⅰ级响应",
+      "type": "RESPONSE",
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "id": "SEVERITY_特别重大",
+      "name": "特别重大",
+      "type": "SEVERITY",
+      "category": 8,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_应急管理部针对安徽启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "name": "应急管理部针对安徽启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "name": "搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_河北省承德市滦平县",
+      "name": "河北省承德市滦平县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_7月28日",
+      "name": "7月28日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_启动全市防汛一级应急响应",
+      "name": "启动全市防汛一级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_[新华社]冬季来临，受灾群众救助情况如何？权威回应来了--中华人民共和国应急管理部",
+      "name": "[新华社]冬季来临，受灾群众救助情况如何？权威回应来了--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "CASUALTIES_遇难590人",
+      "name": "遇难590人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "name": "李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_四川省雅安市芦山县",
+      "name": "四川省雅安市芦山县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_２０１３年４月２０日８时２分",
+      "name": "２０１３年４月２０日８时２分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "RESPONSE_Ⅲ级响应",
+      "name": "Ⅲ级响应",
+      "type": "RESPONSE",
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_一批批救援队",
+      "name": "一批批救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_他当即要求救灾部队和相关部",
+      "name": "他当即要求救灾部队和相关部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "SEVERITY_较大",
+      "name": "较大",
+      "type": "SEVERITY",
+      "category": 8,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "name": "甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_甘孜州泸定县",
+      "name": "甘孜州泸定县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "ORGANIZATION_森林消防总队",
+      "name": "森林消防总队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_启动二级应急响应",
+      "name": "启动二级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_协调省",
+      "name": "协调省",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_泸定县等应急管理局",
+      "name": "泸定县等应急管理局",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_省抗震救灾指挥部",
+      "name": "省抗震救灾指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_省通信管理局等省级部",
+      "name": "省通信管理局等省级部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_南方降雨带有所南压 东北有大范围降雨--社会·法治--人民网",
+      "name": "南方降雨带有所南压 东北有大范围降雨--社会·法治--人民网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_6月4日",
+      "name": "6月4日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "name": "“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_指令象山县",
+      "name": "指令象山县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月10日",
+      "name": "5月10日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_国家防汛抗旱总指挥部",
+      "name": "国家防汛抗旱总指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_启动防汛二级应急响应",
+      "name": "启动防汛二级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_消防救援队",
+      "name": "消防救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_启动防台风一级响应",
+      "name": "启动防台风一级响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_掌握救援队",
+      "name": "掌握救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_确保救援队",
+      "name": "确保救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_浙江省立即开设社会应急力量现场协调中心",
+      "name": "浙江省立即开设社会应急力量现场协调中心",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_解放军和武警部",
+      "name": "解放军和武警部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_阳泉市人民政府门户网站-既要转移得快还要安置得好",
+      "name": "阳泉市人民政府门户网站-既要转移得快还要安置得好",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_平定县",
+      "name": "平定县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_7月30日15时",
+      "name": "7月30日15时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_水利部召开新闻通气会介绍水旱灾害防御工作情况",
+      "name": "水利部召开新闻通气会介绍水旱灾害防御工作情况",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_5月29日",
+      "name": "5月29日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_水利部坚决贯彻习近平总书记关于防汛抗旱救灾工作重要指示批示精神和在中共中央政治局",
+      "name": "水利部坚决贯彻习近平总书记关于防汛抗旱救灾工作重要指示批示精神和在中共中央政治局",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_陕西今年暴雨洪水造成77.5万人次受灾 直接经济损失约40亿元-中国新闻网",
+      "name": "陕西今年暴雨洪水造成77.5万人次受灾 直接经济损失约40亿元-中国新闻网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_特别是洛南县",
+      "name": "特别是洛南县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_8月10日",
+      "name": "8月10日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ECONOMIC_LOSS_直接经济损失约40亿元",
+      "name": "直接经济损失约40亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_国家防总办公室、应急管理部会商研判近期南方新一轮强降雨过程 部署重点地区防范应对工作--中华人民共和",
+      "name": "国家防总办公室、应急管理部会商研判近期南方新一轮强降雨过程 部署重点地区防范应对工作--中华人民共和",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_4月25日",
+      "name": "4月25日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_四川省气象局启动地震灾害气象服务Ⅲ级应急响应- 四川省人民政府网站",
+      "name": "四川省气象局启动地震灾害气象服务Ⅲ级应急响应- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_9月5日20时",
+      "name": "9月5日20时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_应对强降雨 辽宁鞍山转移安置人员近1.8万人_新闻频道_央视网(cctv.com)",
+      "name": "应对强降雨 辽宁鞍山转移安置人员近1.8万人_新闻频道_央视网(cctv.com)",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_辽宁省鞍山市",
+      "name": "辽宁省鞍山市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_8月13日8时",
+      "name": "8月13日8时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_调拨救灾物资4000床棉被",
+      "name": "调拨救灾物资4000床棉被",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "name": "广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_贵港市港北区",
+      "name": "贵港市港北区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月11日12时",
+      "name": "5月11日12时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ECONOMIC_LOSS_直接经济损失1.04亿元",
+      "name": "直接经济损失1.04亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_广西应急管理厅",
+      "name": "广西应急管理厅",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_对预报强对流天气影响区域市县应急局",
+      "name": "对预报强对流天气影响区域市县应急局",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_雨水兵分三路 东北华北华南有较强降雨--社会·法治--人民网",
+      "name": "雨水兵分三路 东北华北华南有较强降雨--社会·法治--人民网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_台湾省高雄市",
+      "name": "台湾省高雄市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_6月5日",
+      "name": "6月5日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "name": "我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_5月14日",
+      "name": "5月14日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_水利部专题部署主汛期防汛工作",
+      "name": "水利部专题部署主汛期防汛工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_等重点区",
+      "name": "等重点区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "name": "江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_重庆市",
+      "name": "重庆市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "name": "应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_短视频|森林草原火灾风险普查完成率达97.1%--中华人民共和国应急管理部",
+      "name": "短视频|森林草原火灾风险普查完成率达97.1%--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DISASTER_TYPE_火灾",
+      "name": "火灾",
+      "type": "DISASTER_TYPE",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "id": "TIME_2022年4月12日",
+      "name": "2022年4月12日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "name": "广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_广西柳州市柳南区",
+      "name": "广西柳州市柳南区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月18日00时21分",
+      "name": "5月18日00时21分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_启动国家地震灾害四级应急响应",
+      "name": "启动国家地震灾害四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "name": "雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_启动地震灾害二级应急响应",
+      "name": "启动地震灾害二级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_雅安市",
+      "name": "雅安市",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_市抗震救灾指挥部",
+      "name": "市抗震救灾指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_向震中挺进 为生命驰援",
+      "name": "向震中挺进 为生命驰援",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_前期渡河的消防队",
+      "name": "前期渡河的消防队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_的不止这一支救援队",
+      "name": "的不止这一支救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_德阳两地的消防队",
+      "name": "德阳两地的消防队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_省森林消防总队",
+      "name": "省森林消防总队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_省消防救援总队",
+      "name": "省消防救援总队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_资阳的消防队",
+      "name": "资阳的消防队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_螺沟景区消防救援大队",
+      "name": "螺沟景区消防救援大队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_几十名消防队",
+      "name": "几十名消防队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_武警部",
+      "name": "武警部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_厦门市组织开展山洪灾害防御应急演练",
+      "name": "厦门市组织开展山洪灾害防御应急演练",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_厦门市",
+      "name": "厦门市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月25日",
+      "name": "5月25日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_湖北省水利厅召开视频调度会推进防汛抗旱工作",
+      "name": "湖北省水利厅召开视频调度会推进防汛抗旱工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_神农架林区",
+      "name": "神农架林区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月1日",
+      "name": "5月1日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_台风“梅花”9月12日起开始影响杭州 节后带来较大风雨",
+      "name": "台风“梅花”9月12日起开始影响杭州 节后带来较大风雨",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_浙江省",
+      "name": "浙江省",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月10日11时",
+      "name": "9月10日11时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "name": "灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_向雅安市",
+      "name": "向雅安市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月6日8时",
+      "name": "9月6日8时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_受伤4人",
+      "name": "受伤4人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_调拨省级救灾物资83580件，红十字会调拨救灾物资",
+      "name": "调拨省级救灾物资83580件，红十字会调拨救灾物资",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_省级医疗救援队",
+      "name": "省级医疗救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_累计出动解放军和武警部",
+      "name": "累计出动解放军和武警部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_武警部队",
+      "name": "武警部队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "name": "北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_北京市",
+      "name": "北京市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_8月1日6时",
+      "name": "8月1日6时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难11人，失踪27人",
+      "name": "遇难11人，失踪27人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_海淀消防支队",
+      "name": "海淀消防支队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_北京市",
+      "name": "北京市",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_蓝天救援队",
+      "name": "蓝天救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_人民日报：六月一日起我国全面进入汛期 南方地区进入主汛期",
+      "name": "人民日报：六月一日起我国全面进入汛期 南方地区进入主汛期",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_确保旱区城乡",
+      "name": "确保旱区城乡",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2026年06月02日",
+      "name": "2026年06月02日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+      "name": "四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_调拨补充救灾物资",
+      "name": "调拨补充救灾物资",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_四川省",
+      "name": "四川省",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "name": "国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_2026-05-24 12:38",
+      "name": "2026-05-24 12:38",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_国家防减救灾委",
+      "name": "国家防减救灾委",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_今日起我国全面进入汛期 南方地区进入主汛期 水利部扎实做好水旱灾害防范应对工作",
+      "name": "今日起我国全面进入汛期 南方地区进入主汛期 水利部扎实做好水旱灾害防范应对工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_6月1日",
+      "name": "6月1日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_王晓晖对泸定6.8级地震作出批示强调",
+      "name": "王晓晖对泸定6.8级地震作出批示强调",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_古浪县开展水库防汛防震综合应急演练",
+      "name": "古浪县开展水库防汛防震综合应急演练",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_结合当地山区",
+      "name": "结合当地山区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "ORGANIZATION_提升了基层应急队",
+      "name": "提升了基层应急队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_持续滚动｜台风眼已打开，上海市气象局升级台风Ⅰ级应急响应_浦江头条_澎湃新闻-The Paper",
+      "name": "持续滚动｜台风眼已打开，上海市气象局升级台风Ⅰ级应急响应_浦江头条_澎湃新闻-The Paper",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_浦东新区",
+      "name": "浦东新区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月15日14时",
+      "name": "9月15日14时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_南方降雨减弱高温范围收缩 北方多地晴热天气发展-新华网",
+      "name": "南方降雨减弱高温范围收缩 北方多地晴热天气发展-新华网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_谨慎前往山区",
+      "name": "谨慎前往山区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_地震灾区村民互帮互助建起临时安置点 青青儿童乐园开园了- 四川省人民政府网站",
+      "name": "地震灾区村民互帮互助建起临时安置点 青青儿童乐园开园了- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_还有雅安市石棉县",
+      "name": "还有雅安市石棉县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月6日7时",
+      "name": "9月6日7时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "name": "中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_5月18日11时",
+      "name": "5月18日11时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_四川甘孜州泸定县发生6.8级地震 震源深度16千米- 四川省人民政府网站",
+      "name": "四川甘孜州泸定县发生6.8级地震 震源深度16千米- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_四川甘孜州泸定县",
+      "name": "四川甘孜州泸定县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2022年09月05日",
+      "name": "2022年09月05日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_周末南方新一轮降雨来袭暴雨连成片 东北华北凉意十足-中新网",
+      "name": "周末南方新一轮降雨来袭暴雨连成片 东北华北凉意十足-中新网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_广西",
+      "name": "广西",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2026年06月06日",
+      "name": "2026年06月06日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_四川省安办发布紧急通知 部署泸定县6.8级地震后安全生产工作- 四川省人民政府网站",
+      "name": "四川省安办发布紧急通知 部署泸定县6.8级地震后安全生产工作- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "name": "台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_福州市闽清县",
+      "name": "福州市闽清县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_7月29日8时",
+      "name": "7月29日8时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ECONOMIC_LOSS_直接经济损失4.28亿元",
+      "name": "直接经济损失4.28亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_投入3059人",
+      "name": "投入3059人",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "name": "主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_当前主雨区",
+      "name": "当前主雨区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "name": "暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DISASTER_TYPE_暴雪",
+      "name": "暴雪",
+      "type": "DISASTER_TYPE",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "id": "LOCATION_沈阳市和平区",
+      "name": "沈阳市和平区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2023年11月05日12时42分",
+      "name": "2023年11月05日12时42分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_启动吉林省暴雪冰冻灾害四级应急响应",
+      "name": "启动吉林省暴雪冰冻灾害四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_启动四级应急响应",
+      "name": "启动四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_日我市气象灾害应急指挥部",
+      "name": "日我市气象灾害应急指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "name": "广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_桂林平乐县",
+      "name": "桂林平乐县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_6月22日",
+      "name": "6月22日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ECONOMIC_LOSS_直接经济损失26.8亿元",
+      "name": "直接经济损失26.8亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_平乐水上应急救援队",
+      "name": "平乐水上应急救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_乐县水上应急救援队",
+      "name": "乐县水上应急救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_人的临时抢险救援队",
+      "name": "人的临时抢险救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_队半专业防汛救援队",
+      "name": "队半专业防汛救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_县级专业防汛救援队",
+      "name": "县级专业防汛救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_西壮族自治区应急管理厅",
+      "name": "西壮族自治区应急管理厅",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "name": "我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_中国地震局发布广西柳州5.2级震群地震烈度图",
+      "name": "中国地震局发布广西柳州5.2级震群地震烈度图",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_广西壮族自治区柳州市柳南区太阳村镇",
+      "name": "广西壮族自治区柳州市柳南区太阳村镇",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2026年5月18日00时21分",
+      "name": "2026年5月18日00时21分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "name": "主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_5月19日",
+      "name": "5月19日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_四川省民政厅：全力做好泸定6.8级地震灾害民政服务保障工作- 四川省人民政府网站",
+      "name": "四川省民政厅：全力做好泸定6.8级地震灾害民政服务保障工作- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_9月5日",
+      "name": "9月5日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "name": "王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_启动国家地震应急三级响应",
+      "name": "启动国家地震应急三级响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_对做好抗震救灾工作进行安排部",
+      "name": "对做好抗震救灾工作进行安排部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_部队官兵和当地干部",
+      "name": "部队官兵和当地干部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "name": "江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_乐平市涌山镇",
+      "name": "乐平市涌山镇",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月22日16时30分",
+      "name": "5月22日16时30分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ECONOMIC_LOSS_直接经济损失2.7亿元",
+      "name": "直接经济损失2.7亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_据江西省",
+      "name": "据江西省",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "name": "甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_甘肃省甘南藏族自治州夏河县",
+      "name": "甘肃省甘南藏族自治州夏河县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2023-07-12\n14:22:48",
+      "name": "2023-07-12\n14:22:48",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难2人，受伤7人，失踪2人",
+      "name": "遇难2人，受伤7人，失踪2人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_启动防汛抗洪四级应急响应",
+      "name": "启动防汛抗洪四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_启动了地质灾害三级应急响应",
+      "name": "启动了地质灾害三级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_甘南州消防救援支队",
+      "name": "甘南州消防救援支队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_救援部",
+      "name": "救援部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_多米尼加遭暴雨侵袭 遇难人数升至24人",
+      "name": "多米尼加遭暴雨侵袭 遇难人数升至24人",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DISASTER_TYPE_山体滑坡",
+      "name": "山体滑坡",
+      "type": "DISASTER_TYPE",
+      "category": 1,
+      "symbolSize": 30
+    },
+    {
+      "id": "TIME_2023-11-21\n06:59:17",
+      "name": "2023-11-21\n06:59:17",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难24人",
+      "name": "遇难24人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_多米尼加应急行动中心",
+      "name": "多米尼加应急行动中心",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金 支持湖南、重庆等5省（区、市）做好自然",
+      "name": "财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金 支持湖南、重庆等5省（区、市）做好自然",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_5月26日",
+      "name": "5月26日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "name": "云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_镇雄县塘房镇",
+      "name": "镇雄县塘房镇",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_1月22日6时",
+      "name": "1月22日6时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难44人，失踪44人",
+      "name": "遇难44人，失踪44人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_云南省",
+      "name": "云南省",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_中国安能救援队",
+      "name": "中国安能救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "name": "习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_四川甘孜藏族自治州泸定县",
+      "name": "四川甘孜藏族自治州泸定县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "CASUALTIES_遇难21人",
+      "name": "遇难21人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_温州瑞安防御超强台风“轩岚诺”",
+      "name": "温州瑞安防御超强台风“轩岚诺”",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_温州市",
+      "name": "温州市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_8月31日14时",
+      "name": "8月31日14时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "name": "做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_洞头区",
+      "name": "洞头区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月3日15时",
+      "name": "9月3日15时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_洞头区消防救援大队",
+      "name": "洞头区消防救援大队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_辖区内各村应急队",
+      "name": "辖区内各村应急队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_李克强乘飞机前往雅安地震灾区指导抗震救灾工作",
+      "name": "李克强乘飞机前往雅安地震灾区指导抗震救灾工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_新疆托克逊县发生5.0级地震 暂未造成任何损失-中新网",
+      "name": "新疆托克逊县发生5.0级地震 暂未造成任何损失-中新网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_新疆吐鲁番市托克逊县",
+      "name": "新疆吐鲁番市托克逊县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月29日14时55分",
+      "name": "5月29日14时55分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_吐鲁番市",
+      "name": "吐鲁番市",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "name": "中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_2026年5月29日14时55分",
+      "name": "2026年5月29日14时55分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "name": "超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_海口市",
+      "name": "海口市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2024-09-08\n10:33:15",
+      "name": "2024-09-08\n10:33:15",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难1人",
+      "name": "遇难1人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ECONOMIC_LOSS_直接经济损失约263.24亿元",
+      "name": "直接经济损失约263.24亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_应急指挥部",
+      "name": "应急指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_辽宁启动防汛防台风Ⅲ级应急响应 已转移1.8万人",
+      "name": "辽宁启动防汛防台风Ⅲ级应急响应 已转移1.8万人",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_辽宁省大连市金普新区",
+      "name": "辽宁省大连市金普新区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月16日12时40分",
+      "name": "9月16日12时40分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "name": "国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_6月6日",
+      "name": "6月6日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "name": "甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_四川省甘孜州泸定县磨西镇",
+      "name": "四川省甘孜州泸定县磨西镇",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "CASUALTIES_遇难7人",
+      "name": "遇难7人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_甘孜州抗震救灾指挥部",
+      "name": "甘孜州抗震救灾指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "name": "主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "name": "芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "name": "四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_成立应急指挥部",
+      "name": "成立应急指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_就应急处置工作做出安排部",
+      "name": "就应急处置工作做出安排部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_新华社：全力迎接汛期“大考”--水利部介绍防汛备汛工作",
+      "name": "新华社：全力迎接汛期“大考”--水利部介绍防汛备汛工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_推进省区",
+      "name": "推进省区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "name": "跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_常德市石门县",
+      "name": "常德市石门县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "ORGANIZATION_我们提前将应急队",
+      "name": "我们提前将应急队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_调拨中央救灾物资的基础上，再次向石门县紧急下拨帐篷",
+      "name": "调拨中央救灾物资的基础上，再次向石门县紧急下拨帐篷",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_湖南省",
+      "name": "湖南省",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_局长沙基地的救援队",
+      "name": "局长沙基地的救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_南方强降雨减弱高温缓和 重庆贵州等地需警惕次生灾害-新华网",
+      "name": "南方强降雨减弱高温缓和 重庆贵州等地需警惕次生灾害-新华网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_湖南",
+      "name": "湖南",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月28日",
+      "name": "5月28日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_广东省水利厅部署2026年“龙舟水”防御工作",
+      "name": "广东省水利厅部署2026年“龙舟水”防御工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_5月21日",
+      "name": "5月21日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_省各流域管理局",
+      "name": "省各流域管理局",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "name": "国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_四川",
+      "name": "四川",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "ORGANIZATION_调拨发放基本救灾物资",
+      "name": "调拨发放基本救灾物资",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_安全生产应急救援队",
+      "name": "安全生产应急救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_自然灾害工程救援中心",
+      "name": "自然灾害工程救援中心",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_宁波慈溪市观海卫：台风“轩岚诺”渐近 干群连心共抗风雨",
+      "name": "宁波慈溪市观海卫：台风“轩岚诺”渐近 干群连心共抗风雨",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_宁波慈溪市",
+      "name": "宁波慈溪市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月4日",
+      "name": "9月4日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_四川要求迅速开展地震灾区校舍安全和危房排查- 四川省人民政府网站",
+      "name": "四川要求迅速开展地震灾区校舍安全和危房排查- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_雅安市",
+      "name": "雅安市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月6日",
+      "name": "9月6日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_应急等部",
+      "name": "应急等部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_应急管理部针对重庆、广西启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "name": "应急管理部针对重庆、广西启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "name": "紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_安徽省黄山市徽州区潜口镇唐模村",
+      "name": "安徽省黄山市徽州区潜口镇唐模村",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_6月20日23时30分",
+      "name": "6月20日23时30分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ECONOMIC_LOSS_5亿元",
+      "name": "5亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_下拨救灾资金，迅速调运发放救灾物资",
+      "name": "下拨救灾资金，迅速调运发放救灾物资",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_省减灾救灾委",
+      "name": "省减灾救灾委",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_低温+暴雪+冰冻！1.41亿元，紧急下达",
+      "name": "低温+暴雪+冰冻！1.41亿元，紧急下达",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_浙江中西部山区",
+      "name": "浙江中西部山区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2024-02-07\n08:08:06",
+      "name": "2024-02-07\n08:08:06",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "name": "台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_陵水等市",
+      "name": "陵水等市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月7日15时",
+      "name": "9月7日15时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难4人，受伤4人",
+      "name": "遇难4人，受伤4人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ECONOMIC_LOSS_260亿元",
+      "name": "260亿元",
+      "type": "ECONOMIC_LOSS",
+      "category": 5,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_我省消防救援队",
+      "name": "我省消防救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_全省消防救援队",
+      "name": "全省消防救援队",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_抢运抢险救灾",
+      "name": "抢运抢险救灾",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "name": "主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_江苏",
+      "name": "江苏",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "name": "国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_健全跨区",
+      "name": "健全跨区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月17日",
+      "name": "5月17日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_两部门再次紧急预拨1.6亿元中央自然灾害救灾资金-新华网",
+      "name": "两部门再次紧急预拨1.6亿元中央自然灾害救灾资金-新华网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作--中华人民共和国应急管理部",
+      "name": "国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_广西柳州",
+      "name": "广西柳州",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_利比亚飓风灾害凸显北约干涉遗祸-新华网",
+      "name": "利比亚飓风灾害凸显北约干涉遗祸-新华网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_缺乏良好市",
+      "name": "缺乏良好市",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月21日",
+      "name": "9月21日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难3958人",
+      "name": "遇难3958人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_今年暴雨为何来得这么早、这么强--社会·法治--人民网",
+      "name": "今年暴雨为何来得这么早、这么强--社会·法治--人民网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_远离山区",
+      "name": "远离山区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_5月25日6时",
+      "name": "5月25日6时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "name": "地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_2022年9月5日12时52分",
+      "name": "2022年9月5日12时52分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "name": "多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_广州全市各区",
+      "name": "广州全市各区",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_9月22日18时",
+      "name": "9月22日18时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_启动防台风二级响应",
+      "name": "启动防台风二级响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_启动防汛防台风四级应急响应",
+      "name": "启动防汛防台风四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_启动二级响应",
+      "name": "启动二级响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_广州市气象灾害应急指挥部",
+      "name": "广州市气象灾害应急指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "ORGANIZATION_香港机场管理局",
+      "name": "香港机场管理局",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_短视频|全国森林草原火灾24小时扑灭率达90%--中华人民共和国应急管理部",
+      "name": "短视频|全国森林草原火灾24小时扑灭率达90%--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "name": "国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_5月23日",
+      "name": "5月23日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "name": "泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_9月5日23时30分",
+      "name": "9月5日23时30分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "CASUALTIES_遇难46人，失踪16人",
+      "name": "遇难46人，失踪16人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_地震灾区已排查地灾隐患点501处 转移受威胁群众11252人- 四川省人民政府网站",
+      "name": "地震灾区已排查地灾隐患点501处 转移受威胁群众11252人- 四川省人民政府网站",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_9月6日12时",
+      "name": "9月6日12时",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_投入448人",
+      "name": "投入448人",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "name": "湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_衡阳市南岳区寿岳乡岳林村",
+      "name": "衡阳市南岳区寿岳乡岳林村",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "CASUALTIES_遇难15人，受伤6人",
+      "name": "遇难15人，受伤6人",
+      "type": "CASUALTIES",
+      "category": 4,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_记者从湖南省应急指挥中心",
+      "name": "记者从湖南省应急指挥中心",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_一图读懂丨今年秋冬季森林草原火灾形势--中华人民共和国应急管理部",
+      "name": "一图读懂丨今年秋冬季森林草原火灾形势--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_2021年11月08日",
+      "name": "2021年11月08日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_泸定6.8级地震次生地灾排查启动",
+      "name": "泸定6.8级地震次生地灾排查启动",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_甘孜州及泸定县",
+      "name": "甘孜州及泸定县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "DOCUMENT_南方降雨过程频繁 国家防总办公室、应急管理部会商部署重点地区防汛抢险救灾工作--中华人民共和国应急管",
+      "name": "南方降雨过程频繁 国家防总办公室、应急管理部会商部署重点地区防汛抢险救灾工作--中华人民共和国应急管",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "TIME_4月21日",
+      "name": "4月21日",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "DOCUMENT_短视频|公安机关在森林草原火灾处置中开展工作情况--中华人民共和国应急管理部",
+      "name": "短视频|公安机关在森林草原火灾处置中开展工作情况--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "DOCUMENT_南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "name": "南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "ORGANIZATION_启动针对贵州的防汛四级应急响应",
+      "name": "启动针对贵州的防汛四级应急响应",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    },
+    {
+      "id": "DOCUMENT_台风“梅花”将于9月14日登陆浙江",
+      "name": "台风“梅花”将于9月14日登陆浙江",
+      "type": "DOCUMENT",
+      "category": 0,
+      "symbolSize": 20
+    },
+    {
+      "id": "LOCATION_浙江省象山县",
+      "name": "浙江省象山县",
+      "type": "LOCATION",
+      "category": 2,
+      "symbolSize": 25
+    },
+    {
+      "id": "TIME_2022年9月13日7时35分",
+      "name": "2022年9月13日7时35分",
+      "type": "TIME",
+      "category": 3,
+      "symbolSize": 15
+    },
+    {
+      "id": "ORGANIZATION_要求省级气象服务业务应急响应指挥部",
+      "name": "要求省级气象服务业务应急响应指挥部",
+      "type": "ORGANIZATION",
+      "category": 7,
+      "symbolSize": 18
+    }
+  ],
+  "links": [
+    {
+      "source": "DOCUMENT_国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "target": "TIME_5月16日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛四级应急响应",
+      "target": "DOCUMENT_国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室滚动会商调度防汛工作 针对湖北重庆启动防汛四级应急响应",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国家地震烈度速报预警 - 西藏自治区地震局",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国家地震烈度速报预警 - 西藏自治区地震局",
+      "target": "LOCATION_西藏自治区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_国家地震烈度速报预警 - 西藏自治区地震局",
+      "target": "TIME_2023-09-13",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_国家地震烈度速报预警 - 西藏自治区地震局",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "target": "LOCATION_福建福清市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "target": "TIME_8月1日17时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "target": "ECONOMIC_LOSS_8亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "DOCUMENT_双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "DOCUMENT_双台风携豪雨致闽逾18万人受灾 直接经济损失超8亿元-中国新闻网",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "target": "LOCATION_四川省甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国务院抗震救灾指挥部",
+      "target": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_公安部",
+      "target": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国家地震应急响应级别提升至二级 国务院抗震救灾指挥部工作组紧急赴四川- 四川省人民政府网站",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "LOCATION_贵州",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "TIME_6月3日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动国家地质灾害四级应急响应",
+      "target": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对江西、湖南、贵州启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "target": "LOCATION_甘肃临夏州积石山县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "target": "TIME_12月18日23时59分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "target": "CASUALTIES_遇难105人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_甘肃省消防救援总队",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_青海省消防救援总队",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_地质灾害专业救援队",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_国家紧急医学救援队",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_家综合性消防救援队",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_国务院抗震救灾指挥部",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_国家消防救援局",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_超百人遇难！救援力量紧急赶赴！甘肃地震为何造成重大人员伤亡？_澎湃号·政务_澎湃新闻-The Pap",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_福建三市启动防台风Ⅰ级应急响应！福州机场取消80余个航班！",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_福建三市启动防台风Ⅰ级应急响应！福州机场取消80余个航班！",
+      "target": "LOCATION_福建三市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_福建三市启动防台风Ⅰ级应急响应！福州机场取消80余个航班！",
+      "target": "TIME_2024年7月24日16时00分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_福建三市启动防台风Ⅰ级应急响应！福州机场取消80余个航班！",
+      "target": "RESPONSE_Ⅰ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "DOCUMENT_福建三市启动防台风Ⅰ级应急响应！福州机场取消80余个航班！",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对安徽启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对安徽启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动国家地质灾害四级应急响应",
+      "target": "DOCUMENT_应急管理部针对安徽启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_应急管理部针对安徽启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对安徽启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "target": "LOCATION_河北省承德市滦平县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "target": "TIME_7月28日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "target": "RESPONSE_Ⅰ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动全市防汛一级应急响应",
+      "target": "DOCUMENT_搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_搜救转移、保供保电、抢修抢通……攥指成拳向“汛”而行 打赢抗洪救灾“遭遇战”_新闻频道_央视网(cc",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_[新华社]冬季来临，受灾群众救助情况如何？权威回应来了--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_[新华社]冬季来临，受灾群众救助情况如何？权威回应来了--中华人民共和国应急管理部",
+      "target": "CASUALTIES_遇难590人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_[新华社]冬季来临，受灾群众救助情况如何？权威回应来了--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_[新华社]冬季来临，受灾群众救助情况如何？权威回应来了--中华人民共和国应急管理部",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "target": "LOCATION_四川省雅安市芦山县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "target": "TIME_２０１３年４月２０日８时２分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_一批批救援队",
+      "target": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_他当即要求救灾部队和相关部",
+      "target": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_李克强乘直升机进入震中灾区 察看灾情指导救灾_李克强_中国政府网",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_森林消防总队",
+      "target": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动二级应急响应",
+      "target": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_协调省",
+      "target": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_泸定县等应急管理局",
+      "target": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_省抗震救灾指挥部",
+      "target": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_省通信管理局等省级部",
+      "target": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_甘孜州泸定县发生6.8级地震 省抗震救灾指挥部已启动二级应急响应- 四川省人民政府网站",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_南方降雨带有所南压 东北有大范围降雨--社会·法治--人民网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_南方降雨带有所南压 东北有大范围降雨--社会·法治--人民网",
+      "target": "LOCATION_贵州",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_南方降雨带有所南压 东北有大范围降雨--社会·法治--人民网",
+      "target": "TIME_6月4日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_南方降雨带有所南压 东北有大范围降雨--社会·法治--人民网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "target": "LOCATION_指令象山县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "target": "TIME_5月10日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "target": "RESPONSE_Ⅰ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国家防汛抗旱总指挥部",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛二级应急响应",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_消防救援队",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动防台风一级响应",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_掌握救援队",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_确保救援队",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_浙江省立即开设社会应急力量现场协调中心",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_解放军和武警部",
+      "target": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_“一盘棋”统筹推进 全方位实战实练 联合救援演习锤炼防汛防台风能力",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_阳泉市人民政府门户网站-既要转移得快还要安置得好",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_阳泉市人民政府门户网站-既要转移得快还要安置得好",
+      "target": "LOCATION_平定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_阳泉市人民政府门户网站-既要转移得快还要安置得好",
+      "target": "TIME_7月30日15时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_阳泉市人民政府门户网站-既要转移得快还要安置得好",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_水利部召开新闻通气会介绍水旱灾害防御工作情况",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_水利部召开新闻通气会介绍水旱灾害防御工作情况",
+      "target": "TIME_5月29日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_水利部坚决贯彻习近平总书记关于防汛抗旱救灾工作重要指示批示精神和在中共中央政治局",
+      "target": "DOCUMENT_水利部召开新闻通气会介绍水旱灾害防御工作情况",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_水利部召开新闻通气会介绍水旱灾害防御工作情况",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_陕西今年暴雨洪水造成77.5万人次受灾 直接经济损失约40亿元-中国新闻网",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_陕西今年暴雨洪水造成77.5万人次受灾 直接经济损失约40亿元-中国新闻网",
+      "target": "LOCATION_特别是洛南县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_陕西今年暴雨洪水造成77.5万人次受灾 直接经济损失约40亿元-中国新闻网",
+      "target": "TIME_8月10日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_陕西今年暴雨洪水造成77.5万人次受灾 直接经济损失约40亿元-中国新闻网",
+      "target": "ECONOMIC_LOSS_直接经济损失约40亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "DOCUMENT_陕西今年暴雨洪水造成77.5万人次受灾 直接经济损失约40亿元-中国新闻网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商研判近期南方新一轮强降雨过程 部署重点地区防范应对工作--中华人民共和",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商研判近期南方新一轮强降雨过程 部署重点地区防范应对工作--中华人民共和",
+      "target": "TIME_4月25日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国家防总办公室、应急管理部会商研判近期南方新一轮强降雨过程 部署重点地区防范应对工作--中华人民共和",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商研判近期南方新一轮强降雨过程 部署重点地区防范应对工作--中华人民共和",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_四川省气象局启动地震灾害气象服务Ⅲ级应急响应- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_四川省气象局启动地震灾害气象服务Ⅲ级应急响应- 四川省人民政府网站",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_四川省气象局启动地震灾害气象服务Ⅲ级应急响应- 四川省人民政府网站",
+      "target": "TIME_9月5日20时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_四川省气象局启动地震灾害气象服务Ⅲ级应急响应- 四川省人民政府网站",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "DOCUMENT_四川省气象局启动地震灾害气象服务Ⅲ级应急响应- 四川省人民政府网站",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_应对强降雨 辽宁鞍山转移安置人员近1.8万人_新闻频道_央视网(cctv.com)",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_应对强降雨 辽宁鞍山转移安置人员近1.8万人_新闻频道_央视网(cctv.com)",
+      "target": "LOCATION_辽宁省鞍山市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_应对强降雨 辽宁鞍山转移安置人员近1.8万人_新闻频道_央视网(cctv.com)",
+      "target": "TIME_8月13日8时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_调拨救灾物资4000床棉被",
+      "target": "DOCUMENT_应对强降雨 辽宁鞍山转移安置人员近1.8万人_新闻频道_央视网(cctv.com)",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_应对强降雨 辽宁鞍山转移安置人员近1.8万人_新闻频道_央视网(cctv.com)",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "target": "LOCATION_贵港市港北区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "target": "TIME_5月11日12时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "target": "ECONOMIC_LOSS_直接经济损失1.04亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_广西应急管理厅",
+      "target": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_对预报强对流天气影响区域市县应急局",
+      "target": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_广西强降雨天气致多地洪涝灾害 造成直接经济损失1.04亿元-中国新闻网",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_雨水兵分三路 东北华北华南有较强降雨--社会·法治--人民网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_雨水兵分三路 东北华北华南有较强降雨--社会·法治--人民网",
+      "target": "LOCATION_台湾省高雄市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_雨水兵分三路 东北华北华南有较强降雨--社会·法治--人民网",
+      "target": "TIME_6月5日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_雨水兵分三路 东北华北华南有较强降雨--社会·法治--人民网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "target": "TIME_5月14日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛四级应急响应",
+      "target": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_水利部专题部署主汛期防汛工作",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_水利部专题部署主汛期防汛工作",
+      "target": "LOCATION_等重点区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_水利部专题部署主汛期防汛工作",
+      "target": "TIME_6月3日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_水利部专题部署主汛期防汛工作",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "LOCATION_重庆市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛四级应急响应",
+      "target": "DOCUMENT_江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_江南江汉江淮黄淮等地强降雨持续 国家防总针对安徽启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "target": "LOCATION_贵州",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "target": "TIME_6月3日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动国家地质灾害四级应急响应",
+      "target": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_应急管理部对三地启动国家地质灾害四级应急响应-新华网",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_短视频|森林草原火灾风险普查完成率达97.1%--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_火灾",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_短视频|森林草原火灾风险普查完成率达97.1%--中华人民共和国应急管理部",
+      "target": "TIME_2022年4月12日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_短视频|森林草原火灾风险普查完成率达97.1%--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_短视频|森林草原火灾风险普查完成率达97.1%--中华人民共和国应急管理部",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "target": "LOCATION_广西柳州市柳南区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "target": "TIME_5月18日00时21分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国务院抗震救灾指挥部",
+      "target": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_国家消防救援局",
+      "target": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动国家地震灾害四级应急响应",
+      "target": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_广西柳州市柳南区发生5.2级地震 国务院抗震救灾指挥部办公室、应急管理部启动国家地震灾害四级应急响应",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "target": "LOCATION_四川省甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动地震灾害二级应急响应",
+      "target": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_雅安市",
+      "target": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_市抗震救灾指挥部",
+      "target": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_雅安市启动地震灾害二级应急响应- 四川省人民政府网站",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_向震中挺进 为生命驰援",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_向震中挺进 为生命驰援",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_向震中挺进 为生命驰援",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_前期渡河的消防队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_的不止这一支救援队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_德阳两地的消防队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_省森林消防总队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_省消防救援总队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_资阳的消防队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_螺沟景区消防救援大队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_几十名消防队",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_武警部",
+      "target": "DOCUMENT_向震中挺进 为生命驰援",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_向震中挺进 为生命驰援",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_厦门市组织开展山洪灾害防御应急演练",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_厦门市组织开展山洪灾害防御应急演练",
+      "target": "LOCATION_厦门市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_厦门市组织开展山洪灾害防御应急演练",
+      "target": "TIME_5月25日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_厦门市组织开展山洪灾害防御应急演练",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_湖北省水利厅召开视频调度会推进防汛抗旱工作",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_湖北省水利厅召开视频调度会推进防汛抗旱工作",
+      "target": "LOCATION_神农架林区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_湖北省水利厅召开视频调度会推进防汛抗旱工作",
+      "target": "TIME_5月1日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_湖北省水利厅召开视频调度会推进防汛抗旱工作",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”9月12日起开始影响杭州 节后带来较大风雨",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”9月12日起开始影响杭州 节后带来较大风雨",
+      "target": "LOCATION_浙江省",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”9月12日起开始影响杭州 节后带来较大风雨",
+      "target": "TIME_9月10日11时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”9月12日起开始影响杭州 节后带来较大风雨",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "target": "LOCATION_向雅安市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "target": "TIME_9月6日8时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "target": "CASUALTIES_受伤4人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_调拨省级救灾物资83580件，红十字会调拨救灾物资",
+      "target": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_省级医疗救援队",
+      "target": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_累计出动解放军和武警部",
+      "target": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_武警部队",
+      "target": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_灾区受灾群众已全部得到转移安置- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "target": "LOCATION_北京市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "target": "TIME_8月1日6时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "target": "CASUALTIES_遇难11人，失踪27人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_海淀消防支队",
+      "target": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_北京市",
+      "target": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_蓝天救援队",
+      "target": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_北京此轮强降雨已致11人遇难，暴雨洪水来袭这样自救→_澎湃号·媒体_澎湃新闻-The Paper",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_人民日报：六月一日起我国全面进入汛期 南方地区进入主汛期",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_人民日报：六月一日起我国全面进入汛期 南方地区进入主汛期",
+      "target": "LOCATION_确保旱区城乡",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_人民日报：六月一日起我国全面进入汛期 南方地区进入主汛期",
+      "target": "TIME_2026年06月02日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_人民日报：六月一日起我国全面进入汛期 南方地区进入主汛期",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+      "target": "LOCATION_向雅安市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "ORGANIZATION_调拨补充救灾物资",
+      "target": "DOCUMENT_四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_四川省",
+      "target": "DOCUMENT_四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "target": "LOCATION_重庆市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "target": "TIME_2026-05-24 12:38",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_国家防减救灾委",
+      "target": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国家防减救灾委针对重庆启动国家四级救灾应急响应--中华人民共和国应急管理部",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_今日起我国全面进入汛期 南方地区进入主汛期 水利部扎实做好水旱灾害防范应对工作",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_今日起我国全面进入汛期 南方地区进入主汛期 水利部扎实做好水旱灾害防范应对工作",
+      "target": "LOCATION_确保旱区城乡",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_今日起我国全面进入汛期 南方地区进入主汛期 水利部扎实做好水旱灾害防范应对工作",
+      "target": "TIME_6月1日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_今日起我国全面进入汛期 南方地区进入主汛期 水利部扎实做好水旱灾害防范应对工作",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_王晓晖对泸定6.8级地震作出批示强调",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_王晓晖对泸定6.8级地震作出批示强调",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_王晓晖对泸定6.8级地震作出批示强调",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_王晓晖对泸定6.8级地震作出批示强调",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_古浪县开展水库防汛防震综合应急演练",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_古浪县开展水库防汛防震综合应急演练",
+      "target": "LOCATION_结合当地山区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "ORGANIZATION_提升了基层应急队",
+      "target": "DOCUMENT_古浪县开展水库防汛防震综合应急演练",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_古浪县开展水库防汛防震综合应急演练",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_持续滚动｜台风眼已打开，上海市气象局升级台风Ⅰ级应急响应_浦江头条_澎湃新闻-The Paper",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_持续滚动｜台风眼已打开，上海市气象局升级台风Ⅰ级应急响应_浦江头条_澎湃新闻-The Paper",
+      "target": "LOCATION_浦东新区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_持续滚动｜台风眼已打开，上海市气象局升级台风Ⅰ级应急响应_浦江头条_澎湃新闻-The Paper",
+      "target": "TIME_9月15日14时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_持续滚动｜台风眼已打开，上海市气象局升级台风Ⅰ级应急响应_浦江头条_澎湃新闻-The Paper",
+      "target": "RESPONSE_Ⅰ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "DOCUMENT_持续滚动｜台风眼已打开，上海市气象局升级台风Ⅰ级应急响应_浦江头条_澎湃新闻-The Paper",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_南方降雨减弱高温范围收缩 北方多地晴热天气发展-新华网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_南方降雨减弱高温范围收缩 北方多地晴热天气发展-新华网",
+      "target": "LOCATION_谨慎前往山区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_南方降雨减弱高温范围收缩 北方多地晴热天气发展-新华网",
+      "target": "TIME_5月29日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_南方降雨减弱高温范围收缩 北方多地晴热天气发展-新华网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_地震灾区村民互帮互助建起临时安置点 青青儿童乐园开园了- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_地震灾区村民互帮互助建起临时安置点 青青儿童乐园开园了- 四川省人民政府网站",
+      "target": "LOCATION_还有雅安市石棉县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_地震灾区村民互帮互助建起临时安置点 青青儿童乐园开园了- 四川省人民政府网站",
+      "target": "TIME_9月6日7时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_地震灾区村民互帮互助建起临时安置点 青青儿童乐园开园了- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "target": "TIME_5月18日11时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛四级应急响应",
+      "target": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_中东部大范围强降水过程正处于最强阶段 国家防总针对湖南广西启动防汛四级应急响应 加派工作组赴一线指导",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定县发生6.8级地震 震源深度16千米- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定县发生6.8级地震 震源深度16千米- 四川省人民政府网站",
+      "target": "LOCATION_四川甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定县发生6.8级地震 震源深度16千米- 四川省人民政府网站",
+      "target": "TIME_2022年09月05日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定县发生6.8级地震 震源深度16千米- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_周末南方新一轮降雨来袭暴雨连成片 东北华北凉意十足-中新网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_周末南方新一轮降雨来袭暴雨连成片 东北华北凉意十足-中新网",
+      "target": "LOCATION_广西",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_周末南方新一轮降雨来袭暴雨连成片 东北华北凉意十足-中新网",
+      "target": "TIME_2026年06月06日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_周末南方新一轮降雨来袭暴雨连成片 东北华北凉意十足-中新网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_四川省安办发布紧急通知 部署泸定县6.8级地震后安全生产工作- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_四川省安办发布紧急通知 部署泸定县6.8级地震后安全生产工作- 四川省人民政府网站",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_四川省安办发布紧急通知 部署泸定县6.8级地震后安全生产工作- 四川省人民政府网站",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_四川省安办发布紧急通知 部署泸定县6.8级地震后安全生产工作- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "target": "LOCATION_福州市闽清县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "target": "TIME_7月29日8时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "target": "ECONOMIC_LOSS_直接经济损失4.28亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_消防救援队",
+      "target": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_投入3059人",
+      "target": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_台风“杜苏芮”致福建88万余人受灾 直接经济损失逾4亿元-中新网",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "target": "LOCATION_当前主雨区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作--中华",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "target": "DISASTER_TYPE_暴雪",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "target": "LOCATION_沈阳市和平区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "target": "TIME_2023年11月05日12时42分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动吉林省暴雪冰冻灾害四级应急响应",
+      "target": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动四级应急响应",
+      "target": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_日我市气象灾害应急指挥部",
+      "target": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_暴雪将至！列车停运！两地通知明日居家上课、停课……沈阳发布寒潮黄色预警！低温雨雪冰冻灾害四级预警！",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "target": "LOCATION_桂林平乐县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "target": "TIME_6月22日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "target": "ECONOMIC_LOSS_直接经济损失26.8亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "ORGANIZATION_蓝天救援队",
+      "target": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_平乐水上应急救援队",
+      "target": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_乐县水上应急救援队",
+      "target": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_人的临时抢险救援队",
+      "target": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_队半专业防汛救援队",
+      "target": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_县级专业防汛救援队",
+      "target": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_西壮族自治区应急管理厅",
+      "target": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_广西9市57县出现洪涝灾害 紧急转移安置四万多人-中国新闻网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "TIME_5月14日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛四级应急响应",
+      "target": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_我国中东部将迎大范围降雨过程 国家防总针对广东贵州启动防汛四级应急响应--中华人民共和国应急管理部",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_中国地震局发布广西柳州5.2级震群地震烈度图",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_中国地震局发布广西柳州5.2级震群地震烈度图",
+      "target": "LOCATION_广西壮族自治区柳州市柳南区太阳村镇",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_中国地震局发布广西柳州5.2级震群地震烈度图",
+      "target": "TIME_2026年5月18日00时21分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_中国地震局发布广西柳州5.2级震群地震烈度图",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "target": "LOCATION_当前主雨区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "target": "TIME_5月19日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署 重点地区防汛救灾工作",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_四川省民政厅：全力做好泸定6.8级地震灾害民政服务保障工作- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_四川省民政厅：全力做好泸定6.8级地震灾害民政服务保障工作- 四川省人民政府网站",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_四川省民政厅：全力做好泸定6.8级地震灾害民政服务保障工作- 四川省人民政府网站",
+      "target": "TIME_9月5日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_四川省民政厅：全力做好泸定6.8级地震灾害民政服务保障工作- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国务院抗震救灾指挥部",
+      "target": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动国家地震应急三级响应",
+      "target": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动二级应急响应",
+      "target": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_省抗震救灾指挥部",
+      "target": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_对做好抗震救灾工作进行安排部",
+      "target": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_部队官兵和当地干部",
+      "target": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_王晓晖主持召开泸定地震抢险救灾工作调度会强调",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "target": "LOCATION_乐平市涌山镇",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "target": "TIME_5月22日16时30分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "target": "ECONOMIC_LOSS_直接经济损失2.7亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "ORGANIZATION_据江西省",
+      "target": "DOCUMENT_江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_江西多地出现山洪、内涝、山体滑坡！还好明天...",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "target": "LOCATION_甘肃省甘南藏族自治州夏河县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "target": "TIME_2023-07-12\n14:22:48",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "target": "CASUALTIES_遇难2人，受伤7人，失踪2人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛抗洪四级应急响应",
+      "target": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动了地质灾害三级应急响应",
+      "target": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_甘南州消防救援支队",
+      "target": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_救援部",
+      "target": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_甘肃夏河县泥石流灾害救援持续进行，受灾群众已被转移安置",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_多米尼加遭暴雨侵袭 遇难人数升至24人",
+      "target": "DISASTER_TYPE_山体滑坡",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_多米尼加遭暴雨侵袭 遇难人数升至24人",
+      "target": "TIME_2023-11-21\n06:59:17",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_多米尼加遭暴雨侵袭 遇难人数升至24人",
+      "target": "CASUALTIES_遇难24人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_多米尼加应急行动中心",
+      "target": "DOCUMENT_多米尼加遭暴雨侵袭 遇难人数升至24人",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_多米尼加遭暴雨侵袭 遇难人数升至24人",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金 支持湖南、重庆等5省（区、市）做好自然",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金 支持湖南、重庆等5省（区、市）做好自然",
+      "target": "TIME_5月26日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金 支持湖南、重庆等5省（区、市）做好自然",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金 支持湖南、重庆等5省（区、市）做好自然",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "target": "DISASTER_TYPE_山体滑坡",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "target": "LOCATION_镇雄县塘房镇",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "target": "TIME_1月22日6时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "target": "CASUALTIES_遇难44人，失踪44人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_云南省",
+      "target": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_中国安能救援队",
+      "target": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_云南镇雄山体滑坡灾害致44人遇难 转移安置群众918人",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "target": "LOCATION_四川甘孜藏族自治州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "target": "CASUALTIES_遇难21人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_解放军和武警部",
+      "target": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_武警部队",
+      "target": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_习近平对四川甘孜泸定县6.8级地震作出重要指示",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_温州瑞安防御超强台风“轩岚诺”",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_温州瑞安防御超强台风“轩岚诺”",
+      "target": "LOCATION_温州市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_温州瑞安防御超强台风“轩岚诺”",
+      "target": "TIME_8月31日14时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_温州瑞安防御超强台风“轩岚诺”",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "DOCUMENT_温州瑞安防御超强台风“轩岚诺”",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "target": "LOCATION_洞头区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "target": "TIME_9月3日15时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_洞头区消防救援大队",
+      "target": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_辖区内各村应急队",
+      "target": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_做足准备 严阵以待 温州洞头全力抗击台风“轩岚诺”",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_李克强乘飞机前往雅安地震灾区指导抗震救灾工作",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_李克强乘飞机前往雅安地震灾区指导抗震救灾工作",
+      "target": "LOCATION_四川省雅安市芦山县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_李克强乘飞机前往雅安地震灾区指导抗震救灾工作",
+      "target": "TIME_２０１３年４月２０日８时２分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_李克强乘飞机前往雅安地震灾区指导抗震救灾工作",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "DOCUMENT_李克强乘飞机前往雅安地震灾区指导抗震救灾工作",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_新疆托克逊县发生5.0级地震 暂未造成任何损失-中新网",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_新疆托克逊县发生5.0级地震 暂未造成任何损失-中新网",
+      "target": "LOCATION_新疆吐鲁番市托克逊县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_新疆托克逊县发生5.0级地震 暂未造成任何损失-中新网",
+      "target": "TIME_5月29日14时55分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_吐鲁番市",
+      "target": "DOCUMENT_新疆托克逊县发生5.0级地震 暂未造成任何损失-中新网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_新疆托克逊县发生5.0级地震 暂未造成任何损失-中新网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "target": "LOCATION_新疆吐鲁番市托克逊县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "target": "TIME_2026年5月29日14时55分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动四级应急响应",
+      "target": "DOCUMENT_中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_中国地震局迅即开展新疆吐鲁番市托克逊县5.0级地震应急处置工作",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "target": "LOCATION_海口市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "target": "TIME_2024-09-08\n10:33:15",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "target": "CASUALTIES_遇难1人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "target": "ECONOMIC_LOSS_直接经济损失约263.24亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "ORGANIZATION_应急指挥部",
+      "target": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_超强台风“摩羯”致海口直接经济损失约263.24亿元",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_辽宁启动防汛防台风Ⅲ级应急响应 已转移1.8万人",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_辽宁启动防汛防台风Ⅲ级应急响应 已转移1.8万人",
+      "target": "LOCATION_辽宁省大连市金普新区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_辽宁启动防汛防台风Ⅲ级应急响应 已转移1.8万人",
+      "target": "TIME_9月16日12时40分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_辽宁启动防汛防台风Ⅲ级应急响应 已转移1.8万人",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "DOCUMENT_辽宁启动防汛防台风Ⅲ级应急响应 已转移1.8万人",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "target": "LOCATION_贵州",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "target": "TIME_6月6日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动国家地质灾害四级应急响应",
+      "target": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛四级应急响应",
+      "target": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国家防总对重庆贵州启动防汛四级应急响应--社会·法治--人民网",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "target": "LOCATION_四川省甘孜州泸定县磨西镇",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "target": "TIME_9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "target": "CASUALTIES_遇难7人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_甘孜州抗震救灾指挥部",
+      "target": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_甘孜泸定6.8级地震已导致7人遇难 甘孜州启动Ⅱ级响应- 四川省人民政府网站",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "target": "LOCATION_当前主雨区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "target": "TIME_5月19日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_主雨区东移南压 多地强降雨持续 国家防总办公室 应急管理部持续会商部署重点地区防汛救灾工作",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "target": "LOCATION_四川省雅安市芦山县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "target": "TIME_２０１３年４月２０日８时２分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_武警部",
+      "target": "DOCUMENT_芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_芦山县7.0级地震 习近平作重要指示 李克强抵灾区",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "target": "TIME_2022年09月05日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_成立应急指挥部",
+      "target": "DOCUMENT_四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_就应急处置工作做出安排部",
+      "target": "DOCUMENT_四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_四川甘孜州泸定6.8级地震 省地震局启动二级地震应急响应- 四川省人民政府网站",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_新华社：全力迎接汛期“大考”--水利部介绍防汛备汛工作",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_新华社：全力迎接汛期“大考”--水利部介绍防汛备汛工作",
+      "target": "LOCATION_推进省区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_新华社：全力迎接汛期“大考”--水利部介绍防汛备汛工作",
+      "target": "TIME_5月29日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_新华社：全力迎接汛期“大考”--水利部介绍防汛备汛工作",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "target": "LOCATION_常德市石门县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "target": "TIME_5月26日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_我们提前将应急队",
+      "target": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_调拨中央救灾物资的基础上，再次向石门县紧急下拨帐篷",
+      "target": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_湖南省",
+      "target": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_局长沙基地的救援队",
+      "target": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_跟汛情“抢时间” 与洪水“比速度”--三湘大地防汛救灾一线扫描-新华网",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_南方强降雨减弱高温缓和 重庆贵州等地需警惕次生灾害-新华网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_南方强降雨减弱高温缓和 重庆贵州等地需警惕次生灾害-新华网",
+      "target": "LOCATION_湖南",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_南方强降雨减弱高温缓和 重庆贵州等地需警惕次生灾害-新华网",
+      "target": "TIME_5月28日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_南方强降雨减弱高温缓和 重庆贵州等地需警惕次生灾害-新华网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_广东省水利厅部署2026年“龙舟水”防御工作",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_广东省水利厅部署2026年“龙舟水”防御工作",
+      "target": "TIME_5月21日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_省各流域管理局",
+      "target": "DOCUMENT_广东省水利厅部署2026年“龙舟水”防御工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_广东省水利厅部署2026年“龙舟水”防御工作",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "target": "LOCATION_四川",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "ORGANIZATION_调拨发放基本救灾物资",
+      "target": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_家综合性消防救援队",
+      "target": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_国务院抗震救灾指挥部",
+      "target": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_安全生产应急救援队",
+      "target": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_自然灾害工程救援中心",
+      "target": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国务院抗震救灾指挥部工作组在四川震区指导开展抗震抢险救灾工作- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_宁波慈溪市观海卫：台风“轩岚诺”渐近 干群连心共抗风雨",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_宁波慈溪市观海卫：台风“轩岚诺”渐近 干群连心共抗风雨",
+      "target": "LOCATION_宁波慈溪市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_宁波慈溪市观海卫：台风“轩岚诺”渐近 干群连心共抗风雨",
+      "target": "TIME_9月4日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_宁波慈溪市观海卫：台风“轩岚诺”渐近 干群连心共抗风雨",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_四川要求迅速开展地震灾区校舍安全和危房排查- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_四川要求迅速开展地震灾区校舍安全和危房排查- 四川省人民政府网站",
+      "target": "LOCATION_雅安市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_四川要求迅速开展地震灾区校舍安全和危房排查- 四川省人民政府网站",
+      "target": "TIME_9月6日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急等部",
+      "target": "DOCUMENT_四川要求迅速开展地震灾区校舍安全和危房排查- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_四川要求迅速开展地震灾区校舍安全和危房排查- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对重庆、广西启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对重庆、广西启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动国家地质灾害四级应急响应",
+      "target": "DOCUMENT_应急管理部针对重庆、广西启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_应急管理部针对重庆、广西启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_应急管理部针对重庆、广西启动国家地质灾害四级应急响应--中华人民共和国应急管理部",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "target": "LOCATION_安徽省黄山市徽州区潜口镇唐模村",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "target": "TIME_6月20日23时30分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "target": "ECONOMIC_LOSS_5亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "target": "RESPONSE_Ⅲ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛二级应急响应",
+      "target": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛四级应急响应",
+      "target": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_下拨救灾资金，迅速调运发放救灾物资",
+      "target": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_省减灾救灾委",
+      "target": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_紧急转移安置10976人，安徽黄山市启动Ⅲ级救灾应急响应_绿政公署_澎湃新闻-The Paper",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_低温+暴雪+冰冻！1.41亿元，紧急下达",
+      "target": "DISASTER_TYPE_暴雪",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_低温+暴雪+冰冻！1.41亿元，紧急下达",
+      "target": "LOCATION_浙江中西部山区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_低温+暴雪+冰冻！1.41亿元，紧急下达",
+      "target": "TIME_2024-02-07\n08:08:06",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_低温+暴雪+冰冻！1.41亿元，紧急下达",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "target": "LOCATION_陵水等市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "target": "TIME_9月7日15时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "target": "CASUALTIES_遇难4人，受伤4人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "target": "ECONOMIC_LOSS_260亿元",
+      "label": "LOST"
+    },
+    {
+      "source": "ORGANIZATION_我省消防救援队",
+      "target": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_全省消防救援队",
+      "target": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_抢运抢险救灾",
+      "target": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急指挥部",
+      "target": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_台风“摩羯”造成海南省至少52万人受灾 初步估计经济损失远超“威马逊”",
+      "target": "SEVERITY_较大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "target": "LOCATION_江苏",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "target": "TIME_5月25日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_主雨带逐步东移南压 多地强降雨持续 国家防总办公室组织多部门滚动会商部署防范应对--中华人民共和国应",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "target": "LOCATION_健全跨区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "target": "TIME_5月17日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国家防总办公室、应急管理部会商部署重点地区防汛工作--社会·法治--人民网",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_两部门再次紧急预拨1.6亿元中央自然灾害救灾资金-新华网",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_两部门再次紧急预拨1.6亿元中央自然灾害救灾资金-新华网",
+      "target": "TIME_5月26日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_两部门再次紧急预拨1.6亿元中央自然灾害救灾资金-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_两部门再次紧急预拨1.6亿元中央自然灾害救灾资金-新华网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作--中华人民共和国应急管理部",
+      "target": "LOCATION_广西柳州",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作--中华人民共和国应急管理部",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_利比亚飓风灾害凸显北约干涉遗祸-新华网",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_利比亚飓风灾害凸显北约干涉遗祸-新华网",
+      "target": "LOCATION_缺乏良好市",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_利比亚飓风灾害凸显北约干涉遗祸-新华网",
+      "target": "TIME_9月21日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_利比亚飓风灾害凸显北约干涉遗祸-新华网",
+      "target": "CASUALTIES_遇难3958人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "DOCUMENT_利比亚飓风灾害凸显北约干涉遗祸-新华网",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_今年暴雨为何来得这么早、这么强--社会·法治--人民网",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_今年暴雨为何来得这么早、这么强--社会·法治--人民网",
+      "target": "LOCATION_远离山区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_今年暴雨为何来得这么早、这么强--社会·法治--人民网",
+      "target": "TIME_5月25日6时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_今年暴雨为何来得这么早、这么强--社会·法治--人民网",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "target": "LOCATION_四川甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "target": "TIME_2022年9月5日12时52分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动二级应急响应",
+      "target": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_成立应急指挥部",
+      "target": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_地震局专家回应：泸定发生更大地震可能性不大 但余震活动仍将持续一段时间- 四川省人民政府网站",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "target": "DISASTER_TYPE_台风",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "target": "LOCATION_广州全市各区",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "target": "TIME_9月22日18时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动防台风二级响应",
+      "target": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动防汛防台风四级应急响应",
+      "target": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_启动二级响应",
+      "target": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_广州市气象灾害应急指挥部",
+      "target": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_香港机场管理局",
+      "target": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_多地启动应急响应防范超强台风来袭 全力保障人民生命和财产安全_新闻频道_央视网(cctv.com)",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_短视频|全国森林草原火灾24小时扑灭率达90%--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_火灾",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_短视频|全国森林草原火灾24小时扑灭率达90%--中华人民共和国应急管理部",
+      "target": "TIME_2022年4月12日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_短视频|全国森林草原火灾24小时扑灭率达90%--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_短视频|全国森林草原火灾24小时扑灭率达90%--中华人民共和国应急管理部",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "target": "LOCATION_广西柳州",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "target": "TIME_5月23日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_国家防灾减灾救灾委",
+      "target": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_国务院工作组赴广西柳州地震灾区指导进一步做好抗震救灾和灾后恢复重建等工作",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "target": "LOCATION_甘孜州泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "target": "TIME_9月5日23时30分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "target": "CASUALTIES_遇难46人，失踪16人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_累计出动解放军和武警部",
+      "target": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_武警部队",
+      "target": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_泸定县发生6.8级地震 临时避险转移安置5万余人- 四川省人民政府网站",
+      "target": "SEVERITY_特别重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_地震灾区已排查地灾隐患点501处 转移受威胁群众11252人- 四川省人民政府网站",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_地震灾区已排查地灾隐患点501处 转移受威胁群众11252人- 四川省人民政府网站",
+      "target": "TIME_9月6日12时",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_投入448人",
+      "target": "DOCUMENT_地震灾区已排查地灾隐患点501处 转移受威胁群众11252人- 四川省人民政府网站",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_地震灾区已排查地灾隐患点501处 转移受威胁群众11252人- 四川省人民政府网站",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "target": "DISASTER_TYPE_山体滑坡",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "target": "LOCATION_衡阳市南岳区寿岳乡岳林村",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "target": "TIME_7月28日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "target": "CASUALTIES_遇难15人，受伤6人",
+      "label": "CAUSED"
+    },
+    {
+      "source": "ORGANIZATION_记者从湖南省应急指挥中心",
+      "target": "DOCUMENT_湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_一图读懂丨今年秋冬季森林草原火灾形势--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_火灾",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_一图读懂丨今年秋冬季森林草原火灾形势--中华人民共和国应急管理部",
+      "target": "TIME_2021年11月08日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_一图读懂丨今年秋冬季森林草原火灾形势--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_一图读懂丨今年秋冬季森林草原火灾形势--中华人民共和国应急管理部",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_泸定6.8级地震次生地灾排查启动",
+      "target": "DISASTER_TYPE_地震",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_泸定6.8级地震次生地灾排查启动",
+      "target": "LOCATION_甘孜州及泸定县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_泸定6.8级地震次生地灾排查启动",
+      "target": "TIME_9月5日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急等部",
+      "target": "DOCUMENT_泸定6.8级地震次生地灾排查启动",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_泸定6.8级地震次生地灾排查启动",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_南方降雨过程频繁 国家防总办公室、应急管理部会商部署重点地区防汛抢险救灾工作--中华人民共和国应急管",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_南方降雨过程频繁 国家防总办公室、应急管理部会商部署重点地区防汛抢险救灾工作--中华人民共和国应急管",
+      "target": "TIME_4月21日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_南方降雨过程频繁 国家防总办公室、应急管理部会商部署重点地区防汛抢险救灾工作--中华人民共和国应急管",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_南方降雨过程频繁 国家防总办公室、应急管理部会商部署重点地区防汛抢险救灾工作--中华人民共和国应急管",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_短视频|公安机关在森林草原火灾处置中开展工作情况--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_火灾",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_短视频|公安机关在森林草原火灾处置中开展工作情况--中华人民共和国应急管理部",
+      "target": "TIME_2022年4月12日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_短视频|公安机关在森林草原火灾处置中开展工作情况--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_短视频|公安机关在森林草原火灾处置中开展工作情况--中华人民共和国应急管理部",
+      "target": "SEVERITY_未定级",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "target": "DISASTER_TYPE_洪水",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "target": "TIME_5月26日",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "target": "RESPONSE_Ⅳ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_启动针对贵州的防汛四级应急响应",
+      "target": "DOCUMENT_南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "ORGANIZATION_应急管理部",
+      "target": "DOCUMENT_南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_南方地区仍有较强降雨 国家防总办公室持续组织多部门会商部署防汛救灾工作--中华人民共和国应急管理部",
+      "target": "SEVERITY_一般",
+      "label": "HAS_SEVERITY"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”将于9月14日登陆浙江",
+      "target": "DISASTER_TYPE_暴雨",
+      "label": "HAS_TYPE"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”将于9月14日登陆浙江",
+      "target": "LOCATION_浙江省象山县",
+      "label": "OCCURRED_AT"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”将于9月14日登陆浙江",
+      "target": "TIME_2022年9月13日7时35分",
+      "label": "OCCURRED_ON"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”将于9月14日登陆浙江",
+      "target": "RESPONSE_Ⅱ级响应",
+      "label": "ACTIVATED"
+    },
+    {
+      "source": "ORGANIZATION_要求省级气象服务业务应急响应指挥部",
+      "target": "DOCUMENT_台风“梅花”将于9月14日登陆浙江",
+      "label": "RESCUED"
+    },
+    {
+      "source": "DOCUMENT_台风“梅花”将于9月14日登陆浙江",
+      "target": "SEVERITY_重大",
+      "label": "HAS_SEVERITY"
+    }
+  ],
+  "stats": {
+    "total_nodes": 386,
+    "total_links": 641,
+    "total_events": 105
+  }
+}

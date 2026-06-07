@@ -1,0 +1,56 @@
+{
+  "title": "三个量子节点支起量子互联网新架构 _光明网",
+  "content": "科技日报北京4月18日电（实习记者张佳欣）来自荷兰量子计算公司QuTech的研究人员成功实现将3个量子设备连接在同一个网络中。此外，他们还实现了关键量子网络协议的原理证明演示。该发现标志着迈向未来量子互联网的一个重要里程碑。相关研究成果于当地时间15日发表在《科学》杂志上。\n量子纠缠为量子计算机提供了巨大的计算能力，是未来量子互联网上共享量子信息的基础资源。过去10年，通过将共享直接物理链路的两个量子设备连接在一起，科学家迈出量子互联网的第一步。然而，能够通过中间节点（类似于路由器）传递量子信息对于创建可扩展的量子网络至关重要。此外，许多量子互联网应用依赖于在多个节点之间分布的纠缠量子比特。\n基本的量子网络由3个量子节点组成，它们在同一建筑物内相距一定距离。为了使这些节点能够作为一个真正的网络运行，研究人员必须发明一种新的架构，使其能够扩展到单个链路之外。此次，研究人员率先通过中间节点连接了两个量子设备，并在多个独立量子设备之间建立了共享纠缠。\n在该研究中，中间节点（称为“鲍勃”）与两个外部节点（称为“爱丽丝”和“查理”）均有物理连接，可与这些节点中的每一个建立纠缠链路。“鲍勃”配备了一个可用作存储器的额外量子比特，从而可在建立新链接时存储先前生成的量子链接。在建立量子链接“爱丽丝”—“鲍勃”和“鲍勃”—“查理”之后，“鲍勃”处的一组量子操作将这些链接转换为“爱丽丝”—“查理”量子链接。或者，通过在“鲍勃”处执行一组不同的量子操作，可以在所有3个节点之间建立纠缠。\n该网络的一个重要特征是它通过“标志”信号宣布成功完成了这些协议。这对可扩展性至关重要，因为在未来的量子互联网中，许多这样的协议都需要串联起来。研究人员索菲·赫尔曼斯说，一旦建立链接，我们就能够保存由此产生的纠缠态，保护它们免受噪音干扰。“这意味着，原则上，我们可以将这些状态用于量子密钥分发、量子计算或任何其他后续的量子协议。”\n这是第一个基于纠缠的量子网络，为研究人员开发和测试量子互联网硬件、软件和协议提供了一个独特的试验台。研究人员表示，未来的量子互联网将由无数量子设备和中间节点组成。\nQuTech的研究人员已经在做与现有数据基础设施兼容性的相关研究。当前的原理验证方法将在QuTech的量子互联网演示器上进行测试，其中第一条城域链路计划于2022年完成。未来，研究人员将专注于在3个节点网络中增加更多的量子比特，并增加更高级别的软件和硬件层。\n责编：武玥彤",
+  "url": "https://tech.gmw.cn/2021-04/19/content_34773619.htm",
+  "date": "2021-04-19",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\129809697aeb.jpg",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/gmwLogo_share.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\96d92efcdd9f.png",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/mgmw/pengyouquan.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\d833f1096ac3.png",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/mgmw/layershare.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\8050bd58aabb.png",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/mgmw/arrow.png"
+    }
+  ],
+  "source": "光明网",
+  "category": "科技",
+  "content_length": 1026,
+  "image_count": 9,
+  "id": "doc_f39c90fb2bf3",
+  "crawl_time": "2026-06-05 18:05:26",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\129809697aeb.jpg",
+      "original_src": "https://img.gmw.cn/pic/gmwLogo_share.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\96d92efcdd9f.png",
+      "original_src": "https://img.gmw.cn/pic/mgmw/pengyouquan.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\d833f1096ac3.png",
+      "original_src": "https://img.gmw.cn/pic/mgmw/layershare.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\8050bd58aabb.png",
+      "original_src": "https://img.gmw.cn/pic/mgmw/arrow.png",
+      "alt": ""
+    }
+  ]
+}

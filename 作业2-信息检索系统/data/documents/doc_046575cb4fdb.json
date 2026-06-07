@@ -1,0 +1,66 @@
+{
+  "title": "中新网评：享界S9零重力座椅事件，给车企和用户都提了个醒-中新网",
+  "content": "中新网\n北京5月8日电(记者 查志远 实习生 贾圣仪 ) 近日，一段展厅视频，让鸿蒙智行和享界S9站上了舆论的风口浪尖。\n视频中，一名男子通过语音开启零重力模式，副驾座椅开始折叠下压，而一名儿童正坐在上面。男子连喊数声“小艺，停止”，语音助手反复回应“当前状态不支持暂停”，最终家长手动将孩子移开。虽然最终有惊无险，但这段几乎夹到孩子的画面，还是让人后背发凉。\n5月5日，鸿蒙智行回应称，经技术核验，视频场景未达到防夹功能触发阈值，并非功能失效，并披露了多重安全防护机制。“针对大家反馈的宝贵建议，我们已纳入产品专项优化计划。”\n从技术层面看，鸿蒙智行的解释有合理的地方。零重力座椅的防夹功能依赖于压力传感器对受力变化的实时识别，当外力达到预设阈值时才触发停止和回弹。儿童的体重明显低于压力阈值，系统没有判断出“这里有人”，属于工程逻辑的正常运行。\n虽然使用手册中严禁孩童乘坐副驾时进行零重力展开及副驾座椅折叠操作，但针对儿童在副驾玩耍等复杂使用场景，车辆是否有冗余设计？这给车企提了个醒。\n目前，从网络视频来看，占位检测靠压力传感器，儿童体重轻、偏坐姿，系统未感应到；二次确认弹出了，用户明知副驾有儿童仍选择继续；语音喊停被系统以“当前状态不支持暂停”拒绝。\n这正如有评论所指出的，事件引发热议在于不是“有没有防夹功能”，而是“系统对于真实复杂场景的识别能力到底够不够”。\n更具深层意义的启示是智能汽车的安全设计要融合工程师思维和用户思维。\n用户的理解是“车有防夹功能，就不该夹到任何人”，而工程师的逻辑是“只有在特定条件下，防夹才会介入”。这种认知的差异，不是任何一方的错，却是智能汽车行业必须正视并解决的现实问题。\n技术的进步，从来不会免除用户的基本安全意识和监护责任。智能功能越强大，对人的操作审慎性要求就越高。\n此次事件提醒车企，安全阈值不能仅以成年人为标尺，应对儿童等极端场景进行专门测试与优化，同时为智能功能设置更完善的紧急中断机制。也提醒监管部门，零重力座椅等新配置已大量上车，相关的监管要求、标准应及时跟进。同时提醒每一个用户，智能汽车功能再先进，安全意识不能放松，尤其涉及儿童时，更需谨慎。\n防夹功能启动与否，是技术问题。技术可以解释阈值，而用户信任则需要一次次将看不见的盲区纳入安全考量后的场景检验。(完)",
+  "url": "https://www.chinanews.com.cn/cj/2026/05-08/10617627.shtml",
+  "date": "2026-05-09",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\e93993d46c32.png",
+      "alt": "中国新闻网",
+      "original_src": "https://www.chinanews.com.cn/fileftp/2025/07/2025-07-17/U947P4T47D55580F24532DT20250717134135.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\96acfdf97999.png",
+      "alt": "",
+      "original_src": "https://image.cns.com.cn/2022homepage/images/toparr.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\b622753eb5aa.png",
+      "alt": "",
+      "original_src": "https://www.chinanews.com.cn/fileftp/2022/05/2022-05-09/U435P4T47D50136F24533DT20220510101956.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\a89701025be4.jpg",
+      "alt": "",
+      "original_src": "https://image.cns.com.cn/default/5ddb9ec3/20210728/qw.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\98b2d651009d.jpg",
+      "alt": "",
+      "original_src": "https://image.cns.com.cn/default/5ddb9ec3/20210728/jw.jpg"
+    }
+  ],
+  "source": "中国新闻网",
+  "category": "综合",
+  "content_length": 964,
+  "image_count": 10,
+  "id": "doc_046575cb4fdb",
+  "crawl_time": "2026-06-05 18:04:32",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\e93993d46c32.png",
+      "original_src": "https://www.chinanews.com.cn/fileftp/2025/07/2025-07-17/U947P4T47D55580F24532DT20250717134135.png",
+      "alt": "中国新闻网"
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\96acfdf97999.png",
+      "original_src": "https://image.cns.com.cn/2022homepage/images/toparr.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\b622753eb5aa.png",
+      "original_src": "https://www.chinanews.com.cn/fileftp/2022/05/2022-05-09/U435P4T47D50136F24533DT20220510101956.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\a89701025be4.jpg",
+      "original_src": "https://image.cns.com.cn/default/5ddb9ec3/20210728/qw.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\98b2d651009d.jpg",
+      "original_src": "https://image.cns.com.cn/default/5ddb9ec3/20210728/jw.jpg",
+      "alt": ""
+    }
+  ]
+}

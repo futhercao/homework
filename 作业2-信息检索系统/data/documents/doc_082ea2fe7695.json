@@ -1,0 +1,36 @@
+{
+  "title": "纳米递送载体将肺癌药利用度提高30倍--健康·生活--人民网",
+  "content": "科技日报讯 （记者刘霞）据物理学家组织网6月2日报道，澳大利亚阿德莱德大学科学家研制出一种新型纳米颗粒递送载体，能将肺癌药物精准靶向肺部，让药物的生物利用度（即所服用药物的剂量能到达体循环的比例）提高30倍，同时大幅减少对健康器官的干扰与损伤。这项突破有望重塑肺癌乃至多种癌症的治疗面貌。\n该纳米颗粒由脂质与聚合物组合制成，这两种材料均已用于临床。颗粒内部包裹着一种前景可期的肺癌药物RB 012。借助实验室实验与临床前模型，团队系统考察了药物在血液中停留的时长、在体内的分布轨迹以及抵达肺部肿瘤的实际效能。\n临床前结果显示：与裸药相比，经纳米颗粒递送的药物杀灭肿瘤的能力更强，对健康组织的伤害更小，这凸显出其作为一种更高效、更具靶向性治疗方案的巨大潜力。\n这项研究直击肺癌治疗的难点：如何在正确的时间把药物送到正确的地点。通常情况下，大部分药物最终会流入肝脏而无法到达肺部。新型纳米颗粒则能帮助药物在体内循环更长时间，并将其准确引导至肺部。\n该策略也有望为新一代癌症精准治疗铺平道路，不仅造福肺癌患者，也适用于其他同样依赖靶向药物递送的疾病。",
+  "url": "http://health.people.com.cn/n1/2026/0605/c14739-40734420.html",
+  "date": "2026-06-05",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\61873714bb5a.jpg",
+      "alt": "",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\43f856de2d90.png",
+      "alt": "人民网",
+      "original_src": "http://health.people.com.cn/img/2020wbc/imgs/logo.png"
+    }
+  ],
+  "source": "人民网",
+  "category": "健康",
+  "content_length": 472,
+  "image_count": 10,
+  "id": "doc_082ea2fe7695",
+  "crawl_time": "2026-06-05 18:04:06",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\61873714bb5a.jpg",
+      "original_src": "http://world.people.com.cn/img/2020peopleindex/img/logo_share_ap.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\43f856de2d90.png",
+      "original_src": "http://health.people.com.cn/img/2020wbc/imgs/logo.png",
+      "alt": "人民网"
+    }
+  ]
+}

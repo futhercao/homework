@@ -1,0 +1,56 @@
+{
+  "title": "“秒解BL锁”获得“刷机”自由？小心让手机成“移动监听站” _光明网",
+  "content": "近期，某手机芯片厂商相关漏洞被不法分子定向利用，给网上热炒的“秒解BL锁”行为敲响了警钟。所谓BL，是Bootloader(引导加载程序)的简称，好比手机自带的“官方防盗门”，是手机开机后最先运行的底层程序，负责验证并加载操作系统。而解锁相当于主动拆掉这扇门，以获得“刷机”自由。但“秒解”的捷径，可能成为别有用心之人窃取数据、安装木马的“后门”，需要我们提高警惕、谨慎操作。\n暗藏风险要注意\n近期被不法分子利用的漏洞本身只是一段代码层面的缺陷，真正决定风险的，是使用方式与环境。随着“秒解BL锁”的走红，一些高风险场景正在出现：\n——“资源”藏风险。个别论坛、网盘上打着“简化流程”旗号的解锁工具、刷机包，看似省心省力，实则可能被篡改。一旦用户下载安装，恶意程序就会植入设备底层，隐私泄露、设备失控的风险随之而来。\n——“教程”设毒饵。所谓“手把手”教程，其实是诱导用户下载不明驱动、应用程序，看似贴心指导，实则暗藏陷阱。缺乏判断力的用户，容易在不知情的情况下安装恶意程序，大开系统权限之门。\n——“远程协助”非好心。不法分子会打着“远程帮忙解锁”旗号，诱导用户安装远程控制软件、授予设备权限。一旦授权，设备就可能被植入后门，沦为他人掌控的“傀儡机”。\n守好手机“防盗门”\n需要注意的是：风险并非源于“刷机”本身，而是来自背景不明的系统包、不可信的工具、不规范的流程以及缺乏安全意识的操作。不法分子利用用户对“便捷”的追求，一步步突破安全防线。广大民众在追求极致的玩机体验时，更应注意保护信息及数据安全，避免落入不法分子预设的圈套。\n——健全安全认知。不盲目跟风“秒解BL锁”“刷机自由”，不拿设备安全、隐私安全、资金安全换取所谓的“个性化体验”。\n——认准官方渠道。确需BL解锁、系统修改、固件更新等问题，应通过厂商提供的官方渠道，确保工具与服务来源可靠，避免在不知情的情况下被诱导安装恶意程序。\n——严管设备权限。警惕论坛、群组中声称“免费帮助解锁”的“热心人”，不随意向陌生人开启设备远程控制权限，不轻易提供设备识别信息、系统高级权限。\n国家安全机关提示\n手机是个人信息的重要载体，可靠的系统是信息安全、数据安全的关键防线。一旦手机底层程序被控，不仅危及个人隐私，更可能被境外间谍情报机关利用，成为窥探政府机关、科研单位、军工企业的“移动监听站”，对国家秘密安全构成严重威胁。大家如在“刷机”或日常使用中，发现利用此类漏洞窃取数据、传播木马、企图控制涉密设备等可疑线索，请及时通过12339国家安全机关举报受理电话、网络举报受理平台(www.12339.gov.cn)或国家安全部微信公众号举报受理渠道进行举报。\n来源：国家安全部微信公众号\n责编：战钊",
+  "url": "https://tech.gmw.cn/2026-05/09/content_38755227.htm",
+  "date": "2026-05-09",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\129809697aeb.jpg",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/gmwLogo_share.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\96d92efcdd9f.png",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/mgmw/pengyouquan.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\d833f1096ac3.png",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/mgmw/layershare.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\8050bd58aabb.png",
+      "alt": "",
+      "original_src": "https://img.gmw.cn/pic/mgmw/arrow.png"
+    }
+  ],
+  "source": "光明网",
+  "category": "科技",
+  "content_length": 1130,
+  "image_count": 9,
+  "id": "doc_1b1afbeccc99",
+  "crawl_time": "2026-06-05 18:04:45",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\129809697aeb.jpg",
+      "original_src": "https://img.gmw.cn/pic/gmwLogo_share.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\96d92efcdd9f.png",
+      "original_src": "https://img.gmw.cn/pic/mgmw/pengyouquan.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\d833f1096ac3.png",
+      "original_src": "https://img.gmw.cn/pic/mgmw/layershare.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\8050bd58aabb.png",
+      "original_src": "https://img.gmw.cn/pic/mgmw/arrow.png",
+      "alt": ""
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "广东省水利厅部署2026年“龙舟水”防御工作",
+  "content": "本站讯 5月21日，广东省水利厅召开全省水利系统2026年“龙舟水”防御工作会议，深入学习贯彻习近平总书记关于防灾减灾救灾工作重要指示批示精神，传达学习5月18日广东省委常委会研究进一步做好防灾减灾救灾工作要求，分析研判全省“龙舟水”防御形势，安排部署“龙舟水”暴雨洪水防御工作。厅党组成员、副厅长申宏星出席会议并讲话，二级巡视员丁力主持会议。\n会议指出，2026年“龙舟水”降水集中期偏长、降水量略偏多，强降水前少后多，并伴有1—2个台风影响，防御形势严峻复杂。全省水利系统要牢固树立底线思维和极限思维，锚定“四不”目标，要进一步加强监测预报预警、风险隐患排查管控、水利工程安全度汛、山洪灾害和中小河流洪水防御、值班值守、应急应对准备及信息报送和舆论引导等七方面工作。会议强调，要严肃纪律、压实责任，以“时时放心不下”的责任感，坚决打赢“龙舟水”防御硬仗，全力保障人民群众生命财产安全。\n省水利厅水旱灾害防御领导小组全体成员，广东粤海控股集团有限公司、省能源集团有限公司、省建工集团有限公司等单位负责同志，以及省气象局、省水文局特邀专家，各地级以上市水利（水务）局、省各流域管理局、省各水文分局分管负责同志及相关处（科）室工作人员，省各水利机动抢险队、全省大中型水库管理单位负责同志参加会议。",
+  "url": "http://www.mwr.gov.cn/xw/dfss/202605/t20260525_2112132.html",
+  "date": "2026-05-25",
+  "images": [
+    {
+      "src": "http://www.mwr.gov.cn/images/mob_20170512.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images/pc_20170512.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "alt": "",
+      "width": "112",
+      "height": "36"
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "alt": "",
+      "width": "596",
+      "height": "107"
+    },
+    {
+      "src": "http://www.mwr.gov.cn/images_index/guowuyuan.png",
+      "alt": "",
+      "width": "57",
+      "height": "28"
+    }
+  ],
+  "source": "水利部",
+  "category": "灾害",
+  "content_length": 547,
+  "image_count": 5,
+  "id": "dis_c59014f35bc8",
+  "crawl_time": "2026-06-06 19:03:47",
+  "disaster_type": "洪水",
+  "local_images": [
+    {
+      "local_path": "data/images/12e04a500b38.jpg",
+      "original_src": "http://www.mwr.gov.cn/images/mob_20170512.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/6753e1f3daee.jpg",
+      "original_src": "http://www.mwr.gov.cn/images/pc_20170512.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/30d5437f578b.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/7f75a94d5b32.png",
+      "original_src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/406387c65340.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/guowuyuan.png",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "30d5437f578b.png",
+      "original_src": "http://www.mwr.gov.cn/images_index/search_03.png",
+      "text": "水利易SCU",
+      "lines": [
+        {
+          "text": "水利易SCU",
+          "conf": 0.659
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "7f75a94d5b32.png",
+      "original_src": "http://www.mwr.gov.cn/images/guohui20190411.png",
+      "text": "MinistryjofiateriResourcesfafithelReopleislRepubliclofichina",
+      "lines": [
+        {
+          "text": "MinistryjofiateriResourcesfafithelReopleislRepubliclofichina",
+          "conf": 0.339
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "水利易SCU MinistryjofiateriResourcesfafithelReopleislRepubliclofichina"
+}

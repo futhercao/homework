@@ -1,0 +1,56 @@
+{
+  "title": "首套智能透射电子显微镜系统研发成功 _光明网",
+  "content": "光明日报北京6月4日电（记者崔兴毅）\n由中国科学院大连化学物理研究所研究员邓德会、刘伟团队研发的智能透射电子显微镜系统，日前在北京通过中国石油和化学工业联合会组织的科技成果鉴定。鉴定委员会专家一致认为，该技术创新性强，所研发的智能透射电子显微镜系统属全球首创，居国际领先地位。\n当前，科学研究正向极微观深入，透射电子显微镜（以下简称“透射电镜”）是探索微观世界的前沿利器，是先进材料、能源化工、生命科学等领域的核心装备。但近百年来，透射电镜一直依赖人工操作，存在效率低、主观性强、难以统计定量等瓶颈。\n为破解上述难题，团队长期致力于透射电镜软硬件智能化、一体化研究，联合中国科学院沈阳自动化研究所研究员韩志团队开发了“全自主感知—解析—操控通用智能透射电镜系统”算法，并在此基础上，攻克具身智能高真空样品传递、电子光学成像自主调节、纳米级样品智能定位、图像自主采集与实时解析、全系统状态感知与调度协作等五大关键技术，成功研制出全球首套智能透射电镜系统——“原眼一号”。该系统就像洞悉原子世界的智慧之眼，实现了“传样—成像—解析”的全流程无人化、智能化运行。\n在实际应用中，以分子筛等催化剂显微结构分析为例，“原眼一号”日均分析分子筛催化剂等样品168个，采集图像超过4000张，并能自主生成包含颗粒精准尺寸、分散度、晶体构型等大规模定量统计信息的专业分析报告；图像分析效率较人工提升300倍以上。该系统运行两周所获数据量，相当于传统透射电镜一年的工作量。\n据悉，该成果首次实现透射电镜从“人工操作”到“AI全流程自主运行”的跨越，为高端科研仪器的智能化应用提供了有力借鉴，有望为能源化工、材料基因组、生命科学等领域的发展持续提供大规模、高质量的结构数据，支撑人工智能驱动科研范式变革，让人类更精准、更直观地探索极微观世界。\n《光明日报》（2026年06月05日 07版）\n责编：孙宗鹤",
+  "url": "http://news.gmw.cn/2026-06/05/content_38812260.htm",
+  "date": "2026-06-05",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\07759da95e94.jpg",
+      "alt": "",
+      "original_src": "http://img.gmw.cn/pic/gmwLogo_share.jpg"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\a6ffe9b02af2.png",
+      "alt": "",
+      "original_src": "http://img.gmw.cn/pic/mgmw/pengyouquan.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\fdcd0337672b.png",
+      "alt": "",
+      "original_src": "http://img.gmw.cn/pic/mgmw/layershare.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\b2684cfb72ad.png",
+      "alt": "",
+      "original_src": "http://img.gmw.cn/pic/mgmw/lineshare.png"
+    }
+  ],
+  "source": "光明网",
+  "category": "科技",
+  "content_length": 792,
+  "image_count": 9,
+  "id": "doc_5067ef118e3a",
+  "crawl_time": "2026-06-05 18:04:01",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\07759da95e94.jpg",
+      "original_src": "http://img.gmw.cn/pic/gmwLogo_share.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\a6ffe9b02af2.png",
+      "original_src": "http://img.gmw.cn/pic/mgmw/pengyouquan.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\fdcd0337672b.png",
+      "original_src": "http://img.gmw.cn/pic/mgmw/layershare.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\b2684cfb72ad.png",
+      "original_src": "http://img.gmw.cn/pic/mgmw/lineshare.png",
+      "alt": ""
+    }
+  ]
+}

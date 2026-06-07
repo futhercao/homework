@@ -1,0 +1,127 @@
+{
+  "title": "湖南衡阳南岳区突发山体滑坡已致15人遇难 现场救援结束-新华网",
+  "content": "7月28日，在衡阳市南岳区寿岳乡岳林村，救援队伍在搜救（无人机照片）。\n7月28日，记者从湖南省应急指挥中心获悉，湖南衡阳南岳区突发山体滑坡已致15人遇难、6人受伤。目前，现场救援工作结束，受伤人员已送往医院救治。\n新华社记者 陈思汗 摄\npagebreak\n7月28日，在衡阳市南岳区寿岳乡岳林村，救援队伍在搜救（无人机照片）。\n7月28日，记者从湖南省应急指挥中心获悉，湖南衡阳南岳区突发山体滑坡已致15人遇难、6人受伤。目前，现场救援工作结束，受伤人员已送往医院救治。\n新华社记者 陈思汗 摄",
+  "url": "http://www.xinhuanet.com/photo/20240728/0ba279b8604a49b3bfa837819cc24caf/c.html",
+  "date": "2024-07-28",
+  "images": [
+    {
+      "src": "http://www.news.cn/detail2020/images/ewm.png",
+      "alt": "",
+      "width": "94",
+      "height": ""
+    },
+    {
+      "src": "http://www.xinhuanet.com/photo/20240728/0ba279b8604a49b3bfa837819cc24caf/zxcode_202407280ba279b8604a49b3bfa837819cc24caf.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.xinhuanet.com/photo/20240728/0ba279b8604a49b3bfa837819cc24caf/zxcode_202407280ba279b8604a49b3bfa837819cc24caf.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.xinhuanet.com/photo/20240728/0ba279b8604a49b3bfa837819cc24caf/202407280ba279b8604a49b3bfa837819cc24caf_20240728b4ff21f3eabc438a9836fc62a328a5e1.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.xinhuanet.com/photo/20240728/0ba279b8604a49b3bfa837819cc24caf/202407280ba279b8604a49b3bfa837819cc24caf_202407286e9fe207392147ebafc21ab46afc3c84.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "http://www.xinhuanet.com/photo/20240728/0ba279b8604a49b3bfa837819cc24caf/202407280ba279b8604a49b3bfa837819cc24caf_202407285c836948e93b4c4482d61868ee512d9f.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "source": "新华网",
+  "category": "灾害",
+  "content_length": 249,
+  "image_count": 8,
+  "id": "dis_e8952d12b47f",
+  "crawl_time": "2026-06-06 19:03:56",
+  "disaster_type": "山体滑坡",
+  "local_images": [
+    {
+      "local_path": "data/images/de255e4c4e7f.png",
+      "original_src": "http://www.news.cn/detail2020/images/ewm.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/92f6817b1eaf.png",
+      "original_src": "http://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/92f6817b1eaf.png",
+      "original_src": "http://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "de255e4c4e7f.png",
+      "original_src": "http://www.news.cn/detail2020/images/ewm.png",
+      "text": "新华网窖户端",
+      "lines": [
+        {
+          "text": "新华网窖户端",
+          "conf": 0.327
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "92f6817b1eaf.png",
+      "original_src": "http://www.news.cn/2021detail/images/qrcode-app.png",
+      "text": "XINHUANET JENS",
+      "lines": [
+        {
+          "text": "XINHUANET",
+          "conf": 0.976
+        },
+        {
+          "text": "JENS",
+          "conf": 0.698
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "92f6817b1eaf.png",
+      "original_src": "http://www.news.cn/2021detail/images/qrcode-app.png",
+      "text": "XINHUANET JENS",
+      "lines": [
+        {
+          "text": "XINHUANET",
+          "conf": 0.976
+        },
+        {
+          "text": "JENS",
+          "conf": 0.698
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "新华网窖户端 XINHUANET JENS XINHUANET JENS"
+}

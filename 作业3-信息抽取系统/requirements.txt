@@ -1,0 +1,36 @@
+# ============================================================
+# 灾害信息抽取系统 (作业3) — 依赖
+# 全流程纯 CPU 可跑, 无需 GPU
+# ============================================================
+
+# --- 爬虫 (异步抓取 + 正文抽取 + 近似去重 + 配图下载) ---
+aiohttp>=3.9
+aiofiles>=23.0
+beautifulsoup4>=4.12
+lxml>=5.0
+readability-lxml>=0.8
+simhash>=2.1
+
+# --- 中文分词 + 命名实体识别 NER (jieba 分词 + jieba.posseg 词性标注实体) ---
+jieba>=0.42
+# LAC>=2.1            # 可选: 若安装则 NER 自动改用百度 LAC 增强; 默认用 jieba 词性标注做 NER, 无需此依赖
+
+# --- OCR 多媒体抽取 (EasyOCR 主引擎, 纯 CPU; 会自动安装 torch/opencv 等) ---
+easyocr>=1.7
+Pillow>=10.0
+numpy>=1.24
+
+# --- Web ---
+fastapi>=0.104
+uvicorn>=0.24
+jinja2>=3.1
+python-multipart>=0.0.6
+
+# --- 工具 ---
+pyyaml>=6.0
+loguru>=0.7
+tqdm>=4.65
+
+# --- 可选: PaddleOCR 3.x 作为 OCR 回退引擎 (EasyOCR 不可用时启用) ---
+# paddleocr>=2.7
+# paddlepaddle>=2.6

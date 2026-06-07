@@ -1,0 +1,46 @@
+{
+  "title": "深圳用电负荷连续两年突破2400万千瓦 新质生产力成重要拉动力-新华网",
+  "content": "新华社深圳5月28日电（记者王丰）南方电网深圳供电局数据显示，28日17时10分，深圳电网用电负荷创历史新高，达2430.19万千瓦，连续两年突破2400万千瓦，较去年最高负荷（2401.12万千瓦）增长1.21%。本次负荷创新高较去年提前40天。\n今年以来，深圳经济发展稳健向好，特别是新质生产力不断壮大，叠加近期持续性高温天气带来的降温需求，深圳电网电力负荷、用电量持续快速攀升。根据预测，今年深圳电网最高负荷或将达到2620万千瓦，较去年最高负荷增长9.1%。\n数据显示，今年5月1日至27日期间，深圳全市信息传输、软件和信息技术服务业用电量达3.23亿千瓦时，同比增长26.71%，成为用电量增长的重要拉动力。其中，互联网数据服务业增势突出，同比激增80.27%；此外，深圳充换电服务业同期用电量达3.75亿千瓦时，同比增长45.10%。\n数字经济提速发展，算力产业用电迎来爆发式增长，而能源保供与算力产业的协同互促效应也愈发凸显。南方电网深圳供电局通过深化“数字电网+虚拟电厂”融合应用，部署本地化AI模型“灵曦”，依托其精准的负荷预测能力，将调度需求、可调节资源高效匹配，为电网“减压”。\n“该模型的预测结果可实时联动深圳虚拟电厂管理中心，让调度员提前知道哪里会堵、什么时候是高峰。”深圳虚拟电厂管理中心总经理程韧俐介绍，一旦识别出电网存在重过载风险，即启动虚拟电厂精准响应机制，向接入的虚拟电厂运营商传递明确的调用资源类型及量化指标，虚拟电厂运营商可根据资源特性，评估充电桩、楼宇空调、分布式储能等不同资源的调节能力，制定差异化调度策略，满足整体调节需求。\n目前，深圳虚拟电厂管理平台接入容量规模510万千瓦，实时可调负荷超140万千瓦，在算力的赋能下，可有效缓解电网局部重过载、削减尖峰负荷，同时为相关区域的数据中心提供供电保障。",
+  "url": "https://www.news.cn/local/20260528/93f80cedd1c14f6e95e48d6474dffeb9/c.html",
+  "date": "2026-05-28",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\86aa1086071d.png",
+      "alt": "",
+      "original_src": "https://www.news.cn/detail2020/images/ewm.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "alt": "",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "alt": "",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png"
+    }
+  ],
+  "source": "新华网",
+  "category": "科技",
+  "content_length": 773,
+  "image_count": 8,
+  "id": "doc_972d30063997",
+  "crawl_time": "2026-06-05 18:04:49",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\86aa1086071d.png",
+      "original_src": "https://www.news.cn/detail2020/images/ewm.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    }
+  ]
+}

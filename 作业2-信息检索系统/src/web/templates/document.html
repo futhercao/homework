@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}{{ doc.title if doc else '文档不存在' }}{% endblock %}
+{% block extra_head %}
+<style>
+.doc-article { max-width:860px; margin:0 auto; }
+.doc-title { font-size:26px; font-weight:800; line-height:1.4; margin-bottom:12px; color:var(--text); }
+.doc-meta { display:flex; gap:10px; flex-wrap:wrap; align-items:center; font-size:13px;
+  color:var(--text-secondary); padding-bottom:14px; margin-bottom:18px; border-bottom:1px solid var(--border); }
+.doc-source-ref { font-size:12px; color:var(--text-muted); word-break:break-all; }
+.doc-source-ref a { color:var(--text-secondary); }
+.doc-content p { font-size:15.5px; line-height:2.0; color:var(--text); margin-bottom:14px; }
+.doc-content mark { background:linear-gradient(180deg,transparent 60%,#fde68a 60%); padding:0 2px; border-radius:1px; }
+.doc-images { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:12px; margin:18px 0; }
+.doc-images img { width:100%; height:160px; object-fit:cover; border-radius:var(--radius-sm);
+  border:1px solid var(--border); background:#f1f5f9; }
+.back-bar { margin-bottom:16px; }
+</style>
+{% endblock %}
+{% block content %}
+
+<div class="back-bar">
+  <a href="/" class="btn btn-outline btn-sm">← 返回检索</a>
+</div>
+
+{% if not doc %}
+<div class="card" style="text-align:center;padding:40px;color:var(--text-secondary);">
+  <h2>文档不存在</h2>
+  <p style="margin-top:8px;">未在本地语料中找到该文档。</p>
+</div>
+{% else %}
+<article class="card doc-article">
+  <h1 class="doc-title">{{ doc.title }}</h1>
+  <div class="doc-meta">
+    <span class="tag tag-source">📰 {{ doc.source or '—' }}</span>
+    <span class="tag tag-category">📂 {{ doc.category or '—' }}</span>
+    <span>📅 {{ doc.date or '—' }}</span>
+    <span style="color:var(--text-muted);">🆔 {{ doc.id }}</span>
+    {% if doc.content_length %}<span style="color:var(--text-muted);">📝 {{ doc.content_length }} 字</span>{% endif %}
+  </div>
+
+  {% if images %}
+  <div class="doc-images">
+    {% for im in images %}
+    <img src="/images/{{ im }}" alt="配图" loading="lazy"
+         onerror="this.style.display='none'">
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="doc-content">
+    {{ content_html | safe }}
+  </div>
+
+  {% if doc.url %}
+  <p class="doc-source-ref" style="margin-top:20px;padding-top:14px;border-top:1px solid var(--border);">
+    原文出处(仅供溯源):<a href="{{ doc.url }}" target="_blank" rel="noopener">{{ doc.url }}</a>
+  </p>
+  {% endif %}
+</article>
+{% endif %}
+
+{% endblock %}

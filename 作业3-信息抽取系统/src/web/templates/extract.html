@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{% block title %}灾害信息抽取{% endblock %}
+{% block content %}
+
+<div class="card">
+  <div class="card-header">
+    <h2>📋 灾害事件信息抽取</h2>
+    <span class="badge">Ensemble: Regex + 触发词 + NER 加权投票</span>
+  </div>
+  <p style="color:var(--text-secondary);margin-bottom:16px;">
+    从真实灾害新闻中抽取 <strong>7个信息点</strong>(类型/时间/地点/伤亡/损失/响应/救援),
+    组装为结构化事件。每个字段标注 <strong>集成置信度</strong>,并提供
+    <strong>逐字段人工评价</strong>按钮(✅正确 / ⚠️部分 / ❌错误)。
+    若文档含 <strong>OCR 图片文字</strong>,会一并参与抽取。
+  </p>
+  <div style="background:var(--primary-bg);border:1px solid var(--primary);border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:14px;color:var(--text);">
+    💡 <strong>无需手输文档ID</strong> —— 下方「📄 灾害新闻语料」已列出<strong>全部 <span id="hintCount">…</span> 篇</strong>,<strong>点任意一行即可一键抽取</strong>(可按灾害类型筛选)。手输 ID 仅为可选。
+  </div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;">
+    <input type="text" id="docIdInput" placeholder="(可选) 文档ID,或直接点下方列表 👇"
+           style="flex:1;min-width:260px;padding:11px 16px;border:2px solid var(--border);border-radius:var(--radius-sm);font-size:14px;font-family:var(--font);">
+    <button class="btn btn-primary" onclick="extractOne()">🔬 单篇抽取</button>
+    <button class="btn btn-outline" onclick="extractBatch()">📊 全量抽取 + 知识图谱</button>
+  </div>
+</div>
+
+<div id="extractionResult"></div>
+
+<div class="card">
+  <div class="card-header"><h2>📄 灾害新闻语料</h2><span class="badge" id="disasterCount">—</span></div>
+  <div style="margin-bottom:10px;display:flex;gap:6px;flex-wrap:wrap;" id="typeFilters"></div>
+  <p style="font-size:14px;color:var(--text);margin-bottom:10px;font-weight:600;">👇 点击任意一行文档即可抽取(📷=含配图, 🔤=已OCR);上方可按类型筛选:</p>
+  <div id="sampleDocs" style="max-height:460px;overflow-y:auto;"></div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+let ALL_DOCS = [];
+let CUR = null;          // 当前抽取结果 {doc_id, fields}
+let JUDGE = {};          // {field: 'correct'|'partial'|'wrong'}
+
+const FIELD_LABELS = {
+  disaster_type:'🔴 灾害类型', event_time:'📅 发生时间', event_location:'📍 发生地点',
+  casualties:'💀 伤亡情况', economic_loss:'💰 经济损失', response_level:'🚨 响应级别',
+  rescue_info:'🆘 救援信息'
+};
+
+async function loadSamples() {
+  let box = document.getElementById('sampleDocs');
+  box.innerHTML = '<p style="color:var(--text-secondary);">⏳ 正在加载文档列表…</p>';
+  let data;
+  try {
+    let resp = await fetch('/api/disaster/list?per_page=300', {cache:'no-store'});
+    if (!resp.ok) throw new Error('HTTP ' + resp.status + ' ' + resp.statusText);
+    data = await resp.json();
+  } catch (err) {
+    document.getElementById('disasterCount').textContent = '加载失败';
+    box.innerHTML = `<div style="color:var(--danger);padding:16px;line-height:1.9;border:1px solid #fca5a5;border-radius:8px;background:#fef2f2;">
+      ⚠️ <strong>无法加载文档列表</strong>:<code>${err}</code><br>
+      最常见原因:① 后端服务未启动;② 浏览器访问的是旧的缓存页/旧标签页;③ 端口被其它系统(如作业2)占用。<br>
+      请在 <code>作业3-信息抽取系统</code> 目录运行 <code>python run.py web</code>,然后访问
+      <code>http://127.0.0.1:8090</code> 并按 <strong>Ctrl+Shift+R 强制刷新</strong>。
+      <br><button class="btn btn-primary btn-sm" style="margin-top:10px;" onclick="loadSamples()">🔄 重试加载</button></div>`;
+    return;
+  }
+  ALL_DOCS = data.docs || [];
+  document.getElementById('disasterCount').textContent = `${data.total} 篇`;
+  let _hc = document.getElementById('hintCount'); if (_hc) _hc.textContent = data.total;
+  // 类型过滤器
+  let types = {};
+  ALL_DOCS.forEach(d => { let t=d.disaster_type||'其他'; types[t]=(types[t]||0)+1; });
+  let tf = `<span class="tab ${'__all'===window._tf?'active':''}" onclick="setFilter('')">全部 ${ALL_DOCS.length}</span>`;
+  Object.entries(types).sort((a,b)=>b[1]-a[1]).forEach(([t,c])=>{
+    tf += `<span class="eval-btn" style="cursor:pointer" onclick="setFilter('${t}')">${t} ${c}</span>`;
+  });
+  document.getElementById('typeFilters').innerHTML = tf;
+  renderList('');
+}
+function setFilter(t){ renderList(t); }
+function renderList(t) {
+  let docs = t ? ALL_DOCS.filter(d=>(d.disaster_type||'其他')===t) : ALL_DOCS;
+  let html = '';
+  docs.slice(0,120).forEach(d=>{
+    html += `<div style="padding:8px 10px;border-bottom:1px solid var(--border);cursor:pointer;display:flex;align-items:center;gap:10px;border-radius:6px;"
+      onmouseover="this.style.background='var(--primary-bg)'" onmouseout="this.style.background=''"
+      onclick="document.getElementById('docIdInput').value='${d.id}';extractOne();window.scrollTo(0,0);">
+      <code style="font-size:11px;color:var(--primary);background:var(--primary-bg);padding:2px 6px;border-radius:4px;white-space:nowrap;">${d.id.slice(0,14)}</code>
+      <span style="flex:1;font-size:14px;">${d.title}</span>
+      ${d.disaster_type?`<span class="tag tag-category">${d.disaster_type}</span>`:''}
+      ${d.image_count?`<span title="${d.image_count}张配图">📷${d.image_count}</span>`:''}
+      ${d.has_ocr?`<span title="已OCR">🔤</span>`:''}
+      <span class="tag tag-source" style="white-space:nowrap;">${d.source||''}</span>
+    </div>`;
+  });
+  document.getElementById('sampleDocs').innerHTML = html || '<p style="color:var(--text-secondary);">暂无文档</p>';
+}
+
+async function extractOne() {
+  let docId = document.getElementById('docIdInput').value.trim();
+  if(!docId) return alert('请先输入文档ID');
+  JUDGE = {};
+  document.getElementById('extractionResult').innerHTML='<div class="card loading" style="text-align:center;padding:30px;">集成抽取中…</div>';
+  let form = new FormData(); form.append('doc_id', docId);
+  let data = await (await fetch('/api/extract',{method:'POST',body:form})).json();
+  if(!data.success){ document.getElementById('extractionResult').innerHTML=`<div class="card" style="text-align:center;padding:30px;color:var(--text-secondary);">${data.error||'抽取失败'}</div>`; return; }
+  CUR = {doc_id:docId, fields:data.extraction};
+  renderEvent(data);
+}
+
+function confBadge(c){
+  if(c===undefined||c===null) return '';
+  let col = c>=0.8?'#059669':c>=0.5?'#d97706':'#94a3b8';
+  return `<span title="集成置信度" style="font-size:11px;font-weight:700;color:${col};background:#f8fafc;border:1px solid var(--border);padding:1px 6px;border-radius:10px;">${c.toFixed(2)}</span>`;
+}
+
+function renderEvent(data) {
+  let e=data.event, d=e.disaster, det=data.ensemble||{};
+  let vals = {
+    disaster_type:d.type, event_time:d.time, event_location:d.location,
+    casualties:d.casualties, economic_loss:d.economic_loss, response_level:d.response_level,
+    rescue_info:(d.rescue_info||[]).join('、')
+  };
+  let filled=e.filled_count, completeness=Math.round(filled/7*100);
+  let barColor=completeness>=80?'#059669':completeness>=50?'#d97706':'#dc2626';
+
+  let rows = Object.keys(FIELD_LABELS).map(f=>{
+    let v = vals[f]||'';
+    let conf = det[f]? det[f].confidence : undefined;
+    let srcs = det[f]&&det[f].sources? det[f].sources.join('+') : '';
+    return `<div class="event-field" style="border-bottom:1px solid var(--border);padding:8px 0;flex-wrap:wrap;">
+      <span class="event-field-label">${FIELD_LABELS[f]}</span>
+      <span class="event-field-value${v?'':' empty'}" style="flex:1;min-width:160px;">${v||'—'}</span>
+      ${v?confBadge(conf):''}
+      ${v&&srcs?`<span style="font-size:10px;color:var(--text-muted);">${srcs}</span>`:''}
+      ${v?`<span class="eval-buttons" data-field="${f}">
+        <button class="eval-btn" onclick="judge('${f}','correct',this)">✅正确</button>
+        <button class="eval-btn" onclick="judge('${f}','partial',this)">⚠️部分</button>
+        <button class="eval-btn" onclick="judge('${f}','wrong',this)">❌错误</button>
+      </span>`:''}
+    </div>`;
+  }).join('');
+
+  let ocrBlock = '';
+  if(data.ocr_images && data.ocr_images.length){
+    ocrBlock = `<div class="card"><div class="card-header"><h3>🔤 图片OCR文字(已参与抽取)</h3><span class="badge">${data.ocr_images.length}图</span></div>
+      ${data.ocr_images.map(o=>`<div style="display:flex;gap:12px;align-items:flex-start;margin-bottom:10px;">
+        <img src="/images/${o.image}" style="width:150px;height:100px;object-fit:cover;border-radius:8px;border:1px solid var(--border);">
+        <div style="flex:1;font-size:13px;line-height:1.7;color:var(--text);">${(o.text||'').slice(0,400)||'<span style="color:var(--text-muted)">无文字</span>'}</div>
+      </div>`).join('')}</div>`;
+  }
+
+  document.getElementById('extractionResult').innerHTML = `
+    <div class="event-card fade-in">
+      <div class="event-header">
+        <h3>${d.type?`🔴 ${d.type}灾害事件`:'📋 抽取结果'} ${data.used_ocr?'<span class="badge" style="background:#ecfeff;color:#0891b2;">含OCR</span>':''}</h3>
+        <span class="severity severity-${e.severity}">${e.severity}</span>
+      </div>
+      <div class="stats-grid" style="margin-bottom:12px;">
+        <div class="stat-card"><div class="stat-value">${filled}/7</div><div class="stat-label">信息完整度</div></div>
+        <div class="stat-card"><div class="stat-value" style="color:${barColor};font-size:24px;">${completeness}%</div><div class="stat-label">完整率</div></div>
+        <div class="stat-card"><div class="stat-value">${e.missing_fields.length}</div><div class="stat-label">缺失字段</div></div>
+      </div>
+      <div style="margin-bottom:8px;">${rows}</div>
+      <p style="font-size:13px;color:var(--text-secondary);line-height:1.7;">📝 <em>${e.summary}</em></p>
+      <div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <button class="btn btn-success" onclick="submitEval()">📈 提交人工评价</button>
+        <span id="evalResult" style="font-size:13px;color:var(--text-secondary);"></span>
+        <a href="/evaluate-extraction" class="btn btn-outline btn-sm">查看评价汇总 →</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header"><h3>📰 原始文档</h3><span class="tag tag-source">${data.source||''}</span></div>
+      <p style="font-size:14px;"><strong>${data.title}</strong></p>
+      <p style="font-size:12px;color:var(--text-secondary);margin:4px 0;">${data.date||''} · <a href="${data.url}" target="_blank" style="color:var(--primary);">${data.url||''}</a></p>
+      <p style="font-size:13px;color:var(--text);line-height:1.8;margin-top:8px;">${(data.content||'').slice(0,360)}…</p>
+    </div>
+    ${ocrBlock}`;
+}
+
+function judge(field, verdict, btn){
+  JUDGE[field] = verdict;
+  let cls = verdict==='correct'?'selected-2':verdict==='partial'?'selected-1':'selected-0';
+  [...btn.parentNode.children].forEach(b=>b.className='eval-btn');
+  btn.className = 'eval-btn '+cls;
+}
+
+async function submitEval(){
+  if(!CUR) return;
+  if(Object.keys(JUDGE).length===0) return alert('请先对至少一个字段打分');
+  let body = {doc_id:CUR.doc_id, predictions:CUR.fields, judgments:JUDGE};
+  let m = (await (await fetch('/api/evaluate/extraction',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})).json()).metrics;
+  document.getElementById('evalResult').innerHTML =
+    `✅ 已记录 · 本次准确率 <strong style="color:var(--success);">${(m.accuracy*100).toFixed(0)}%</strong>
+     (正确${m.correct}/部分${m.partial}/错误${m.wrong}, 共评 ${m.judged_count} 字段)`;
+}
+
+async function extractBatch() {
+  document.getElementById('extractionResult').innerHTML='<div class="card loading" style="text-align:center;padding:30px;">全量抽取 + 构建知识图谱中…</div>';
+  let data = await (await fetch('/api/extract/batch',{method:'POST'})).json();
+  document.getElementById('extractionResult').innerHTML=`
+    <div class="card" style="text-align:center;">
+      <div class="card-header"><h2>✅ 全量抽取完成</h2></div>
+      <div class="stats-grid" style="margin:16px 0;">
+        <div class="stat-card"><div class="stat-icon">📋</div><div class="stat-value">${data.num_events}</div><div class="stat-label">抽取文档</div></div>
+        <div class="stat-card"><div class="stat-icon">✅</div><div class="stat-value">${data.valid_events}</div><div class="stat-label">有效事件</div></div>
+        <div class="stat-card"><div class="stat-icon">🔵</div><div class="stat-value">${data.kg.stats.total_nodes}</div><div class="stat-label">图谱节点</div></div>
+        <div class="stat-card"><div class="stat-icon">🔗</div><div class="stat-value">${data.kg.stats.total_links}</div><div class="stat-label">关系边</div></div>
+      </div>
+      <a href="/kg" class="btn btn-primary">🕸 查看知识图谱 →</a>
+    </div>`;
+}
+
+document.addEventListener('DOMContentLoaded', loadSamples);
+</script>
+{% endblock %}

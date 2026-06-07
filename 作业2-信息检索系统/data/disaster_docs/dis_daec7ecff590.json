@@ -1,0 +1,127 @@
+{
+  "title": "两部门再次紧急预拨1.6亿元中央自然灾害救灾资金-新华网",
+  "content": "新华社北京5月26日电（记者申铖）记者从财政部了解到，在此前预拨1.2亿元基础上，5月26日，财政部、应急管理部再次紧急预拨1.6亿元中央自然灾害救灾资金，支持湖南、重庆等5省（区、市）做好自然灾害应急抢险救灾工作。\n5月中旬以来，我国南方多地遭遇持续强降雨，引发严重洪涝、地质灾害；广西柳州5.2级地震造成人员伤亡和财产损失。\n此次，两部门预拨1.1亿元，支持安徽、湖南、重庆、贵州4省（市）开展防汛救灾工作，重点做好排危除险、搜救转移安置受灾人员等工作，切实保障人民群众生命财产安全；预拨0.5亿元，支持广西做好地震灾害受灾群众救助和倒损民房修复等工作，推动灾区尽快恢复正常生产生活秩序。\n当前，我国正值汛期，防汛救灾形势复杂严峻。财政部称，将切实绷紧防汛救灾这根弦，始终把保障人民群众生命财产安全放在第一位，紧盯灾情发展变化，强化资金保障，支持地方做好防汛救灾工作。",
+  "url": "https://www.news.cn/politics/20260526/ab3ec9a6d6574704bd9c1ab624513de6/c.html",
+  "date": "2026-05-26",
+  "images": [
+    {
+      "src": "https://www.news.cn/detail2020/images/ewm.png",
+      "alt": "",
+      "width": "94",
+      "height": ""
+    },
+    {
+      "src": "https://www.news.cn/politics/20260526/ab3ec9a6d6574704bd9c1ab624513de6/zxcode_20260526ab3ec9a6d6574704bd9c1ab624513de6.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.news.cn/politics/20260526/ab3ec9a6d6574704bd9c1ab624513de6/zxcode_20260526ab3ec9a6d6574704bd9c1ab624513de6.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.news.cn/politics/20260525/4a2d5ca69b2f457d8cfe0121bc934b0e/8dbaff4b4a664e3c8705788292d0d6e4.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.news.cn/politics/20251128/102b1dc22d3742128ec47309f29f9659/25671e216ce94f7fbd213ac3641e4eb1.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.news.cn/politics/20260525/b7a072e3e1d44aa9a43e5bcbb0a1be3b/16fd222003a248e5ab2466a19660bd69.jpg",
+      "alt": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "source": "新华网",
+  "category": "灾害",
+  "content_length": 386,
+  "image_count": 8,
+  "id": "dis_daec7ecff590",
+  "crawl_time": "2026-06-06 19:03:27",
+  "disaster_type": "地震",
+  "local_images": [
+    {
+      "local_path": "data/images/86aa1086071d.png",
+      "original_src": "https://www.news.cn/detail2020/images/ewm.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "86aa1086071d.png",
+      "original_src": "https://www.news.cn/detail2020/images/ewm.png",
+      "text": "新华网窖户端",
+      "lines": [
+        {
+          "text": "新华网窖户端",
+          "conf": 0.327
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "text": "XINHUANET JENS",
+      "lines": [
+        {
+          "text": "XINHUANET",
+          "conf": 0.976
+        },
+        {
+          "text": "JENS",
+          "conf": 0.698
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "text": "XINHUANET JENS",
+      "lines": [
+        {
+          "text": "XINHUANET",
+          "conf": 0.976
+        },
+        {
+          "text": "JENS",
+          "conf": 0.698
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "新华网窖户端 XINHUANET JENS XINHUANET JENS"
+}

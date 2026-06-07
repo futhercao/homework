@@ -1,0 +1,45 @@
+# ============================================================
+# 信息检索系统 (作业2) — 依赖
+# 全流程纯 CPU 可跑, 无需 GPU
+# ============================================================
+
+# --- 爬虫 (异步抓取 + 正文抽取 + 近似去重) ---
+aiohttp>=3.9
+aiofiles>=23.0
+beautifulsoup4>=4.12
+lxml>=5.0
+readability-lxml>=0.8
+simhash>=2.1
+
+# --- 中文分词 ---
+jieba>=0.42
+
+# --- 检索 & 向量 ---
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+faiss-cpu>=1.7
+
+# --- 语义召回 (混合检索的语义通道) ---
+sentence-transformers>=2.2
+
+# --- 多模态: 中文 CLIP (Chinese-CLIP) 以文搜图 / 以图搜文 ---
+# 主后端 Chinese-CLIP 经 transformers 加载 (OFA-Sys/chinese-clip-vit-base-patch16);
+# open-clip-torch 作为多语言回退后端保留。
+transformers>=4.45
+open-clip-torch>=2.24
+Pillow>=10.0
+
+# --- Web ---
+fastapi>=0.104
+uvicorn>=0.24
+jinja2>=3.1
+python-multipart>=0.0.6
+
+# --- 工具 ---
+pyyaml>=6.0
+loguru>=0.7
+tqdm>=4.65
+
+# --- 可选: 命名实体识别 (查询/文档增强, 缺失时自动降级) ---
+# LAC>=2.1

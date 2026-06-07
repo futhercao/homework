@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}灾害知识图谱{% endblock %}
+{% block extra_head %}
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+{% endblock %}
+{% block content %}
+
+<div class="card">
+  <div class="card-header">
+    <h2>🕸 灾害事件知识图谱</h2>
+    <span class="badge" id="kgStat">加载中…</span>
+  </div>
+  <p style="color:var(--text-secondary);margin-bottom:8px;">
+    由全部灾害事件抽取结果构建:节点 = 文档/灾害类型/地点/时间/伤亡/损失/响应/救援组织/严重度,
+    边 = 发生地点 / 造成伤亡 / 启动响应 / 救援等关系。可拖拽、缩放、点击高亮。
+  </p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:6px;">
+    <button class="btn btn-outline btn-sm" onclick="reloadKG()">🔄 刷新</button>
+    <button class="btn btn-outline btn-sm" onclick="rebuildKG()">⚙ 重新抽取并重建</button>
+    <span id="rebuildMsg" style="font-size:12px;color:var(--text-secondary);align-self:center;"></span>
+  </div>
+</div>
+
+<div class="card" style="padding:8px;">
+  <div id="kgChart" style="width:100%;height:640px;"></div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script>
+let chart = echarts.init(document.getElementById('kgChart'));
+const CATEGORIES = ['文档','灾害类型','地点','时间','伤亡','经济损失','响应','救援组织','严重度','其他'];
+
+async function reloadKG(){
+  let kg = await (await fetch('/api/kg')).json();
+  if(!kg.nodes || !kg.nodes.length){
+    document.getElementById('kgStat').textContent='暂无图谱, 请先在抽取页点"全量抽取"';
+    return;
+  }
+  document.getElementById('kgStat').textContent = `${kg.stats.total_nodes} 节点 · ${kg.stats.total_links} 关系 · ${kg.stats.total_events} 事件`;
+  let nodes = kg.nodes.map(n=>({
+    id:n.id, name:n.name, symbolSize:n.symbolSize||12, category:n.category,
+    label:{show:n.symbolSize>=20}
+  }));
+  chart.setOption({
+    tooltip:{formatter:p=>p.dataType==='edge'?p.data.label:`${CATEGORIES[p.data.category]||''}: ${p.data.name}`},
+    legend:[{data:CATEGORIES, top:8, type:'scroll'}],
+    series:[{
+      type:'graph', layout:'force', roam:true, draggable:true,
+      data:nodes,
+      links:kg.links.map(l=>({source:l.source,target:l.target,label:{show:false,formatter:l.label}})),
+      categories:CATEGORIES.map(c=>({name:c})),
+      force:{repulsion:120, edgeLength:[40,120], gravity:0.08},
+      lineStyle:{color:'#cbd5e1', curveness:0.15, opacity:0.7},
+      emphasis:{focus:'adjacency', lineStyle:{width:3, color:'#4f46e5'}},
+      label:{position:'right', fontSize:11, color:'#1e293b'},
+      scaleLimit:{min:0.3, max:5}
+    }]
+  });
+}
+async function rebuildKG(){
+  document.getElementById('rebuildMsg').textContent='重新抽取全部文档并重建图谱中(约数十秒)…';
+  await fetch('/api/extract/batch',{method:'POST'});
+  document.getElementById('rebuildMsg').textContent='✅ 已重建';
+  reloadKG();
+}
+window.addEventListener('resize',()=>chart.resize());
+document.addEventListener('DOMContentLoaded', reloadKG);
+</script>
+{% endblock %}

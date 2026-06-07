@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}OCR 多媒体抽取{% endblock %}
+{% block content %}
+
+<div class="card">
+  <div class="card-header">
+    <h2>🔤 图片 OCR 多媒体信息抽取</h2>
+    <span class="badge">EasyOCR (ch_sim+en, CPU)</span>
+  </div>
+  <p style="color:var(--text-secondary);">
+    对灾害新闻 <strong>真实配图</strong> 用 EasyOCR 识别中文/英文文字(置信度≥0.3),
+    识别结果<strong>回灌进信息抽取</strong>。下方左为原图、右为<strong>真实识别文本</strong>(非预置),
+    可点"实时重新识别"现场验证。
+  </p>
+</div>
+
+<div style="display:grid;grid-template-columns:300px 1fr;gap:16px;align-items:start;">
+  <div class="card" style="max-height:680px;overflow-y:auto;">
+    <div class="card-header"><h3 style="font-size:15px;">含配图文档</h3><span class="badge" id="cnt">—</span></div>
+    <div id="docList"></div>
+  </div>
+  <div id="ocrPanel"><div class="card" style="text-align:center;color:var(--text-secondary);padding:40px;">← 选择左侧文档查看其配图 OCR 结果</div></div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script>
+async function loadDocs(){
+  let data = await (await fetch('/api/disaster/list?per_page=300')).json();
+  let docs = (data.docs||[]).filter(d=>d.image_count>0);
+  // 优先展示已OCR的
+  docs.sort((a,b)=>(b.has_ocr?1:0)-(a.has_ocr?1:0) || b.image_count-a.image_count);
+  document.getElementById('cnt').textContent = `${docs.length}篇`;
+  document.getElementById('docList').innerHTML = docs.slice(0,150).map(d=>`
+    <div style="padding:7px 8px;border-bottom:1px solid var(--border);cursor:pointer;font-size:13px;border-radius:6px;"
+      onmouseover="this.style.background='var(--primary-bg)'" onmouseout="this.style.background=''"
+      onclick="showOCR('${d.id}')">
+      ${d.has_ocr?'🔤':'📷'} ${d.title}
+      <span style="color:var(--text-muted);font-size:11px;">(${d.image_count}图)</span>
+    </div>`).join('');
+}
+
+async function showOCR(docId){
+  document.getElementById('ocrPanel').innerHTML='<div class="card loading" style="text-align:center;padding:30px;">加载中…</div>';
+  let data = await (await fetch('/api/ocr/'+docId)).json();
+  renderOCR(docId, data);
+}
+
+function renderOCR(docId, data){
+  let imgs = data.ocr_images||[];
+  let body;
+  if(!imgs.length){
+    body = `<p style="color:var(--text-secondary);padding:16px;">该文档暂无OCR结果(可能图片无文字, 或尚未运行OCR)。点下方按钮实时识别。</p>`;
+  } else {
+    body = imgs.map(o=>`
+      <div style="display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--border);">
+        <img src="/images/${o.image}" style="width:200px;height:140px;object-fit:cover;border-radius:8px;border:1px solid var(--border);flex-shrink:0;">
+        <div style="flex:1;">
+          <div style="font-size:11px;color:var(--text-muted);margin-bottom:4px;">识别文本 (${(o.lines||[]).length}行, ${o.backend||'easyocr'})</div>
+          <div style="font-size:14px;line-height:1.8;">${(o.text||'')||'<span style="color:var(--text-muted)">未识别到文字</span>'}</div>
+          ${(o.lines||[]).length?`<details style="margin-top:6px;"><summary style="font-size:11px;color:var(--primary);cursor:pointer;">逐行置信度</summary>
+            <div style="font-size:11px;color:var(--text-secondary);margin-top:4px;">${o.lines.map(l=>`${l.text} <span style="color:#94a3b8;">(${l.conf})</span>`).join(' · ')}</div></details>`:''}
+        </div>
+      </div>`).join('');
+  }
+  document.getElementById('ocrPanel').innerHTML = `
+    <div class="card">
+      <div class="card-header"><h3 style="font-size:15px;">${data.title||docId}</h3>
+        <button class="btn btn-primary btn-sm" onclick="runLive('${docId}')">⚡ 实时重新识别</button></div>
+      <div id="ocrBody">${body}</div>
+    </div>`;
+}
+
+async function runLive(docId){
+  document.getElementById('ocrBody').innerHTML='<div class="loading" style="text-align:center;padding:20px;">EasyOCR 实时识别中(CPU, 每图数秒)…</div>';
+  let data = await (await fetch('/api/ocr/run/'+docId,{method:'POST'})).json();
+  renderOCR(docId, {title:'', ocr_images:data.ocr_images});
+}
+
+document.addEventListener('DOMContentLoaded', loadDocs);
+</script>
+{% endblock %}

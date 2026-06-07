@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# LaTeX 编译中间产物 (保留 .tex 与 .pdf)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# 临时文件
+.tmp_*
+.tmp_*/

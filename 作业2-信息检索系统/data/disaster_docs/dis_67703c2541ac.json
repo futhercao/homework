@@ -1,0 +1,127 @@
+{
+  "title": "四川紧急调配第一批3.2万件救灾物资支援地震灾区- 四川省人民政府网站",
+  "content": "地震发生后，四川省应急管理厅、省粮食和物资储备局紧急调配中央、省级救灾帐篷4400顶、棉被14000床、折叠床14000张，共计3.2万余件的第一批救灾物资紧急支援灾区。后续，四川省应急管理厅将根据灾情及时调拨补充救灾物资。\n据悉，省级前期已向甘孜州前置救灾物资5.1万件（包括帐篷2000顶、棉被30000床、折叠床10000张等物资），向雅安市前置救灾物资2.5万余件（包括帐篷1000顶、棉被7000床、折叠床8580张、棉大衣5000件、棉衣裤3788套等救灾物资）。（\n记者 赵荣昌）",
+  "url": "https://www.sc.gov.cn/10462/10464/10465/10574/2022/9/5/3b2865f388bb4afba13a5b365f0c0eeb.shtml",
+  "date": "2022-10-12",
+  "images": [
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/zgscyz.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "alt": "",
+      "width": "517",
+      "height": "157"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_li01.png",
+      "alt": "政务新媒体矩阵",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "alt": "",
+      "width": "67",
+      "height": "25"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_20.jpg",
+      "alt": "",
+      "width": "34",
+      "height": "38"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_23.jpg",
+      "alt": "",
+      "width": "38",
+      "height": "38"
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_li01.png",
+      "alt": "政务新媒体矩阵",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top2_li02.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/index202109/scindex_top1_ss.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    },
+    {
+      "src": "https://www.sc.gov.cn/10462/xhtml/images/zzzqpub/zzzqpubtop01.png",
+      "alt": "",
+      "width": "",
+      "height": ""
+    }
+  ],
+  "source": "sc.gov.cn",
+  "category": "灾害",
+  "content_length": 247,
+  "image_count": 10,
+  "id": "dis_67703c2541ac",
+  "crawl_time": "2026-06-06 19:05:16",
+  "disaster_type": "地震",
+  "local_images": [
+    {
+      "local_path": "data/images/5821165295f8.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/zgscyz.png",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/7cd04e3e74b7.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "alt": ""
+    },
+    {
+      "local_path": "data/images/9cda010794c6.jpg",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "alt": ""
+    }
+  ],
+  "ocr_images": [
+    {
+      "image": "7cd04e3e74b7.png",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_tou_logo.jpg",
+      "text": "四川省人民政府 The People's Government ot Sichuan Province 豳",
+      "lines": [
+        {
+          "text": "四川省人民政府",
+          "conf": 0.678
+        },
+        {
+          "text": "The People's Government ot Sichuan Province",
+          "conf": 0.642
+        },
+        {
+          "text": "豳",
+          "conf": 0.405
+        }
+      ],
+      "backend": "easyocr"
+    },
+    {
+      "image": "9cda010794c6.jpg",
+      "original_src": "https://www.sc.gov.cn/10462/xhtml/images/2018zfld/szzyzfld_20181128_15.jpg",
+      "text": "0搜索",
+      "lines": [
+        {
+          "text": "0搜索",
+          "conf": 0.586
+        }
+      ],
+      "backend": "easyocr"
+    }
+  ],
+  "ocr_text": "四川省人民政府 The People's Government ot Sichuan Province 豳 0搜索"
+}

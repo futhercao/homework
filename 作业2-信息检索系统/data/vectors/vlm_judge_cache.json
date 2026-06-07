@@ -1,0 +1,642 @@
+{
+ "地震||94ec5a65a4c1.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "大面积建筑倒塌废墟航拍"
+ },
+ "地震||ed14f6c5c062.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "四川芦山县7.0级地震震中示意图"
+ },
+ "地震||c58c1a8cf7b0.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "四川芦山7.0级地震震中示意图"
+ },
+ "地震||0fa0dc5b264f.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "道路断裂塌陷，多人围观"
+ },
+ "地震||ae585b82c306.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "四川芦山县7.0级地震震中示意图"
+ },
+ "地震||a7d0207694fe.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "金字塔结构示意图"
+ },
+ "地震||29d8a93b4808.png": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一排金属机械零件"
+ },
+ "地震||f0b4fc184ea0.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "三人室内操作仪器设备"
+ },
+ "地震||ce7de006f48e.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "一排金属机械零件"
+ },
+ "地震||c629908bf9b2.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "广西柳州5.2级地震烈度图"
+ },
+ "地震||2a9f00276761.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "文字标识“指尖中国”"
+ },
+ "熊猫||e34f330e52aa.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "男子肩上有熊猫玩偶"
+ },
+ "熊猫||1234864a32ec.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "茶园观光小火车与山景"
+ },
+ "熊猫||ce7de006f48e.png": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一排金属机械零件"
+ },
+ "熊猫||de7779dd9c93.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "湿地芦苇丛与白鹭"
+ },
+ "熊猫||29d8a93b4808.png": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一排金属机械零件"
+ },
+ "熊猫||cb0f1056b8f7.jpg": {
+  "match": true,
+  "conf": 0.85,
+  "desc": "花坛中有熊猫图案的广场"
+ },
+ "熊猫||5821165295f8.png": {
+  "match": false,
+  "conf": 0.01,
+  "desc": "纯红色背景无任何内容"
+ },
+ "熊猫||2a9f00276761.png": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "“指尖中国”文字标志"
+ },
+ "熊猫||02eac6a88007.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "工业厂房内部通道"
+ },
+ "熊猫||9e34aec36b6c.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一卷百元人民币纸币"
+ },
+ "熊猫||1ed6ba8c2258.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一卷百元人民币纸币"
+ },
+ "熊猫||7c32abf111bf.png": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一卷百元人民币纸币"
+ },
+ "地震||web_6ec48a433519.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "地震后建筑倒塌废墟现场"
+ },
+ "地震||web_b8faf9ecf0b1.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "救援人员在废墟中搜救"
+ },
+ "地震||web_82b68d4ae51e.jpg": {
+  "match": true,
+  "conf": 0.85,
+  "desc": "房屋建在滑坡土崖上"
+ },
+ "地震||web_5b47ca840ddd.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "地震后废墟中救援人员现场"
+ },
+ "地震||web_a71ded0bd647.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "地震后废墟中救援人员搜救"
+ },
+ "地震||web_280d8d41412c.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "地震后废墟中救援人员作业"
+ },
+ "地震||web_c0f444c47e53.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "救援人员在地震废墟中搜救"
+ },
+ "地震||web_0f0235d0b1e3.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "地震后废墟中救援人员搜救"
+ },
+ "地震||web_b324821a8b59.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "地震后建筑倒塌废墟现场"
+ },
+ "洪水||web_82b68d4ae51e.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "房屋旁山体滑坡泥流痕迹"
+ },
+ "洪水||web_531a924e42ae.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "室内积水救援现场"
+ },
+ "洪水||web_162335786d8f.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "洪水淹没街道，两人乘艇救援"
+ },
+ "洪水||web_73424d4901f3.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "街道被洪水淹没，车辆半浸水中"
+ },
+ "洪水||web_4c16e9ad9c2c.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "城市街道被洪水淹没"
+ },
+ "洪水||web_3cb2495bd09e.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "街道被洪水淹没，车辆涉水行驶"
+ },
+ "洪水||web_e546121e82d3.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "街道被洪水淹没，公交车涉水行驶"
+ },
+ "洪水||web_3ae3e171d999.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "城市道路被洪水淹没，有救援人员和车辆"
+ },
+ "洪水||web_0446ab314016.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "山体滑坡泥流冲毁植被与村落"
+ },
+ "洪水||web_eb861bdee931.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "街道被洪水淹没，车辆涉水"
+ },
+ "洪水||web_442f4dcff24e.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "山体滑坡引发泥石流淹没房屋"
+ },
+ "洪水||web_1e6f0a93ff43.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "街道被洪水淹没，车辆半 submerged"
+ },
+ "台风||web_6b4ae10f2960.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "台风天气中暴雨行车场景"
+ },
+ "台风||web_9869f37fba36.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "强风中树木剧烈弯折的雨天道路"
+ },
+ "台风||web_95eb0a485130.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "台风引发巨浪冲击海堤"
+ },
+ "台风||web_43912be1db73.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "强风暴雨中树木剧烈摇晃"
+ },
+ "台风||web_61f244263fb0.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "台风吹倒树木街道积水"
+ },
+ "台风||web_963de17ef076.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "卫星云图显示台风结构"
+ },
+ "台风||web_179a66f1d60c.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "台风过后倒伏的树木与街道"
+ },
+ "台风||web_5071219ca2aa.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "巨浪拍岸，城市海边风暴场景"
+ },
+ "台风||web_97e8cc4dbed4.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "台风过境后房屋损毁现场"
+ },
+ "台风||web_ad4099c7df4f.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "台风刮倒大树压坏车辆"
+ },
+ "台风||web_66d322d35d22.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "强风暴雨中树木剧烈摇曳"
+ },
+ "台风||web_35cd4931c3d8.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "强风中剧烈摇曳的棕榈树"
+ },
+ "火灾||web_dfce2aac4758.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "建筑物夜间猛烈燃烧"
+ },
+ "火灾||web_ce3c2283fc3e.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "房屋被大火吞噬浓烟滚滚"
+ },
+ "火灾||web_35d01ae144ba.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "山林野火熊熊燃烧"
+ },
+ "火灾||web_f9563e1b18ae.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "建筑物顶部猛烈燃烧冒浓烟"
+ },
+ "火灾||web_c8d2b320f457.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "夜间熊熊大火燃烧场景"
+ },
+ "火灾||web_fb7657de5972.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "大型工业火灾浓烟烈焰"
+ },
+ "火灾||web_139c80a9116a.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "高楼火灾浓烟与消防水柱"
+ },
+ "火灾||web_81c4b7a00f49.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "熊熊烈火燃烧木结构"
+ },
+ "火灾||web_ee2b29e7f5b2.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "消防员扑救熊熊大火现场"
+ },
+ "火灾||web_d6fc1e8b9415.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "森林大火熊熊燃烧"
+ },
+ "火灾||web_3b71f961f83e.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "建筑物夜间猛烈燃烧"
+ },
+ "火灾||web_62d2e98d0bc8.jpg": {
+  "match": true,
+  "conf": 0.98,
+  "desc": "消防员扑救熊熊大火现场"
+ },
+ "新能源汽车||web_78f51c734769.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "多辆新能源汽车在充电站充电"
+ },
+ "新能源汽车||web_e970bca4d895.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "三辆白色新能源车正在充电"
+ },
+ "新能源汽车||web_9a24ee7cb8e4.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "新能源汽车正在充电站充电"
+ },
+ "新能源汽车||web_b4f1293fa845.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "新能源汽车充电站及车辆"
+ },
+ "新能源汽车||web_a82b7df6ab22.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "一排新能源汽车充电桩及旁停燃油车"
+ },
+ "新能源汽车||web_d689039fb005.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "银色新能源汽车正在充电"
+ },
+ "新能源汽车||web_1b3ac5bcf374.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "新能源汽车充电桩站"
+ },
+ "新能源汽车||web_0a67f06e3367.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "多辆新能源汽车正在充电"
+ },
+ "新能源汽车||web_249d3fcfb286.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "新能源汽车充电站及在充车辆"
+ },
+ "新能源汽车||web_4be6452cd640.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "一排新能源汽车充电桩"
+ },
+ "新能源汽车||web_f6b66d40c214.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "新能源汽车充电站实景"
+ },
+ "新能源汽车||web_965c530a9b5f.jpg": {
+  "match": true,
+  "conf": 0.85,
+  "desc": "充电桩旁停着一辆银色SUV"
+ },
+ "芯片||web_d9507fd08416.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "蓝色集成电路晶圆特写"
+ },
+ "芯片||web_0e3f11e436ce.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "晶圆上密集排列的芯片单元"
+ },
+ "芯片||web_d03643ec9a8f.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "晶圆上密集排列的芯片"
+ },
+ "芯片||9909774e0301.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "绿色电路板含中央芯片"
+ },
+ "芯片||web_a435663814d3.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "晶圆上密集排列的芯片单元"
+ },
+ "芯片||web_9e3d4a676cfc.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "晶圆上密集排列的芯片单元"
+ },
+ "芯片||web_f1853342d833.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "晶圆上密集排列的芯片单元"
+ },
+ "芯片||web_f198be325dc5.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "晶圆表面显微图像"
+ },
+ "芯片||web_0d012667da03.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "多个硅晶圆芯片裸片"
+ },
+ "芯片||web_f5092e427848.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "显微镜下芯片晶圆阵列"
+ },
+ "芯片||web_4b160ce81146.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "晶圆上正在点胶的芯片"
+ },
+ "芯片||web_3556aea85213.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "圆形硅晶圆上的集成电路芯片"
+ },
+ "篮球||9909774e0301.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "绿色电路板特写"
+ },
+ "篮球||e34f330e52aa.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "穿黑Polo衫的中年男子"
+ },
+ "篮球||web_af7cba44c109.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "干裂的土地表面"
+ },
+ "篮球||web_cba63f97b089.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "干裂土地长着稀疏青草"
+ },
+ "篮球||web_5c61e1b8aedc.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "山体滑坡现场，有巨石和泥土"
+ },
+ "篮球||web_5bc742345647.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "干裂的土地与稀疏草丛"
+ },
+ "篮球||0fa0dc5b264f.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "悬崖边道路与人群"
+ },
+ "篮球||web_81c4b7a00f49.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "熊熊燃烧的火焰与木柴"
+ },
+ "篮球||web_7f99165e8258.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "干裂土地与蓝天"
+ },
+ "篮球||web_791698bbc4d5.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "干裂土地上的绿色植物"
+ },
+ "篮球||web_2ae6d02afc55.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "戴手套手持芯片晶圆"
+ },
+ "篮球||49f88233d3c6.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "夜景冷却塔与灯光建筑"
+ },
+ "咖啡||29c4ec29b228.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "灰色西装外套，袖子有电路图案"
+ },
+ "咖啡||web_af7cba44c109.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "干裂的土地表面"
+ },
+ "咖啡||03ca104224dc.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "戴毛线帽的人持红色手机"
+ },
+ "咖啡||54657b02bdb8.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "美术馆外景标识牌"
+ },
+ "咖啡||web_81c4b7a00f49.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "熊熊燃烧的木材火焰"
+ },
+ "咖啡||1c384a7a4e6f.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "货架上摆放酒类与茶叶包装"
+ },
+ "咖啡||ce7de006f48e.png": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一排工业金属零件"
+ },
+ "咖啡||29d8a93b4808.png": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "一排金属机械零件"
+ },
+ "咖啡||8e5b2e9cc916.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "多台立式吸尘器陈列"
+ },
+ "咖啡||4948f9fb5de0.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "货架上摆放各类酒类包装盒"
+ },
+ "咖啡||c8acd6f0fd66.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "奈雪的茶店铺招牌"
+ },
+ "咖啡||web_5bc742345647.jpg": {
+  "match": false,
+  "conf": 0.05,
+  "desc": "干裂的土地与稀疏绿草"
+ },
+ "新闻人物||e0d11af74e8a.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "电视台演播室布景与摄像设备"
+ },
+ "新闻人物||4805155a3b94.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "双减政策宣传漫画"
+ },
+ "新闻人物||25dc3dd2fbee.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "一张信息网络传播视听节目许可证"
+ },
+ "新闻人物||97cca139c6f6.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "新闻演播室空场景"
+ },
+ "新闻人物||2cafd64c955f.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "信息网络传播视听节目许可证"
+ },
+ "新闻人物||496a7660bcec.jpg": {
+  "match": false,
+  "conf": 0.2,
+  "desc": "财经论坛现场演讲场景"
+ },
+ "新闻人物||b5a8bc8eb011.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "阿里速卖通品牌直播间布景"
+ },
+ "新闻人物||eb4ce37ca837.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "信息网络传播视听节目许可证"
+ },
+ "新闻人物||1e4b5fa458c0.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "手机显示卡通头像与问候语"
+ },
+ "新闻人物||99d8569559da.jpg": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "手机显示卡通头像与问候语"
+ },
+ "新闻人物||9080f2337e86.png": {
+  "match": false,
+  "conf": 0.1,
+  "desc": "阿里品牌直播间布景"
+ },
+ "新闻人物||41563a526014.jpg": {
+  "match": true,
+  "conf": 0.95,
+  "desc": "两位新闻主播在演播室访谈"
+ }
+}

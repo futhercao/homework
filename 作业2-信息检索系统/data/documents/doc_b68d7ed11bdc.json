@@ -1,0 +1,46 @@
+{
+  "title": "6G将让机器人“更丝滑” 张平院士：通感一体重塑具身智能-新华网",
+  "content": "当前，大模型与智能体加速从数字世界走向物理场景，但具身智能、机器人落地仍面临动作卡顿等“不丝滑”难题。未来随着6G技术商用，其将为具身智能带来哪些变革？\n在3月27日召开的2026中关村论坛年会6G技术与产业创新论坛上，中关村泛联院理事长、北京邮电大学教授张平院士在接受新华网采访时表示，6G将通过通感一体化、意图传输与实时交互，破解当前瓶颈，推动人工智能真正扎根实体经济。\n张平指出，当前人机物通信在计算控制闭环中，难以满足深层次、广范围的信息传递与协同控制需求。现有的具身智能、机器人之所以“不丝滑”，核心是没有完全遵循人类信息系统的运行逻辑，仍停留在纯数字世界的解决方案，依赖预训练模型匹配决策，存在明显时延。\n“未来发展方向是让智能体作为具备自主与学习能力的网络节点，独立完成场景感知、目标定向与决策控制。”在张平看来，6G 正是实现这一目标的关键支撑，其核心突破在于通感一体化，通过对物理世界实时感知直接驱动瞬时决策，让机器人面对坑洼、障碍等动态场景时，无需调取模型即可自主自适应动作，实现“感知—决策—执行”一气呵成。\n与5G、Wi-Fi仅负责数据传输不同，6G将实现通信范式革新。张平认为，6G从“传数据”转向“传意图”，通过意图理解与高效压缩，仅传输需要的指令，非全量数据传输后再筛选。他打比方说，车辆左转灯亮起，就知道它往左走的意图，只要传递这个事实，就知道该采取什么相应的动作，实现实时、对称协同，解决响应滞后问题。\n“信息它是有‘年龄’的，把昨天的数据拿来，今天来算，那就是一场游戏。”张平强调，人工智能未来要向实的方向发展，与实体经济、物理世界深度打交道，而6G正是推动智能体真正落地物理世界、实现流畅运行与高效协同的关键支撑。（记者 凌纪伟）",
+  "url": "https://www.news.cn/tech/20260327/8855899e193b43da93c5498a7b6c9728/c.html",
+  "date": "2026-03-27",
+  "images": [
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\86aa1086071d.png",
+      "alt": "",
+      "original_src": "https://www.news.cn/detail2020/images/ewm.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "alt": "",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png"
+    },
+    {
+      "src": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "alt": "",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png"
+    }
+  ],
+  "source": "新华网",
+  "category": "科技",
+  "content_length": 734,
+  "image_count": 8,
+  "id": "doc_b68d7ed11bdc",
+  "crawl_time": "2026-06-05 18:03:55",
+  "local_images": [
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\86aa1086071d.png",
+      "original_src": "https://www.news.cn/detail2020/images/ewm.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    },
+    {
+      "local_path": "C:\\Users\\Administrator\\Desktop\\大三下\\信息与知识获取\\作业2-信息检索系统\\data\\images\\90e046c047b3.png",
+      "original_src": "https://www.news.cn/2021detail/images/qrcode-app.png",
+      "alt": ""
+    }
+  ]
+}
