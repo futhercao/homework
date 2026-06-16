@@ -969,6 +969,41 @@
         "doc_6f92e0257f2d": 0
       },
       "timestamp": "2026-06-07 17:50:36"
+    },
+    {
+      "type": "search",
+      "query": "地震",
+      "algorithm": "hybrid",
+      "num_results": 10,
+      "num_judgments": 10,
+      "num_relevant": 6,
+      "metrics": {
+        "P@5": 1.0,
+        "R@5": 0.8333,
+        "F1@5": 0.9091,
+        "P@10": 0.6,
+        "R@10": 1.0,
+        "F1@10": 0.75,
+        "P@20": 0.3,
+        "R@20": 1.0,
+        "F1@20": 0.4615,
+        "MAP": 1.0,
+        "NDCG@10": 1.0,
+        "MRR": 1.0
+      },
+      "judgments": {
+        "doc_ac38620e2f5d": 2,
+        "doc_8dc2ebeb2f44": 1,
+        "doc_b21d32853c61": 1,
+        "doc_daec7ecff590": 1,
+        "doc_c26f75b3316c": 1,
+        "doc_d1172866e606": 1,
+        "doc_ee76258419cc": 0,
+        "doc_4b9618ce3564": 0,
+        "doc_870f857e3e7f": 0,
+        "doc_c3ddb4b23331": 0
+      },
+      "timestamp": "2026-06-09 19:55:03"
     }
   ],
   "extraction": []

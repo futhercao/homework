@@ -1,0 +1,12 @@
+# 临时/日志
+.tmp_*
+*.log
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 密钥/环境 (VLM 等外部API的密钥严禁入库, 仅用环境变量)
+.env
+*.key
+.vlm_key

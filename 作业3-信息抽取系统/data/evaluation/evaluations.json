@@ -1,4 +1,244 @@
 {
   "search": [],
-  "extraction": []
+  "extraction": [
+    {
+      "type": "extraction",
+      "doc_id": "dis_b5629d6c39c0",
+      "predictions": {
+        "disaster_type": "暴雨",
+        "event_time": "6月6日",
+        "event_location": "贵州",
+        "casualties": "",
+        "economic_loss": "",
+        "response_level": "Ⅳ级响应",
+        "rescue_info": [
+          "启动国家地质灾害四级应急响应",
+          "启动防汛四级应急响应",
+          "应急管理部"
+        ]
+      },
+      "detail": {
+        "disaster_type": "partial",
+        "event_time": "partial",
+        "event_location": "correct",
+        "response_level": "correct",
+        "rescue_info": "partial"
+      },
+      "metrics": {
+        "per_field": {
+          "disaster_type": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "暴雨"
+          },
+          "event_time": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "6月6日"
+          },
+          "event_location": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "贵州"
+          },
+          "response_level": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "Ⅳ级响应"
+          },
+          "rescue_info": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "启动国家地质灾害四级应急响应 启动防汛四级应急响应 应急管理部"
+          }
+        },
+        "judged_count": 5,
+        "correct": 2,
+        "partial": 3,
+        "wrong": 0,
+        "accuracy": 0.7
+      },
+      "timestamp": "2026-06-09 19:03:47"
+    },
+    {
+      "type": "extraction",
+      "doc_id": "dis_0ef962e3bc6e",
+      "predictions": {
+        "disaster_type": "地震",
+        "event_time": "12月18日23时59分",
+        "event_location": "甘肃临夏州积石山县",
+        "casualties": "遇难105人",
+        "economic_loss": "",
+        "response_level": "Ⅱ级响应",
+        "rescue_info": [
+          "甘肃省消防救援总队",
+          "青海省消防救援总队",
+          "地质灾害专业救援队",
+          "国家紧急医学救援队",
+          "国家防灾减灾救灾委",
+          "家综合性消防救援队",
+          "国务院抗震救灾指挥部",
+          "国家消防救援局",
+          "应急管理部"
+        ]
+      },
+      "detail": {
+        "disaster_type": "correct",
+        "event_time": "correct",
+        "event_location": "correct",
+        "response_level": "correct",
+        "rescue_info": "correct",
+        "casualties": "correct"
+      },
+      "metrics": {
+        "per_field": {
+          "disaster_type": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "地震"
+          },
+          "event_time": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "12月18日23时59分"
+          },
+          "event_location": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "甘肃临夏州积石山县"
+          },
+          "response_level": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "Ⅱ级响应"
+          },
+          "rescue_info": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "甘肃省消防救援总队 青海省消防救援总队 地质灾害专业救援队 国家紧急医学救援队 国家防灾减灾救灾委 家综合性消防救援队 国务院抗震救灾指挥部 国家消防救援局 应急管理部"
+          },
+          "casualties": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "遇难105人"
+          }
+        },
+        "judged_count": 6,
+        "correct": 6,
+        "partial": 0,
+        "wrong": 0,
+        "accuracy": 1.0
+      },
+      "timestamp": "2026-06-09 20:02:18"
+    },
+    {
+      "type": "extraction",
+      "doc_id": "dis_4b322d787b40",
+      "predictions": {
+        "disaster_type": "洪水",
+        "event_time": "",
+        "event_location": "重庆市",
+        "casualties": "",
+        "economic_loss": "",
+        "response_level": "Ⅳ级响应",
+        "rescue_info": [
+          "启动防汛四级应急响应",
+          "应急管理部"
+        ]
+      },
+      "detail": {
+        "disaster_type": "correct",
+        "event_location": "partial",
+        "response_level": "correct",
+        "rescue_info": "partial"
+      },
+      "metrics": {
+        "per_field": {
+          "disaster_type": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "洪水"
+          },
+          "event_location": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "重庆市"
+          },
+          "response_level": {
+            "verdict": "correct",
+            "score": 1.0,
+            "value": "Ⅳ级响应"
+          },
+          "rescue_info": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "启动防汛四级应急响应 应急管理部"
+          }
+        },
+        "judged_count": 4,
+        "correct": 2,
+        "partial": 2,
+        "wrong": 0,
+        "accuracy": 0.75
+      },
+      "timestamp": "2026-06-09 20:03:18"
+    },
+    {
+      "type": "extraction",
+      "doc_id": "dis_9c8c2e316c56",
+      "predictions": {
+        "disaster_type": "暴雨",
+        "event_time": "5月22日16时30分",
+        "event_location": "乐平市涌山镇",
+        "casualties": "",
+        "economic_loss": "直接经济损失2.7亿元",
+        "response_level": "",
+        "rescue_info": [
+          "据江西省"
+        ]
+      },
+      "detail": {
+        "disaster_type": "partial",
+        "event_time": "partial",
+        "event_location": "partial",
+        "rescue_info": "wrong",
+        "economic_loss": "partial"
+      },
+      "metrics": {
+        "per_field": {
+          "disaster_type": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "暴雨"
+          },
+          "event_time": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "5月22日16时30分"
+          },
+          "event_location": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "乐平市涌山镇"
+          },
+          "rescue_info": {
+            "verdict": "wrong",
+            "score": 0.0,
+            "value": "据江西省"
+          },
+          "economic_loss": {
+            "verdict": "partial",
+            "score": 0.5,
+            "value": "直接经济损失2.7亿元"
+          }
+        },
+        "judged_count": 5,
+        "correct": 0,
+        "partial": 4,
+        "wrong": 1,
+        "accuracy": 0.4
+      },
+      "timestamp": "2026-06-09 20:06:07"
+    }
+  ]
 }
